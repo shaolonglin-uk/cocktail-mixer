@@ -3,12 +3,13 @@
 // ===== Firebase 配置 =====
 // TODO: 替换为实际 Firebase 项目配置
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCGX6jzIZ8XG3Ov72yVlozoWnm_bQEnslxY",
+  authDomain: "cocktail-notes-08288.firebaseapp.com",
+  projectId: "cocktail-notes-08288",
+  storageBucket: "cocktail-notes-08288.firebasestorage.app",
+  messagingSenderId: "549453200909",
+  appId: "1:549453200909:web:32c820c3906e5e93091f44",
+  measurementId: "G-WHF9MC23CK"
 };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();

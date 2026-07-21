@@ -1,44 +1,95 @@
-/* ===== 调酒笔记 — 主应用逻辑 v0.3 ===== */
+/* ===== 调酒笔记 — 主应用逻辑 v1.0 ===== */
+/* 纯本地 IndexedDB，无云端依赖，国内可用 */
 
-// ===== Firebase 配置 =====
-if (typeof firebase === 'undefined') {
-  // Firebase SDK failed to load (likely blocked by GFW)
-  document.addEventListener('DOMContentLoaded', function() {
-    var el = $('viewOnboarding');
-    if (el) {
-      el.innerHTML = '\
-        <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;gap:16px;padding:40px 20px;background:#FBF7F2">\
-          <div style="font-size:56px">🌐</div>\
-          <div style="font-size:20px;font-weight:700;color:#3D2C2C;font-family:-apple-system,\'SF Pro\',\'PingFang SC\',sans-serif">需要连接网络服务</div>\
-          <div style="font-size:14px;color:#8B7E74;text-align:center;line-height:1.8;font-family:-apple-system,\'SF Pro\',\'PingFang SC\',sans-serif">\
-            调酒笔记需要连接到 Firebase 云端服务<br>\
-            请确保你的网络可以访问国际互联网<br>\
-            开启 VPN 或代理后刷新页面即可\
-          </div>\
-          <button class="btn-primary" style="margin-top:16px" onclick="location.reload()">刷新页面</button>\
-        </div>';
-    }
+// ===== 全局状态 =====
+let currentUser = { uid: 'local-' + Date.now() };
+let allRecipes = [];
+let recipeCacheReady = false;
+let userInventory = {};
+let userBrewCounts = {};
+let userFavorites = {};
+let userShopping = {};
+let userPrefs = {};
+
+// 筛选状态
+let filterBaseSpirit = [];
+let filterFlavor = [];
+let searchQuery = '';
+
+// ===== IndexedDB =====
+var DB_NAME = 'CocktailNotes';
+var DB_VERSION = 1;
+var db = null;
+
+function openDB() {
+  return new Promise(function(resolve, reject) {
+    var request = indexedDB.open(DB_NAME, DB_VERSION);
+    request.onerror = function() { reject(request.error); };
+    request.onsuccess = function() { db = request.result; resolve(db); };
+    request.onupgradeneeded = function(e) {
+      var database = e.target.result;
+      if (!database.objectStoreNames.contains('inventory')) {
+        database.createObjectStore('inventory', { keyPath: 'name' });
+      }
+      if (!database.objectStoreNames.contains('brewCounts')) {
+        database.createObjectStore('brewCounts', { keyPath: 'recipeId' });
+      }
+      if (!database.objectStoreNames.contains('favorites')) {
+        database.createObjectStore('favorites', { keyPath: 'recipeId' });
+      }
+      if (!database.objectStoreNames.contains('shopping')) {
+        database.createObjectStore('shopping', { keyPath: 'name' });
+      }
+      if (!database.objectStoreNames.contains('prefs')) {
+        database.createObjectStore('prefs', { keyPath: 'key' });
+      }
+      if (!database.objectStoreNames.contains('customRecipes')) {
+        var store = database.createObjectStore('customRecipes', { keyPath: 'id' });
+        store.createIndex('name', 'name', { unique: false });
+      }
+    };
   });
-} else {
-  firebase.initializeApp(firebaseConfig);
-  const db = firebase.firestore();
-  const auth = firebase.auth();
+}
 
-  // ===== 全局状态 =====
-  let currentUser = null;
-  let recipesSeeded = false;
-  let userInventory = {};
-  let userBrewCounts = {};
-  let userFavorites = {};
-  let userShopping = {};
-  let userPrefs = {};
-  let allRecipes = [];
-  let recipeCacheReady = false;
+function dbGetAll(storeName) {
+  return new Promise(function(resolve, reject) {
+    var tx = db.transaction(storeName, 'readonly');
+    var store = tx.objectStore(storeName);
+    var req = store.getAll();
+    req.onsuccess = function() { resolve(req.result || []); };
+    req.onerror = function() { reject(req.error); };
+  });
+}
 
-  // 筛选状态
-  let filterBaseSpirit = [];
-  let filterFlavor = [];
-  let searchQuery = '';
+function dbPut(storeName, data) {
+  return new Promise(function(resolve, reject) {
+    var tx = db.transaction(storeName, 'readwrite');
+    var store = tx.objectStore(storeName);
+    var req = store.put(data);
+    req.onsuccess = function() { resolve(); };
+    req.onerror = function() { reject(req.error); };
+  });
+}
+
+function dbDelete(storeName, key) {
+  return new Promise(function(resolve, reject) {
+    var tx = db.transaction(storeName, 'readwrite');
+    var store = tx.objectStore(storeName);
+    var req = store.delete(key);
+    req.onsuccess = function() { resolve(); };
+    req.onerror = function() { reject(req.error); };
+  });
+}
+
+function dbClear(storeName) {
+  return new Promise(function(resolve, reject) {
+    var tx = db.transaction(storeName, 'readwrite');
+    var store = tx.objectStore(storeName);
+    var req = store.clear();
+    req.onsuccess = function() { resolve(); };
+    req.onerror = function() { reject(req.error); };
+  });
+}
 
 // ===== 工具函数 =====
 function $(id) { return document.getElementById(id); }
@@ -64,78 +115,101 @@ function toast(msg) {
   toastTimer = setTimeout(function() { el.className = 'toast'; }, 2000);
 }
 
+// ===== 数据持久化 =====
+function saveAllData() {
+  var promises = [];
+  Object.keys(userInventory).forEach(function(k) {
+    promises.push(dbPut('inventory', userInventory[k]));
+  });
+  Object.keys(userBrewCounts).forEach(function(k) {
+    promises.push(dbPut('brewCounts', { recipeId: k, count: userBrewCounts[k] }));
+  });
+  Object.keys(userFavorites).forEach(function(k) {
+    promises.push(dbPut('favorites', { recipeId: k }));
+  });
+  Object.keys(userShopping).forEach(function(k) {
+    promises.push(dbPut('shopping', userShopping[k]));
+  });
+  return Promise.all(promises);
+}
+
+function saveInventory() {
+  var promises = [];
+  Object.keys(userInventory).forEach(function(k) {
+    promises.push(dbPut('inventory', userInventory[k]));
+  });
+  return Promise.all(promises);
+}
+
+function saveShopping() {
+  var promises = [];
+  Object.keys(userShopping).forEach(function(k) {
+    promises.push(dbPut('shopping', userShopping[k]));
+  });
+  return Promise.all(promises);
+}
+
+function saveBrewCounts() {
+  var promises = [];
+  Object.keys(userBrewCounts).forEach(function(k) {
+    promises.push(dbPut('brewCounts', { recipeId: k, count: userBrewCounts[k] }));
+  });
+  return Promise.all(promises);
+}
+
+function savePrefs() {
+  var promises = [];
+  Object.keys(userPrefs).forEach(function(k) {
+    promises.push(dbPut('prefs', { key: k, value: userPrefs[k] }));
+  });
+  return Promise.all(promises);
+}
+
+function loadAllData() {
+  return Promise.all([
+    dbGetAll('inventory'),
+    dbGetAll('brewCounts'),
+    dbGetAll('favorites'),
+    dbGetAll('shopping'),
+    dbGetAll('prefs')
+  ]).then(function(results) {
+    var inv = results[0];
+    var brewCounts = results[1];
+    var favs = results[2];
+    var shopping = results[3];
+    var prefs = results[4];
+
+    inv.forEach(function(item) { userInventory[item.name] = item; });
+    brewCounts.forEach(function(item) { userBrewCounts[item.recipeId] = item.count; });
+    favs.forEach(function(item) { userFavorites[item.recipeId] = true; });
+    shopping.forEach(function(item) { userShopping[item.name] = item; });
+    prefs.forEach(function(item) { userPrefs[item.key] = item.value; });
+  });
+}
+
 // ===== 初始化 =====
 function init() {
-  try {
-    db.enablePersistence({ synchronizeTabs: true }).catch(function(err) {
-      if (err.code !== 'failed-precondition') console.error('Persistence error:', err);
-    });
-  } catch(e) {
-    console.error('Firebase init error:', e);
-    showFirebaseError();
-    return;
-  }
-
-  // Tab bar 事件
-  document.querySelectorAll('#tabBar button').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var view = btn.dataset.view;
-      if (view === 'viewInventory') loadInventory();
-      if (view === 'viewShopping') loadShopping();
-      if (view === 'viewRecipes') loadRecipeList();
-      if (view === 'viewRandom') renderRandom();
-      if (view === 'viewTutorials') renderTutorials();
-      showView(view);
-    });
-  });
-
-  auth.onAuthStateChanged(function(user) {
-    currentUser = user;
-    if (user) {
-      loadUserData();
-    } else {
-      auth.signInAnonymously().catch(function(e) {
-        console.error('Auth error:', e);
-        showFirebaseError();
-      });
-    }
-  });
-}
-
-function showFirebaseError() {
-  var el = $('viewOnboarding');
-  if (el) {
-    el.innerHTML = '\
-      <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:12px;padding:40px 20px">\
-        <div style="font-size:48px">😅</div>\
-        <div style="font-size:18px;font-weight:600">网络好像不太给力</div>\
-        <div style="font-size:14px;color:var(--text3);text-align:center">请检查网络连接后刷新页面<br>或者稍后再试</div>\
-        <button class="btn-primary" style="margin-top:16px" onclick="location.reload()">刷新页面</button>\
-      </div>';
-  }
-}
-
-// ===== 加载用户数据 =====
-function loadUserData() {
-  var uid = currentUser.uid;
-  var ref = db.collection('users').doc(uid);
-  ref.get().then(function(doc) {
-    if (doc.exists) {
-      var d = doc.data();
-      userPrefs = d.prefs || {};
-      userInventory = d.inventory || {};
-      userBrewCounts = d.brewCounts || {};
-      userFavorites = d.favorites || {};
-      userShopping = d.shopping || {};
-    }
-    return ref.collection('meta').doc('recipesSeeded').get();
-  }).then(function(seedDoc) {
-    recipesSeeded = seedDoc.exists;
-    if (!recipesSeeded) {
-      return seedRecipes();
-    }
-    return loadRecipesFromFirestore();
+  openDB().then(function() {
+    return loadAllData();
   }).then(function() {
+    // Tab bar 事件
+    document.querySelectorAll('#tabBar button').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var view = btn.dataset.view;
+        if (view === 'viewInventory') renderInventory();
+        if (view === 'viewShopping') renderShopping();
+        if (view === 'viewRecipes') loadRecipeList();
+        if (view === 'viewRandom') renderRandom();
+        if (view === 'viewTutorials') renderTutorials();
+        showView(view);
+      });
+    });
+
+    // Load recipes
+    allRecipes = typeof RECIPES_DATA !== 'undefined' ? RECIPES_DATA : [];
+    recipeCacheReady = true;
+
+    // Check onboarding
     if (userPrefs.onboardingDone) {
       showView('viewRecipes');
       loadRecipeList();
@@ -144,63 +218,22 @@ function loadUserData() {
       showView('viewOnboarding');
     }
   }).catch(function(err) {
-    console.error('loadUserData error:', err);
-    showFirebaseError();
+    console.error('Init error:', err);
+    showError('初始化失败：' + err.message);
   });
 }
 
-// ===== 导入配方数据到 Firestore =====
-function seedRecipes() {
-  return new Promise(function(resolve, reject) {
-    if (typeof RECIPES_DATA === 'undefined') {
-      console.warn('RECIPES_DATA not loaded');
-      resolve();
-      return;
-    }
-    var batch = db.batch();
-    var recipesRef = db.collection('recipes');
-    var count = 0;
-    RECIPES_DATA.forEach(function(r) {
-      var docRef = recipesRef.doc(r.id);
-      batch.set(docRef, r);
-      count++;
-      if (count % 500 === 0) {
-        batch.commit().then(function() {
-          console.log('Committed ' + count + ' recipes');
-        }).catch(reject);
-        batch = db.batch();
-      }
-    });
-    batch.commit().then(function() {
-      console.log('All ' + count + ' recipes seeded');
-      // Mark as seeded
-      return db.collection('users').doc(currentUser.uid).collection('meta').doc('recipesSeeded').set({ timestamp: Date.now() });
-    }).then(function() {
-      recipesSeeded = true;
-      allRecipes = RECIPES_DATA;
-      recipeCacheReady = true;
-      resolve();
-    }).catch(reject);
-  });
-}
-
-function loadRecipesFromFirestore() {
-  return new Promise(function(resolve) {
-    db.collection('recipes').get().then(function(snap) {
-      allRecipes = [];
-      snap.forEach(function(doc) {
-        allRecipes.push(doc.data());
-      });
-      allRecipes.sort(function(a, b) { return a.name.localeCompare(b.name); });
-      recipeCacheReady = true;
-      resolve();
-    }).catch(function(e) {
-      console.error('loadRecipes error:', e);
-      allRecipes = typeof RECIPES_DATA !== 'undefined' ? RECIPES_DATA : [];
-      recipeCacheReady = true;
-      resolve();
-    });
-  });
+function showError(msg) {
+  var el = $('viewOnboarding');
+  if (el) {
+    el.innerHTML = '\
+      <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;gap:16px;padding:40px 20px;background:#FBF7F2">\
+        <div style="font-size:56px">😅</div>\
+        <div style="font-size:20px;font-weight:700;color:#3D2C2C;font-family:-apple-system,\'SF Pro\',\'PingFang SC\',sans-serif">出错了</div>\
+        <div style="font-size:14px;color:#8B7E74;text-align:center;font-family:-apple-system,\'SF Pro\',\'PingFang SC\',sans-serif">' + msg + '</div>\
+        <button class="btn-primary" style="margin-top:16px" onclick="location.reload()">刷新页面</button>\
+      </div>';
+  }
 }
 
 // ===== 新手引导 =====
@@ -231,7 +264,6 @@ function toggleFlavor(el) {
 }
 
 function completeOnboarding(doInventory) {
-  // 收集口味偏好
   var flavors = [];
   document.querySelectorAll('.flavor-opt.on').forEach(function(el) {
     flavors.push(el.dataset.flavor);
@@ -240,25 +272,16 @@ function completeOnboarding(doInventory) {
   userPrefs.onboardingDone = true;
 
   if (doInventory) {
-    // 跳转到酒柜页录入库存
     savePrefs().then(function() {
       showView('viewInventory');
       renderInventory();
     });
   } else {
-    userPrefs.skippedOnboarding = true;
     savePrefs().then(function() {
       showView('viewRecipes');
       loadRecipeList();
     });
   }
-}
-
-function savePrefs() {
-  if (!currentUser) return Promise.resolve();
-  return db.collection('users').doc(currentUser.uid).set(
-    { prefs: userPrefs }, { merge: true }
-  );
 }
 
 // ===== 配方列表 =====
@@ -269,15 +292,15 @@ function loadRecipeList() {
 
 function renderFilterBar() {
   var spirits = ['伏特加', '金酒', '朗姆', '龙舌兰', '威士忌', '白兰地', '利口酒'];
-  var flavors = ['甜', '酸', '苦', '辣', '清爽'];
+  var flavors = ['甜', '酸', '苦', '辣', '清爽', '果味'];
 
   var spiritHtml = spirits.map(function(s) {
-    var checked = filterBaseSpirit.indexOf(s) >= 0 ? ' checked' : '';
+    var checked = filterBaseSpirit.indexOf(s) >= 0 ? ' on' : '';
     return '<label class="filter-chip' + checked + '" onclick="toggleFilterSpirit(\'' + s + '\', this)">' + s + '</label>';
   }).join('');
 
   var flavorHtml = flavors.map(function(f) {
-    var checked = filterFlavor.indexOf(f) >= 0 ? ' checked' : '';
+    var checked = filterFlavor.indexOf(f) >= 0 ? ' on' : '';
     return '<label class="filter-chip' + checked + '" onclick="toggleFilterFlavor(\'' + f + '\', this)">' + f + '</label>';
   }).join('');
 
@@ -306,26 +329,22 @@ function filterAndRenderRecipes() {
 
   var q = searchQuery.toLowerCase();
   var filtered = allRecipes.filter(function(r) {
-    // Search
     if (q && r.name.toLowerCase().indexOf(q) < 0) return false;
-    // Base spirit filter (OR within category, AND between categories)
     if (filterBaseSpirit.length > 0) {
       var spiritMatch = r.baseSpirit.some(function(s) {
         return filterBaseSpirit.some(function(f) { return s.toLowerCase().indexOf(f.toLowerCase()) >= 0; });
       });
       if (!spiritMatch) return false;
     }
-    // Flavor filter (AND)
     if (filterFlavor.length > 0) {
       var flavorMatch = filterFlavor.every(function(f) {
-        return r.flavor.some(function(rf) { return rf.toLowerCase() === f.toLowerCase(); });
+        return r.flavor.some(function(rf) { return rf === f; });
       });
       if (!flavorMatch) return false;
     }
     return true;
   });
 
-  // Sort: by brewCount desc, then by name
   filtered.sort(function(a, b) {
     var ca = userBrewCounts[a.id] || 0;
     var cb = userBrewCounts[b.id] || 0;
@@ -345,7 +364,7 @@ function renderRecipeCards(recipes) {
 
   el.innerHTML = recipes.map(function(r) {
     var count = userBrewCounts[r.id] || 0;
-    var isFav = userFavorites[r.id];
+    var isFav = !!userFavorites[r.id];
     var imgSrc = r.image || '';
     var ingredients = (r.ingredients || []).slice(0, 3).map(function(i) { return i.name; }).join(' · ');
     var spirit = (r.baseSpirit || []).join(' · ');
@@ -375,7 +394,6 @@ function openRecipe(recipeId) {
   var isFav = !!userFavorites[r.id];
   var imgSrc = r.image || '';
 
-  // Check what user has in inventory
   var canMake = true;
   var missing = [];
   var materials = (r.ingredients || []).map(function(ing) {
@@ -409,7 +427,6 @@ function openRecipe(recipeId) {
     h += '<div style="font-size:14px;color:var(--text2);margin-bottom:10px">' + r.description + '</div>';
   }
 
-  // Tags
   var tags = [];
   if (r.baseSpirit && r.baseSpirit.length) tags = tags.concat(r.baseSpirit.slice(0, 2));
   if (r.flavor && r.flavor.length) tags = tags.concat(r.flavor);
@@ -420,24 +437,19 @@ function openRecipe(recipeId) {
   }
 
   h += '<div style="font-size:13px;color:var(--text2);margin-bottom:4px">🥃 ' + (r.glass || '') + '</div>';
-
   if (r.garnish) {
     h += '<div style="font-size:13px;color:var(--text2);margin-bottom:4px">🍋 ' + r.garnish + '</div>';
   }
-
   if (count > 0) {
     h += '<div style="font-size:13px;color:var(--gold);margin-top:8px">⭐ 已调 ' + count + ' 次</div>';
   }
-
   h += '</div>';
 
-  // Ingredients
   h += '<div class="card">\
     <div class="card-title">材料</div>\
     ' + materials + '\
   </div>';
 
-  // Missing materials
   if (missing.length > 0) {
     h += '<div class="card" style="background:#FFF5F5;border:1px solid #FFD0D0">\
       <div class="card-title" style="color:var(--red)">⚠️ 缺少的材料</div>\
@@ -445,7 +457,6 @@ function openRecipe(recipeId) {
     </div>';
   }
 
-  // Steps
   if (r.steps && r.steps.length) {
     h += '<div class="card">\
       <div class="card-title">步骤</div>\
@@ -455,7 +466,6 @@ function openRecipe(recipeId) {
     </div>';
   }
 
-  // Substitutes
   if (r.substitutes && r.substitutes.length) {
     h += '<div class="card" style="background:var(--surface2)">\
       <div class="card-title">💡 替换建议</div>\
@@ -465,7 +475,6 @@ function openRecipe(recipeId) {
     </div>';
   }
 
-  // Actions
   h += '<div style="padding:8px 0 24px">';
   if (canMake) {
     h += '<button class="btn-primary" onclick="brewRecipe(\'' + r.id + '\')">🍹 开始调这杯</button>';
@@ -481,22 +490,24 @@ function openRecipe(recipeId) {
 function toggleFavorite(recipeId) {
   if (userFavorites[recipeId]) {
     delete userFavorites[recipeId];
+    dbDelete('favorites', recipeId);
   } else {
     userFavorites[recipeId] = true;
+    dbPut('favorites', { recipeId: recipeId });
   }
-  saveUserData().then(function() { openRecipe(recipeId); });
+  openRecipe(recipeId);
 }
 
 function incrementBrew(recipeId) {
   userBrewCounts[recipeId] = (userBrewCounts[recipeId] || 0) + 1;
-  saveUserData().then(function() { openRecipe(recipeId); });
+  dbPut('brewCounts', { recipeId: recipeId, count: userBrewCounts[recipeId] });
+  openRecipe(recipeId);
 }
 
 function brewRecipe(recipeId) {
   var r = allRecipes.find(function(x) { return x.id === recipeId; });
   if (!r) return;
 
-  // Auto deduct inventory
   var updated = false;
   (r.ingredients || []).forEach(function(ing) {
     var inv = userInventory[ing.name];
@@ -506,15 +517,14 @@ function brewRecipe(recipeId) {
     }
   });
 
-  // Increment brew count
   userBrewCounts[recipeId] = (userBrewCounts[recipeId] || 0) + 1;
 
-  var savePromise = updated ? saveUserData() : saveBrewCounts();
-
-  savePromise.then(function() {
-    toast('🍹 干杯！库存已更新');
-    openRecipe(recipeId);
-  });
+  var p = updated ? saveInventory() : Promise.resolve();
+  p.then(function() { return saveBrewCounts(); })
+    .then(function() {
+      toast('🍹 干杯！库存已更新');
+      openRecipe(recipeId);
+    });
 }
 
 function addMissingToShopping(recipeId) {
@@ -524,15 +534,15 @@ function addMissingToShopping(recipeId) {
   (r.ingredients || []).forEach(function(ing) {
     var inv = userInventory[ing.name];
     if (!inv || inv.amount <= 0) {
-      if (!userShopping[ing.name]) {
+      if (userShopping[ing.name]) {
+        userShopping[ing.name].amount += 1;
+      } else {
         userShopping[ing.name] = {
           name: ing.name,
           amount: 1,
           unit: ing.unit || '',
           purchased: false
         };
-      } else {
-        userShopping[ing.name].amount += 1;
       }
     }
   });
@@ -617,21 +627,17 @@ function renderInventoryItems(category) {
   }).join('');
 }
 
-function loadInventory() {
-  // renderInventory is called via tab click
-}
-
 function adjustInventory(key, delta) {
   if (userInventory[key]) {
     userInventory[key].amount = Math.max(0, (userInventory[key].amount || 0) + delta);
-    saveUserData().then(function() { renderInventory(); });
+    dbPut('inventory', userInventory[key]).then(function() { renderInventoryItems(document.querySelector('#viewInventory .filter-chip.on').dataset.cat); });
   }
 }
 
 function setInventoryAmount(key, value) {
   if (userInventory[key]) {
     userInventory[key].amount = Math.max(0, parseInt(value) || 0);
-    saveUserData().then(function() { renderInventory(); });
+    dbPut('inventory', userInventory[key]).then(function() { renderInventoryItems(document.querySelector('#viewInventory .filter-chip.on').dataset.cat); });
   }
 }
 
@@ -640,20 +646,24 @@ function setExpiry(key) {
   var newDate = prompt('设置保质期 (YYYY-MM-DD):', current);
   if (newDate !== null) {
     userInventory[key].expiryDate = newDate;
-    saveUserData().then(function() { renderInventory(); });
+    dbPut('inventory', userInventory[key]).then(function() { renderInventoryItems(document.querySelector('#viewInventory .filter-chip.on').dataset.cat); });
   }
 }
 
 function deleteInventoryItem(key) {
   if (confirm('删除 ' + userInventory[key].name + '？')) {
     delete userInventory[key];
-    saveUserData().then(function() { renderInventory(); });
+    dbDelete('inventory', key).then(function() { renderInventoryItems(document.querySelector('#viewInventory .filter-chip.on').dataset.cat); });
   }
 }
 
 function addInventoryItem() {
   var name = prompt('材料名称：');
   if (!name) return;
+  if (userInventory[name]) {
+    toast('⚠️ ' + name + ' 已存在');
+    return;
+  }
   var amount = parseInt(prompt('初始数量：', '0')) || 0;
   var unit = prompt('单位（ml/g/个/片/根）：', 'ml') || 'ml';
   var category = prompt('分类（base_spirit/juice/syrup/garnish/other）：', 'other') || 'other';
@@ -666,27 +676,10 @@ function addInventoryItem() {
     lowStockThreshold: userPrefs.lowStockThreshold || 100,
     lowStockNotified: false
   };
-  saveUserData().then(function() { renderInventory(); toast('✅ 已添加 ' + name); });
-}
-
-function saveUserData() {
-  if (!currentUser) return Promise.resolve();
-  return db.collection('users').doc(currentUser.uid).set({
-    inventory: userInventory,
-    brewCounts: userBrewCounts,
-    favorites: userFavorites,
-    prefs: userPrefs
-  }, { merge: true });
-}
-
-function saveShopping() {
-  if (!currentUser) return Promise.resolve();
-  return db.collection('users').doc(currentUser.uid).set({ shopping: userShopping }, { merge: true });
-}
-
-function saveBrewCounts() {
-  if (!currentUser) return Promise.resolve();
-  return db.collection('users').doc(currentUser.uid).set({ brewCounts: userBrewCounts }, { merge: true });
+  dbPut('inventory', userInventory[name]).then(function() {
+    renderInventoryItems(document.querySelector('#viewInventory .filter-chip.on').dataset.cat);
+    toast('✅ 已添加 ' + name);
+  });
 }
 
 // ===== 购物清单 =====
@@ -749,11 +742,9 @@ function markPurchased(key) {
   var qty = prompt(item.name + ' — 购买数量？', item.amount + ' ' + item.unit);
   if (qty === null) return;
 
-  // Parse quantity
   var match = qty.match(/(\d+)/);
   var buyAmount = match ? parseInt(match[1]) : item.amount;
 
-  // Add to inventory
   if (!userInventory[key]) {
     userInventory[key] = {
       name: item.name,
@@ -766,13 +757,18 @@ function markPurchased(key) {
   }
   userInventory[key].amount = (userInventory[key].amount || 0) + buyAmount;
 
-  // Remove from shopping
   delete userShopping[key];
 
-  saveUserData().then(function() { saveShopping().then(function() { renderShopping(); toast('✅ 已补库存'); }); });
+  Promise.all([
+    dbPut('inventory', userInventory[key]),
+    dbDelete('shopping', key)
+  ]).then(function() {
+    renderShopping();
+    toast('✅ 已补库存');
+  });
 }
 
-function addShoppingItem() {
+function addManualShopping() {
   var name = prompt('物品名称：');
   if (!name) return;
   var amount = parseInt(prompt('数量：', '1')) || 1;
@@ -783,22 +779,21 @@ function addShoppingItem() {
   } else {
     userShopping[name] = { name: name, amount: amount, unit: unit, purchased: false };
   }
-  saveShopping().then(function() { renderShopping(); toast('✅ 已添加'); });
+  saveShopping().then(function() {
+    renderShopping();
+    toast('✅ 已添加');
+  });
 }
 
-function addManualShopping() {
-  addShoppingItem();
-}
-
-// ===== 随机推荐 =====
+// ===== 随便来一杯 =====
 function renderRandom() {
   var el = $('viewRandom');
   el.innerHTML = '\
     <div class="header"><h1>随便来一杯</h1></div>\
     <div class="card" style="text-align:center;padding:24px">\
       <div style="font-size:48px;margin-bottom:12px">🎲</div>\
-      <button class="btn-primary" onclick="generateAI()" style="margin-bottom:12px">用我的材料随机生成一杯</button>\
-      <div style="font-size:13px;color:var(--text3)">看看用现有材料能调出什么新东西</div>\
+      <button class="btn-primary" onclick="recommendClassic()" style="margin-bottom:12px">🎯 从经典配方中推荐</button>\
+      <div style="font-size:13px;color:var(--text3)">优先推荐你用现有材料就能调的酒</div>\
     </div>\
     <div style="font-size:13px;color:var(--text2);margin-bottom:8px;padding:0 16px">口味偏好</div>\
     <div class="card" style="padding:14px">\
@@ -810,7 +805,6 @@ function renderRandom() {
         <label class="filter-chip" onclick="this.classList.toggle(\'on\')">🌶️ 辣</label>\
       </div>\
     </div>\
-    <div style="padding:0 16px;margin-bottom:8px"><button class="btn-secondary" onclick="recommendClassic()">🎯 从经典配方中推荐</button></div>\
     <div id="randomResult"></div>';
 }
 
@@ -819,7 +813,6 @@ function recommendClassic() {
     return r.ingredients && r.ingredients.length > 0;
   });
 
-  // Filter by flavor if selected
   var selected = document.querySelectorAll('#viewRandom .filter-chip.on');
   var flavors = [];
   selected.forEach(function(el) {
@@ -845,7 +838,6 @@ function recommendClassic() {
     return scoreB - scoreA;
   });
 
-  // Show top 3
   var top = pool.slice(0, 3);
   $('randomResult').innerHTML = top.map(function(r, i) {
     var score = scoreRecipe(r);
@@ -864,102 +856,6 @@ function scoreRecipe(r) {
   return r.ingredients.filter(function(ing) {
     return userInventory[ing.name] && userInventory[ing.name].amount > 0;
   }).length;
-}
-
-function generateAI() {
-  $('randomResult').innerHTML = '<div style="text-align:center;padding:40px;color:var(--text3)">🎲 正在为你调一杯...</div>';
-
-  // Collect inventory
-  var inv = Object.keys(userInventory).map(function(k) {
-    return userInventory[k].name + ' (' + userInventory[k].amount + ' ' + userInventory[k].unit + ')';
-  }).join(', ');
-
-  if (!inv) {
-    $('randomResult').innerHTML = '<div style="text-align:center;padding:40px;color:var(--text3)">你的酒柜还是空的，先去录入一些材料吧！</div>';
-    return;
-  }
-
-  var flavors = userPrefs.flavorPrefs || [];
-  var flavorText = flavors.length ? '偏好风味：' + flavors.join('、') : '无特殊偏好';
-
-  // Call Cloudflare Worker proxy
-  var apiUrl = 'https://cocktail-api-proxy.workers.dev/generate';
-  fetch(apiUrl, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      inventory: inv,
-      flavorPrefs: flavorText
-    })
-  }).then(function(r) { return r.json(); })
-  .then(function(data) {
-    renderAICocktail(data);
-  })
-  .catch(function(err) {
-    console.error('AI generate error:', err);
-    $('randomResult').innerHTML = '<div style="text-align:center;padding:40px;color:var(--text3)">AI 调酒师暂时不在家 😅<br>试试「从经典配方中推荐」吧</div>';
-  });
-}
-
-function renderAICocktail(data) {
-  var materials = (data.ingredients || []).map(function(ing) {
-    var invItem = userInventory[ing.name];
-    var hasIt = invItem && invItem.amount > 0;
-    return '<div class="ing-item"><span class="ing-name">' + ing.name + '</span><span class="ing-amount" style="color:' + (hasIt ? 'var(--green)' : 'var(--red)') + '">' + (hasIt ? '✅' : '❌') + ' ' + ing.amount + '</span></div>';
-  }).join('');
-
-  var steps = (data.steps || []).map(function(s, i) {
-    return '<div class="step-item"><div class="step-num">' + (i + 1) + '</div><div class="step-text">' + s + '</div></div>';
-  }).join('');
-
-  var h = '\
-    <div class="card" style="margin:0 16px 12px">\
-      <div style="font-size:20px;font-weight:700;margin-bottom:4px">🍸 ' + (data.name || '神秘特饮') + '</div>\
-      <div style="font-size:14px;color:var(--text2);margin-bottom:12px">' + (data.description || '') + '</div>\
-      <div style="font-size:12px;color:var(--text3);margin-bottom:12px">✨ AI 为你量身定制</div>\
-      <div class="card-title">材料</div>' + materials + '\
-    </div>\
-    <div class="card" style="margin:0 16px 12px">\
-      <div class="card-title">步骤</div>' + steps + '\
-    </div>\
-    <div style="display:flex;gap:8px;padding:0 16px 24px">\
-      <button class="btn-primary" style="flex:1" onclick="saveAICocktail()">💾 保存到我的配方</button>\
-      <button class="btn-secondary" style="flex:1" onclick="generateAI()">🔄 再生成一杯</button>\
-    </div>';
-
-  $('randomResult').innerHTML = h;
-  // Store for save
-  window._lastAICocktail = data;
-}
-
-function saveAICocktail() {
-  var data = window._lastAICocktail;
-  if (!data) return;
-  var name = prompt('给这杯酒起个名字：', data.name || '');
-  if (!name) return;
-
-  var recipe = {
-    id: 'custom_' + Date.now(),
-    name: name,
-    baseSpirit: data.baseSpirit || [],
-    flavor: data.flavor || [],
-    difficulty: 2,
-    description: data.description || '',
-    image: '',
-    glass: data.glass || '',
-    garnish: data.garnish || '',
-    ingredients: data.ingredients || [],
-    steps: data.steps || [],
-    brewCount: 0,
-    substitutes: [],
-    createdBy: currentUser.uid,
-    createdAt: Date.now()
-  };
-
-  db.collection('users').doc(currentUser.uid).collection('customRecipes').doc(recipe.id).set(recipe)
-    .then(function() {
-      toast('💾 已保存到你的配方');
-    });
 }
 
 // ===== 教程 =====
@@ -1049,17 +945,18 @@ function renderSettings() {
     <div class="card">\
       <div class="card-title">数据管理</div>\
       <button class="btn-secondary" style="margin-top:8px" onclick="checkLowStock()">⚠️ 查看低库存清单</button>\
+      <button class="btn-secondary" style="margin-top:8px;margin-left:8px;color:var(--red);border-color:var(--red)" onclick="clearAllData()">🗑️ 清除所有数据</button>\
     </div>';
 }
 
 function saveThreshold() {
   userPrefs.lowStockThreshold = parseInt($('thresholdInput').value) || 100;
-  savePrefs().then(function() { toast('✅ 阈值已保存'); });
+  dbPut('prefs', { key: 'lowStockThreshold', value: userPrefs.lowStockThreshold }).then(function() { toast('✅ 阈值已保存'); });
 }
 
 function saveExpiryWarning() {
   userPrefs.expiryWarningDays = parseInt($('expiryWarningInput').value) || 3;
-  savePrefs().then(function() { toast('✅ 已保存'); });
+  dbPut('prefs', { key: 'expiryWarningDays', value: userPrefs.expiryWarningDays }).then(function() { toast('✅ 已保存'); });
 }
 
 function checkLowStock() {
@@ -1080,7 +977,27 @@ function checkLowStock() {
   alert('低库存清单：\n\n' + list);
 }
 
+function clearAllData() {
+  if (!confirm('确定清除所有数据？此操作不可恢复！')) return;
+  if (!confirm('真的确定？库存、收藏、调酒记录都会被清空！')) return;
+
+  userInventory = {};
+  userBrewCounts = {};
+  userFavorites = {};
+  userShopping = {};
+  userPrefs = {};
+
+  Promise.all([
+    dbClear('inventory'),
+    dbClear('brewCounts'),
+    dbClear('favorites'),
+    dbClear('shopping'),
+    dbClear('prefs')
+  ]).then(function() {
+    toast('🗑️ 数据已清除');
+    renderSettings();
+  });
+}
+
 // ===== 启动 =====
 document.addEventListener('DOMContentLoaded', init);
-
-} // end else (firebase loaded)

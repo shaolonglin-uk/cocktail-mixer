@@ -11,6 +11,17 @@ let userFavorites = {};
 let userShopping = {};
 let userPrefs = {};
 
+// 分类定义（默认单位 + 常用材料联想）
+var CATEGORIES = {
+  base_spirit: { label: '基酒', unit: 'ml', suggestions: ['伏特加', '金酒', '朗姆酒', '龙舌兰', '威士忌', '白兰地', '清酒'] },
+  juice: { label: '果汁', unit: 'ml', suggestions: ['青柠汁', '柠檬汁', '橙汁', '菠萝汁', '蔓越莓汁', '西柚汁'] },
+  syrup: { label: '糖浆', unit: 'ml', suggestions: ['细砂糖', '单糖浆', '蜂蜜', '香草糖浆', '接骨木糖浆'] },
+  liqueur: { label: '利口酒', unit: 'ml', suggestions: ['君度', '咖啡利口酒', '蓝柑橘', '百利甜'] },
+  wine_spirit: { label: '葡萄酒/烈酒', unit: 'ml', suggestions: ['干邑', '朗姆酒', '味美思'] },
+  garnish: { label: '装饰', unit: '个', suggestions: ['薄荷叶', '青柠', '柠檬', '樱桃', '橄榄', '洋葱'] },
+  other: { label: '其他', unit: '个', suggestions: [] }
+};
+
 // 筛选状态
 let filterBaseSpirit = [];
 let filterFlavor = [];
@@ -554,18 +565,11 @@ function addMissingToShopping(recipeId) {
 
 // ===== 酒柜（库存） =====
 function renderInventory() {
-  var categories = [
-    { value: 'all', label: '全部' },
-    { value: 'base_spirit', label: '基酒' },
-    { value: 'juice', label: '果汁' },
-    { value: 'syrup', label: '糖浆' },
-    { value: 'garnish', label: '装饰' },
-    { value: 'other', label: '其他' }
-  ];
-
-  var catHtml = categories.map(function(c) {
-    return '<label class="filter-chip" data-cat="' + c.value + '" onclick="filterInvCategory(this)">' + c.label + '</label>';
-  }).join('');
+  var catKeys = Object.keys(CATEGORIES);
+  var catHtml = '<label class="filter-chip on" data-cat="all" onclick="filterInvCategory(this)">全部</label>' +
+    catKeys.map(function(k) {
+      return '<label class="filter-chip" data-cat="' + k + '" onclick="filterInvCategory(this)">' + CATEGORIES[k].label + '</label>';
+    }).join('');
 
   $('viewInventory').innerHTML = '\
     <div class="header">\
@@ -575,7 +579,7 @@ function renderInventory() {
     <div class="cat-row" style="padding:0 16px 8px">' + catHtml + '</div>\
     <div id="inventoryList" style="padding:0 16px"></div>\
     <div style="padding:16px">\
-      <button class="btn-secondary" onclick="addInventoryItem()">+ 新增材料</button>\
+      <button class="btn-primary" onclick="openAddInventoryModal()">+ 新增材料</button>\
     </div>';
 
   filterInvCategory(document.querySelector('[data-cat="all"]'));
@@ -603,82 +607,173 @@ function renderInventoryItems(category) {
     var isLow = item.amount <= (item.lowStockThreshold || 100);
     var statusIcon = isLow ? '🟡' : '🟢';
     var expiry = item.expiryDate ? '<div style="font-size:12px;color:var(--text3)">📅 ' + item.expiryDate + '</div>' : '';
+    var unitLabel = item.unit || 'ml';
 
-    return '<div class="card" style="padding:12px 14px;margin-bottom:10px">\
+    return '<div class="card" style="padding:14px;margin-bottom:10px">\
       <div style="display:flex;align-items:center;justify-content:space-between">\
         <div style="flex:1;min-width:0">\
-          <div style="font-size:15px;font-weight:500">' + item.name + ' ' + statusIcon + '</div>\
-          <div style="font-size:13px;color:var(--text2);margin-top:2px">' + item.amount + ' ' + item.unit + '</div>\
+          <div style="font-size:15px;font-weight:500">' + item.name + ' <span style="font-size:12px;color:var(--text3)">' + (CATEGORIES[item.category] ? CATEGORIES[item.category].label : item.category) + '</span></div>\
+          <div style="font-size:13px;color:var(--text2);margin-top:2px">' + item.amount + ' ' + unitLabel + ' ' + statusIcon + '</div>\
           ' + expiry + '\
         </div>\
         <div style="display:flex;align-items:center;gap:4px">\
-          <div class="inv-btn" onclick="adjustInventory(\'' + key + '\', -10)" style="font-size:14px;width:28px;height:28px">-10</div>\
-          <div class="inv-btn" onclick="adjustInventory(\'' + key + '\', -1)" style="font-size:16px;width:28px;height:28px">-</div>\
-          <input type="number" class="s-input" style="width:56px;text-align:center;padding:6px;font-size:15px" value="' + item.amount + '" onchange="setInventoryAmount(\'' + key + '\', this.value)">\
-          <div class="inv-btn" onclick="adjustInventory(\'' + key + '\', 1)" style="font-size:16px;width:28px;height:28px">+</div>\
-          <div class="inv-btn" onclick="adjustInventory(\'' + key + '\', 10)" style="font-size:14px;width:28px;height:28px">+10</div>\
+          <div class="inv-btn" onclick="adjustInventory(\'' + key + '\', -1)" style="font-size:18px;width:32px;height:32px">-</div>\
+          <input type="number" class="s-input" style="width:60px;text-align:center;padding:6px;font-size:15px" value="' + item.amount + '" onchange="setInventoryAmount(\'' + key + '\', this.value)">\
+          <div class="inv-btn" onclick="adjustInventory(\'' + key + '\', 1)" style="font-size:18px;width:32px;height:32px">+</div>\
         </div>\
       </div>\
       <div style="display:flex;gap:8px;margin-top:8px">\
-        <div style="font-size:12px;color:var(--text3);cursor:pointer" onclick="setExpiry(\'' + key + '\')">' + (item.expiryDate ? '📅 改保质期' : '📅 设保质期') + '</div>\
+        <div style="font-size:12px;color:var(--text3);cursor:pointer" onclick="openEditInventory(\'' + key + '\')">✏️ 编辑</div>\
         <div style="font-size:12px;color:var(--red);cursor:pointer;margin-left:auto" onclick="deleteInventoryItem(\'' + key + '\')">🗑️</div>\
       </div>\
     </div>';
   }).join('');
 }
 
-function adjustInventory(key, delta) {
-  if (userInventory[key]) {
-    userInventory[key].amount = Math.max(0, (userInventory[key].amount || 0) + delta);
-    dbPut('inventory', userInventory[key]).then(function() { renderInventoryItems(document.querySelector('#viewInventory .filter-chip.on').dataset.cat); });
+function openAddInventoryModal() {
+  var catOptions = Object.keys(CATEGORIES).map(function(k) {
+    return '<option value="' + k + '">' + CATEGORIES[k].label + '</option>';
+  }).join('');
+
+  var modal = document.createElement('div');
+  modal.id = 'addItemModal';
+  modal.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:1000;display:flex;align-items:flex-end;justify-content:center';
+  modal.onclick = function(e) { if (e.target === modal) modal.remove(); };
+  modal.innerHTML = '\
+    <div style="background:#fff;border-radius:20px 20px 0 0;width:100%;max-width:480px;max-height:85vh;overflow-y:auto;padding:24px 20px;padding-bottom:calc(24px + env(safe-area-inset-bottom))" onclick="event.stopPropagation()">\
+      <div style="font-size:18px;font-weight:700;margin-bottom:20px;text-align:center">新增材料</div>\
+      <div style="margin-bottom:16px">\
+        <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">名称</label>\
+        <input class="s-input" id="invName" placeholder="例如：伏特加" style="width:100%;font-size:16px" autocomplete="off">\
+      </div>\
+      <div style="margin-bottom:16px">\
+        <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">分类</label>\
+        <select class="s-input" id="invCategory" onchange="onCategoryChange(this.value)" style="width:100%;font-size:16px;appearance:auto">\
+          ' + catOptions + '\
+        </select>\
+      </div>\
+      <div style="display:flex;gap:12px;margin-bottom:16px">\
+        <div style="flex:1">\
+          <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">数量</label>\
+          <input type="number" class="s-input" id="invAmount" value="0" style="width:100%;font-size:16px">\
+        </div>\
+        <div style="flex:1">\
+          <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">单位</label>\
+          <input class="s-input" id="invUnit" style="width:100%;font-size:16px">\
+        </div>\
+      </div>\
+      <div style="margin-bottom:20px">\
+        <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">保质期（可选）</label>\
+        <input type="date" class="s-input" id="invExpiry" style="width:100%;font-size:16px">\
+      </div>\
+      <button class="btn-primary" style="width:100%;padding:14px" onclick="submitAddInventory()">保存</button>\
+    </div>';
+
+  document.body.appendChild(modal);
+  document.getElementById('invName').focus();
+
+  // Set default unit
+  onCategoryChange('base_spirit');
+}
+
+function onCategoryChange(cat) {
+  var unitInput = document.getElementById('invUnit');
+  if (unitInput && CATEGORIES[cat]) {
+    unitInput.value = CATEGORIES[cat].unit;
   }
 }
 
-function setInventoryAmount(key, value) {
-  if (userInventory[key]) {
-    userInventory[key].amount = Math.max(0, parseInt(value) || 0);
-    dbPut('inventory', userInventory[key]).then(function() { renderInventoryItems(document.querySelector('#viewInventory .filter-chip.on').dataset.cat); });
-  }
-}
+function submitAddInventory() {
+  var name = document.getElementById('invName').value.trim();
+  if (!name) { toast('请输入材料名称'); return; }
+  if (userInventory[name]) { toast('⚠️ ' + name + ' 已存在'); return; }
 
-function setExpiry(key) {
-  var current = userInventory[key].expiryDate || '';
-  var newDate = prompt('设置保质期 (YYYY-MM-DD):', current);
-  if (newDate !== null) {
-    userInventory[key].expiryDate = newDate;
-    dbPut('inventory', userInventory[key]).then(function() { renderInventoryItems(document.querySelector('#viewInventory .filter-chip.on').dataset.cat); });
-  }
-}
-
-function deleteInventoryItem(key) {
-  if (confirm('删除 ' + userInventory[key].name + '？')) {
-    delete userInventory[key];
-    dbDelete('inventory', key).then(function() { renderInventoryItems(document.querySelector('#viewInventory .filter-chip.on').dataset.cat); });
-  }
-}
-
-function addInventoryItem() {
-  var name = prompt('材料名称：');
-  if (!name) return;
-  if (userInventory[name]) {
-    toast('⚠️ ' + name + ' 已存在');
-    return;
-  }
-  var amount = parseInt(prompt('初始数量：', '0')) || 0;
-  var unit = prompt('单位（ml/g/个/片/根）：', 'ml') || 'ml';
-  var category = prompt('分类（base_spirit/juice/syrup/garnish/other）：', 'other') || 'other';
+  var category = document.getElementById('invCategory').value;
+  var amount = Math.max(0, parseInt(document.getElementById('invAmount').value) || 0);
+  var unit = document.getElementById('invUnit').value.trim() || CATEGORIES[category].unit;
+  var expiry = document.getElementById('invExpiry').value || '';
 
   userInventory[name] = {
     name: name,
-    amount: Math.max(0, amount),
+    amount: amount,
     unit: unit,
     category: category,
     lowStockThreshold: userPrefs.lowStockThreshold || 100,
-    lowStockNotified: false
+    lowStockNotified: false,
+    expiryDate: expiry
   };
+
   dbPut('inventory', userInventory[name]).then(function() {
-    renderInventoryItems(document.querySelector('#viewInventory .filter-chip.on').dataset.cat);
+    var modal = document.getElementById('addItemModal');
+    if (modal) modal.remove();
+    var currentCat = document.querySelector('#viewInventory .filter-chip.on');
+    renderInventoryItems(currentCat ? currentCat.dataset.cat : 'all');
     toast('✅ 已添加 ' + name);
+  });
+}
+
+function openEditInventory(key) {
+  var item = userInventory[key];
+  if (!item) return;
+
+  var catKeys = Object.keys(CATEGORIES);
+  var catOptions = catKeys.map(function(k) {
+    return '<option value="' + k + '"' + (k === item.category ? ' selected' : '') + '>' + CATEGORIES[k].label + '</option>';
+  }).join('');
+
+  var modal = document.createElement('div');
+  modal.id = 'editItemModal';
+  modal.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:1000;display:flex;align-items:flex-end;justify-content:center';
+  modal.onclick = function(e) { if (e.target === modal) modal.remove(); };
+  modal.innerHTML = '\
+    <div style="background:#fff;border-radius:20px 20px 0 0;width:100%;max-width:480px;max-height:85vh;overflow-y:auto;padding:24px 20px;padding-bottom:calc(24px + env(safe-area-inset-bottom))" onclick="event.stopPropagation()">\
+      <div style="font-size:18px;font-weight:700;margin-bottom:20px;text-align:center">编辑材料</div>\
+      <div style="margin-bottom:16px">\
+        <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">名称</label>\
+        <input class="s-input" id="editName" value="' + item.name + '" style="width:100%;font-size:16px" disabled>\
+      </div>\
+      <div style="margin-bottom:16px">\
+        <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">分类</label>\
+        <select class="s-input" id="editCategory" onchange="document.getElementById(\'editUnit\').value=CATEGORIES[this.value].unit" style="width:100%;font-size:16px;appearance:auto">\
+          ' + catOptions + '\
+        </select>\
+      </div>\
+      <div style="display:flex;gap:12px;margin-bottom:16px">\
+        <div style="flex:1">\
+          <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">数量</label>\
+          <input type="number" class="s-input" id="editAmount" value="' + item.amount + '" style="width:100%;font-size:16px">\
+        </div>\
+        <div style="flex:1">\
+          <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">单位</label>\
+          <input class="s-input" id="editUnit" value="' + item.unit + '" style="width:100%;font-size:16px">\
+        </div>\
+      </div>\
+      <div style="margin-bottom:20px">\
+        <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">保质期</label>\
+        <input type="date" class="s-input" id="editExpiry" value="' + (item.expiryDate || '') + '" style="width:100%;font-size:16px">\
+      </div>\
+      <button class="btn-primary" style="width:100%;padding:14px;margin-bottom:10px" onclick="submitEditInventory(\'' + key + '\')">保存</button>\
+      <button class="btn-secondary" style="width:100%;padding:14px;color:var(--red);border-color:var(--red)" onclick="deleteInventoryItem(\'' + key + '\')">删除</button>\
+    </div>';
+
+  document.body.appendChild(modal);
+}
+
+function submitEditInventory(key) {
+  var item = userInventory[key];
+  if (!item) return;
+
+  item.category = document.getElementById('editCategory').value;
+  item.amount = Math.max(0, parseInt(document.getElementById('editAmount').value) || 0);
+  item.unit = document.getElementById('editUnit').value.trim() || CATEGORIES[item.category].unit;
+  item.expiryDate = document.getElementById('editExpiry').value || '';
+
+  dbPut('inventory', item).then(function() {
+    var modal = document.getElementById('editItemModal');
+    if (modal) modal.remove();
+    var currentCat = document.querySelector('#viewInventory .filter-chip.on');
+    renderInventoryItems(currentCat ? currentCat.dataset.cat : 'all');
+    toast('✅ 已更新 ' + item.name);
   });
 }
 
@@ -928,25 +1023,60 @@ function openTutorial(id) {
 
 // ===== 设置 =====
 function renderSettings() {
+  var thresholdEnabled = userPrefs.lowStockThreshold !== false && userPrefs.lowStockThreshold !== 0;
+  var expiryEnabled = userPrefs.expiryWarningDays !== false && userPrefs.expiryWarningDays !== 0;
+  var thresholdVal = userPrefs.lowStockThreshold || 100;
+  var expiryVal = userPrefs.expiryWarningDays || 3;
+
   $('viewSettings').innerHTML = '\
-    <div class="header"><h1>设置</h1></div>\
+    <div class="header">\
+      <div class="back" onclick="showView(\'viewInventory\');renderInventory()">←</div>\
+      <h1>设置</h1>\
+      <div style="width:40px"></div>\
+    </div>\
     <div class="card">\
-      <div class="card-title">低库存阈值</div>\
-      <div style="font-size:14px;color:var(--text2);margin-bottom:8px">当库存低于此值时提醒</div>\
-      <input type="number" class="s-input" id="thresholdInput" value="' + (userPrefs.lowStockThreshold || 100) + '" style="width:120px">\
-      <button class="btn-primary" style="margin-top:12px;width:auto;padding:10px 24px" onclick="saveThreshold()">保存</button>\
+      <div class="card-title">低库存提醒</div>\
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">\
+        <span style="font-size:14px;color:var(--text2)">启用低库存提醒</span>\
+        <label class="toggle" style="display:inline-block">\
+          <input type="checkbox" id="thresholdToggle" ' + (thresholdEnabled ? 'checked' : '') + ' onchange="toggleThreshold(this.checked)">\
+          <span class="toggle-slider"></span>\
+        </label>\
+      </div>\
+      <div id="thresholdConfig" style="' + (thresholdEnabled ? '' : 'display:none') + '">\
+        <div style="font-size:14px;color:var(--text2);margin-bottom:8px">当库存低于 <input type="number" class="s-input" id="thresholdInput" value="' + thresholdVal + '" style="width:80px;text-align:center"> <span style="font-size:13px;color:var(--text3)" id="thresholdUnit">ml</span> 时提醒</div>\
+        <button class="btn-primary" style="margin-top:8px;width:auto;padding:10px 24px" onclick="saveThreshold()">保存</button>\
+      </div>\
     </div>\
     <div class="card">\
       <div class="card-title">过期预警</div>\
-      <div style="font-size:14px;color:var(--text2);margin-bottom:8px">提前几天提醒</div>\
-      <input type="number" class="s-input" id="expiryWarningInput" value="' + (userPrefs.expiryWarningDays || 3) + '" style="width:120px">\
-      <button class="btn-primary" style="margin-top:12px;width:auto;padding:10px 24px" onclick="saveExpiryWarning()">保存</button>\
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">\
+        <span style="font-size:14px;color:var(--text2)">启用过期预警</span>\
+        <label class="toggle" style="display:inline-block">\
+          <input type="checkbox" id="expiryToggle" ' + (expiryEnabled ? 'checked' : '') + ' onchange="toggleExpiry(this.checked)">\
+          <span class="toggle-slider"></span>\
+        </label>\
+      </div>\
+      <div id="expiryConfig" style="' + (expiryEnabled ? '' : 'display:none') + '">\
+        <div style="font-size:14px;color:var(--text2);margin-bottom:8px">提前 <input type="number" class="s-input" id="expiryWarningInput" value="' + expiryVal + '" min="1" style="width:80px;text-align:center"> 天提醒</div>\
+        <button class="btn-primary" style="margin-top:8px;width:auto;padding:10px 24px" onclick="saveExpiryWarning()">保存</button>\
+      </div>\
     </div>\
     <div class="card">\
-      <div class="card-title">数据管理</div>\
-      <button class="btn-secondary" style="margin-top:8px" onclick="checkLowStock()">⚠️ 查看低库存清单</button>\
-      <button class="btn-secondary" style="margin-top:8px;margin-left:8px;color:var(--red);border-color:var(--red)" onclick="clearAllData()">🗑️ 清除所有数据</button>\
+      <div class="card-title">查看清单</div>\
+      <button class="btn-secondary" style="margin-top:8px" onclick="checkLowStock()">⚠️ 低库存清单</button>\
+      <button class="btn-secondary" style="margin-top:8px" onclick="checkExpiringSoon()">📅 临期商品</button>\
     </div>';
+}
+
+function toggleThreshold(on) {
+  userPrefs.lowStockThreshold = on ? (parseInt($('thresholdInput')?.value) || 100) : false;
+  $('thresholdConfig').style.display = on ? '' : 'none';
+}
+
+function toggleExpiry(on) {
+  userPrefs.expiryWarningDays = on ? (parseInt($('expiryWarningInput')?.value) || 3) : false;
+  $('expiryConfig').style.display = on ? '' : 'none';
 }
 
 function saveThreshold() {
@@ -960,43 +1090,57 @@ function saveExpiryWarning() {
 }
 
 function checkLowStock() {
+  var threshold = userPrefs.lowStockThreshold;
+  if (threshold === false || threshold === undefined) {
+    toast('请在设置中开启低库存提醒');
+    return;
+  }
+
   var items = Object.keys(userInventory).filter(function(k) {
     var item = userInventory[k];
-    return item.amount <= (item.lowStockThreshold || 100);
+    return item.amount <= threshold;
   });
 
   if (!items.length) {
-    toast('✅ 库存充足');
+    toast('✅ 库存充足，暂无低库存');
     return;
   }
 
   var list = items.map(function(k) {
     return userInventory[k].name + ': ' + userInventory[k].amount + ' ' + userInventory[k].unit;
   }).join('\n');
-
-  alert('低库存清单：\n\n' + list);
+  alert('⚠️ 低库存清单（< ' + threshold + ' ml）：\n\n' + list);
 }
 
-function clearAllData() {
-  if (!confirm('确定清除所有数据？此操作不可恢复！')) return;
-  if (!confirm('真的确定？库存、收藏、调酒记录都会被清空！')) return;
+function checkExpiringSoon() {
+  var days = userPrefs.expiryWarningDays;
+  if (days === false || days === undefined) {
+    toast('请在设置中开启过期预警');
+    return;
+  }
 
-  userInventory = {};
-  userBrewCounts = {};
-  userFavorites = {};
-  userShopping = {};
-  userPrefs = {};
-
-  Promise.all([
-    dbClear('inventory'),
-    dbClear('brewCounts'),
-    dbClear('favorites'),
-    dbClear('shopping'),
-    dbClear('prefs')
-  ]).then(function() {
-    toast('🗑️ 数据已清除');
-    renderSettings();
+  var now = new Date();
+  var items = [];
+  Object.keys(userInventory).forEach(function(k) {
+    var item = userInventory[k];
+    if (item.expiryDate) {
+      var exp = new Date(item.expiryDate);
+      var diff = Math.ceil((exp - now) / (1000 * 60 * 60 * 24));
+      if (diff <= days && diff >= 0) {
+        items.push({ name: item.name, daysLeft: diff, expiryDate: item.expiryDate });
+      }
+    }
   });
+
+  if (!items.length) {
+    toast('✅ 暂无临期商品');
+    return;
+  }
+
+  var list = items.map(function(i) {
+    return i.name + ' — ' + i.daysLeft + ' 天后过期（' + i.expiryDate + '）';
+  }).join('\n');
+  alert('📅 临期商品（' + days + ' 天内过期）：\n\n' + list);
 }
 
 // ===== 启动 =====

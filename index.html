@@ -10,12 +10,19 @@
   <div id="app">
     <!-- Onboarding -->
     <div id="viewOnboarding" class="view on">
-      <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:12px;padding:40px 20px">
-        <div style="font-size:48px">🍸</div>
-        <div style="font-size:18px;font-weight:600;color:var(--text)">调酒笔记</div>
-        <div style="font-size:14px;color:var(--text3)">正在准备你的酒柜...</div>
+      <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;gap:12px;padding:40px 20px;background:#FBF7F2">
+        <div style="font-size:64px;animation:pulse 1.5s ease-in-out infinite">🍸</div>
+        <div style="font-size:20px;font-weight:700;color:#3D2C2C;font-family:-apple-system,'SF Pro','PingFang SC','Helvetica Neue',sans-serif">调酒笔记</div>
+        <div style="font-size:15px;color:#8B7E74;font-family:-apple-system,'SF Pro','PingFang SC','Helvetica Neue',sans-serif">正在准备你的酒柜...</div>
+        <div style="margin-top:24px;width:120px;height:3px;background:#EDE4DA;border-radius:2px;overflow:hidden">
+          <div style="width:40%;height:100%;background:#E8734A;border-radius:2px;animation:slide 1s ease-in-out infinite"></div>
+        </div>
       </div>
     </div>
+    <style>
+      @keyframes pulse { 0%,100% { transform:scale(1); } 50% { transform:scale(1.1); } }
+      @keyframes slide { 0% { transform:translateX(-100%); } 100% { transform:translateX(350%); } }
+    </style>
     <!-- Recipes -->
     <div id="viewRecipes" class="view"></div>
     <!-- Recipe Detail -->

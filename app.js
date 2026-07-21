@@ -563,6 +563,8 @@ function addMissingToShopping(recipeId) {
   });
 }
 
+var UNIT_OPTIONS = ['ml', 'g', '个', '片', '根', '瓶', '包', '勺'];
+
 // ===== 酒柜（库存） =====
 function renderInventory() {
   var catKeys = Object.keys(CATEGORIES);
@@ -605,34 +607,36 @@ function renderInventoryItems(category) {
   $('inventoryList').innerHTML = items.map(function(key) {
     var item = userInventory[key];
     var isLow = item.amount <= (item.lowStockThreshold || 100);
-    var statusIcon = isLow ? '🟡' : '🟢';
-    var expiry = item.expiryDate ? '<div style="font-size:12px;color:var(--text3)">📅 ' + item.expiryDate + '</div>' : '';
-    var unitLabel = item.unit || 'ml';
+    var lowLabel = isLow ? '<span style="font-size:11px;color:var(--red);margin-left:4px">低库存</span>' : '';
+    var expiry = item.expiryDate ? '<div style="font-size:12px;color:var(--text3)">📅 保质至 ' + item.expiryDate + '</div>' : '';
 
     return '<div class="card" style="padding:14px;margin-bottom:10px">\
       <div style="display:flex;align-items:center;justify-content:space-between">\
         <div style="flex:1;min-width:0">\
-          <div style="font-size:15px;font-weight:500">' + item.name + ' <span style="font-size:12px;color:var(--text3)">' + (CATEGORIES[item.category] ? CATEGORIES[item.category].label : item.category) + '</span></div>\
-          <div style="font-size:13px;color:var(--text2);margin-top:2px">' + item.amount + ' ' + unitLabel + ' ' + statusIcon + '</div>\
+          <div style="font-size:15px;font-weight:500">' + item.name + ' <span style="font-size:12px;color:var(--text3)">' + (CATEGORIES[item.category] ? CATEGORIES[item.category].label : item.category) + '</span>' + lowLabel + '</div>\
+          <div style="font-size:15px;color:var(--text);margin-top:4px;font-weight:600">' + item.amount + ' ' + (item.unit || '') + '</div>\
           ' + expiry + '\
         </div>\
-        <div style="display:flex;align-items:center;gap:4px">\
-          <div class="inv-btn" onclick="adjustInventory(\'' + key + '\', -1)" style="font-size:18px;width:32px;height:32px">-</div>\
-          <input type="number" class="s-input" style="width:60px;text-align:center;padding:6px;font-size:15px" value="' + item.amount + '" onchange="setInventoryAmount(\'' + key + '\', this.value)">\
-          <div class="inv-btn" onclick="adjustInventory(\'' + key + '\', 1)" style="font-size:18px;width:32px;height:32px">+</div>\
+        <div style="display:flex;align-items:center;gap:6px">\
+          <div class="inv-btn" onclick="adjustInventory(\'' + key + '\', -1)" style="font-size:18px;width:34px;height:34px">-</div>\
+          <input type="number" class="s-input" style="width:64px;text-align:center;padding:8px;font-size:16px" value="' + item.amount + '" onchange="setInventoryAmount(\'' + key + '\', this.value)">\
+          <div class="inv-btn" onclick="adjustInventory(\'' + key + '\', 1)" style="font-size:18px;width:34px;height:34px">+</div>\
+          <div style="font-size:18px;cursor:pointer;padding:4px 6px;color:var(--red);opacity:0.6" onclick="deleteInventoryItem(\'' + key + '\')">🗑️</div>\
         </div>\
-      </div>\
-      <div style="display:flex;gap:8px;margin-top:8px">\
-        <div style="font-size:12px;color:var(--text3);cursor:pointer" onclick="openEditInventory(\'' + key + '\')">✏️ 编辑</div>\
-        <div style="font-size:12px;color:var(--red);cursor:pointer;margin-left:auto" onclick="deleteInventoryItem(\'' + key + '\')">🗑️</div>\
       </div>\
     </div>';
   }).join('');
 }
 
 function openAddInventoryModal() {
-  var catOptions = Object.keys(CATEGORIES).map(function(k) {
+  var catKeys = Object.keys(CATEGORIES);
+  var catOptions = catKeys.map(function(k) {
     return '<option value="' + k + '">' + CATEGORIES[k].label + '</option>';
+  }).join('');
+
+  var today = new Date().toISOString().split('T')[0];
+  var unitOptions = UNIT_OPTIONS.map(function(u) {
+    return '<option value="' + u + '">' + u + '</option>';
   }).join('');
 
   var modal = document.createElement('div');
@@ -648,7 +652,7 @@ function openAddInventoryModal() {
       </div>\
       <div style="margin-bottom:16px">\
         <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">分类</label>\
-        <select class="s-input" id="invCategory" onchange="onCategoryChange(this.value)" style="width:100%;font-size:16px;appearance:auto">\
+        <select class="s-input" id="invCategory" onchange="onCategoryChange(this.value)" style="width:100%;font-size:16px;appearance:auto;padding:12px 16px;border-radius:12px">\
           ' + catOptions + '\
         </select>\
       </div>\
@@ -659,27 +663,27 @@ function openAddInventoryModal() {
         </div>\
         <div style="flex:1">\
           <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">单位</label>\
-          <input class="s-input" id="invUnit" style="width:100%;font-size:16px">\
+          <select class="s-input" id="invUnit" style="width:100%;font-size:16px;appearance:auto;padding:12px 16px;border-radius:12px">\
+            ' + unitOptions + '\
+          </select>\
         </div>\
       </div>\
       <div style="margin-bottom:20px">\
-        <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">保质期（可选）</label>\
-        <input type="date" class="s-input" id="invExpiry" style="width:100%;font-size:16px">\
+        <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">保质期至（可选）</label>\
+        <input type="date" class="s-input" id="invExpiry" min="' + today + '" style="width:100%;font-size:16px">\
       </div>\
       <button class="btn-primary" style="width:100%;padding:14px" onclick="submitAddInventory()">保存</button>\
     </div>';
 
   document.body.appendChild(modal);
   document.getElementById('invName').focus();
-
-  // Set default unit
   onCategoryChange('base_spirit');
 }
 
 function onCategoryChange(cat) {
-  var unitInput = document.getElementById('invUnit');
-  if (unitInput && CATEGORIES[cat]) {
-    unitInput.value = CATEGORIES[cat].unit;
+  var unitSelect = document.getElementById('invUnit');
+  if (unitSelect && CATEGORIES[cat]) {
+    unitSelect.value = CATEGORIES[cat].unit;
   }
 }
 
@@ -690,7 +694,7 @@ function submitAddInventory() {
 
   var category = document.getElementById('invCategory').value;
   var amount = Math.max(0, parseInt(document.getElementById('invAmount').value) || 0);
-  var unit = document.getElementById('invUnit').value.trim() || CATEGORIES[category].unit;
+  var unit = document.getElementById('invUnit').value;
   var expiry = document.getElementById('invExpiry').value || '';
 
   userInventory[name] = {
@@ -721,6 +725,11 @@ function openEditInventory(key) {
     return '<option value="' + k + '"' + (k === item.category ? ' selected' : '') + '>' + CATEGORIES[k].label + '</option>';
   }).join('');
 
+  var unitOptions = UNIT_OPTIONS.map(function(u) {
+    return '<option value="' + u + '"' + (u === item.unit ? ' selected' : '') + '>' + u + '</option>';
+  }).join('');
+
+  var today = new Date().toISOString().split('T')[0];
   var modal = document.createElement('div');
   modal.id = 'editItemModal';
   modal.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:1000;display:flex;align-items:flex-end;justify-content:center';
@@ -734,7 +743,7 @@ function openEditInventory(key) {
       </div>\
       <div style="margin-bottom:16px">\
         <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">分类</label>\
-        <select class="s-input" id="editCategory" onchange="document.getElementById(\'editUnit\').value=CATEGORIES[this.value].unit" style="width:100%;font-size:16px;appearance:auto">\
+        <select class="s-input" id="editCategory" onchange="document.getElementById(\'editUnit\').value=CATEGORIES[this.value].unit" style="width:100%;font-size:16px;appearance:auto;padding:12px 16px;border-radius:12px">\
           ' + catOptions + '\
         </select>\
       </div>\
@@ -745,12 +754,14 @@ function openEditInventory(key) {
         </div>\
         <div style="flex:1">\
           <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">单位</label>\
-          <input class="s-input" id="editUnit" value="' + item.unit + '" style="width:100%;font-size:16px">\
+          <select class="s-input" id="editUnit" style="width:100%;font-size:16px;appearance:auto;padding:12px 16px;border-radius:12px">\
+            ' + unitOptions + '\
+          </select>\
         </div>\
       </div>\
       <div style="margin-bottom:20px">\
-        <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">保质期</label>\
-        <input type="date" class="s-input" id="editExpiry" value="' + (item.expiryDate || '') + '" style="width:100%;font-size:16px">\
+        <label style="font-size:14px;color:var(--text2);display:block;margin-bottom:6px">保质期至（可选）</label>\
+        <input type="date" class="s-input" id="editExpiry" value="' + (item.expiryDate || '') + '" min="' + today + '" style="width:100%;font-size:16px">\
       </div>\
       <button class="btn-primary" style="width:100%;padding:14px;margin-bottom:10px" onclick="submitEditInventory(\'' + key + '\')">保存</button>\
       <button class="btn-secondary" style="width:100%;padding:14px;color:var(--red);border-color:var(--red)" onclick="deleteInventoryItem(\'' + key + '\')">删除</button>\
@@ -765,7 +776,7 @@ function submitEditInventory(key) {
 
   item.category = document.getElementById('editCategory').value;
   item.amount = Math.max(0, parseInt(document.getElementById('editAmount').value) || 0);
-  item.unit = document.getElementById('editUnit').value.trim() || CATEGORIES[item.category].unit;
+  item.unit = document.getElementById('editUnit').value;
   item.expiryDate = document.getElementById('editExpiry').value || '';
 
   dbPut('inventory', item).then(function() {
@@ -830,6 +841,35 @@ function renderShopping() {
 
 function loadShopping() {
   renderShopping();
+}
+
+function adjustInventory(key, delta) {
+  if (userInventory[key]) {
+    userInventory[key].amount = Math.max(0, (userInventory[key].amount || 0) + delta);
+    dbPut('inventory', userInventory[key]).then(function() {
+      var currentCat = document.querySelector('#viewInventory .filter-chip.on');
+      renderInventoryItems(currentCat ? currentCat.dataset.cat : 'all');
+    });
+  }
+}
+
+function setInventoryAmount(key, value) {
+  if (userInventory[key]) {
+    userInventory[key].amount = Math.max(0, parseInt(value) || 0);
+    dbPut('inventory', userInventory[key]).then(function() {
+      var currentCat = document.querySelector('#viewInventory .filter-chip.on');
+      renderInventoryItems(currentCat ? currentCat.dataset.cat : 'all');
+    });
+  }
+}
+
+function deleteInventoryItem(key) {
+  if (!confirm('删除 ' + userInventory[key].name + '？')) return;
+  delete userInventory[key];
+  dbDelete('inventory', key).then(function() {
+    var currentCat = document.querySelector('#viewInventory .filter-chip.on');
+    renderInventoryItems(currentCat ? currentCat.dataset.cat : 'all');
+  });
 }
 
 function markPurchased(key) {
@@ -1023,10 +1063,10 @@ function openTutorial(id) {
 
 // ===== 设置 =====
 function renderSettings() {
-  var thresholdEnabled = userPrefs.lowStockThreshold !== false && userPrefs.lowStockThreshold !== 0;
-  var expiryEnabled = userPrefs.expiryWarningDays !== false && userPrefs.expiryWarningDays !== 0;
-  var thresholdVal = userPrefs.lowStockThreshold || 100;
-  var expiryVal = userPrefs.expiryWarningDays || 3;
+  var thresholdEnabled = userPrefs.lowStockThreshold !== false;
+  var expiryEnabled = userPrefs.expiryWarningDays !== false;
+  var thresholdVal = userPrefs.lowStockThreshold != null ? userPrefs.lowStockThreshold : 100;
+  var expiryVal = userPrefs.expiryWarningDays != null ? userPrefs.expiryWarningDays : 3;
 
   $('viewSettings').innerHTML = '\
     <div class="header">\
@@ -1035,48 +1075,48 @@ function renderSettings() {
       <div style="width:40px"></div>\
     </div>\
     <div class="card">\
-      <div class="card-title">低库存提醒</div>\
-      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">\
-        <span style="font-size:14px;color:var(--text2)">启用低库存提醒</span>\
+      <div style="display:flex;align-items:center;justify-content:space-between">\
+        <div class="card-title" style="margin:0">低库存提醒</div>\
         <label class="toggle" style="display:inline-block">\
           <input type="checkbox" id="thresholdToggle" ' + (thresholdEnabled ? 'checked' : '') + ' onchange="toggleThreshold(this.checked)">\
           <span class="toggle-slider"></span>\
         </label>\
       </div>\
-      <div id="thresholdConfig" style="' + (thresholdEnabled ? '' : 'display:none') + '">\
-        <div style="font-size:14px;color:var(--text2);margin-bottom:8px">当库存低于 <input type="number" class="s-input" id="thresholdInput" value="' + thresholdVal + '" style="width:80px;text-align:center"> <span style="font-size:13px;color:var(--text3)" id="thresholdUnit">ml</span> 时提醒</div>\
+      <div id="thresholdConfig" style="margin-top:12px;' + (thresholdEnabled ? '' : 'display:none') + '">\
+        <div style="font-size:14px;color:var(--text2);margin-bottom:8px">当库存低于 <input type="number" class="s-input" id="thresholdInput" value="' + thresholdVal + '" style="width:80px;text-align:center"> ml 时提醒</div>\
         <button class="btn-primary" style="margin-top:8px;width:auto;padding:10px 24px" onclick="saveThreshold()">保存</button>\
       </div>\
     </div>\
     <div class="card">\
-      <div class="card-title">过期预警</div>\
-      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">\
-        <span style="font-size:14px;color:var(--text2)">启用过期预警</span>\
+      <div style="display:flex;align-items:center;justify-content:space-between">\
+        <div class="card-title" style="margin:0">过期预警</div>\
         <label class="toggle" style="display:inline-block">\
           <input type="checkbox" id="expiryToggle" ' + (expiryEnabled ? 'checked' : '') + ' onchange="toggleExpiry(this.checked)">\
           <span class="toggle-slider"></span>\
         </label>\
       </div>\
-      <div id="expiryConfig" style="' + (expiryEnabled ? '' : 'display:none') + '">\
+      <div id="expiryConfig" style="margin-top:12px;' + (expiryEnabled ? '' : 'display:none') + '">\
         <div style="font-size:14px;color:var(--text2);margin-bottom:8px">提前 <input type="number" class="s-input" id="expiryWarningInput" value="' + expiryVal + '" min="1" style="width:80px;text-align:center"> 天提醒</div>\
         <button class="btn-primary" style="margin-top:8px;width:auto;padding:10px 24px" onclick="saveExpiryWarning()">保存</button>\
       </div>\
     </div>\
     <div class="card">\
       <div class="card-title">查看清单</div>\
-      <button class="btn-secondary" style="margin-top:8px" onclick="checkLowStock()">⚠️ 低库存清单</button>\
-      <button class="btn-secondary" style="margin-top:8px" onclick="checkExpiringSoon()">📅 临期商品</button>\
+      <button class="btn-secondary" style="margin-top:8px" onclick="showLowStockList()">⚠️ 低库存清单</button>\
+      <button class="btn-secondary" style="margin-top:8px" onclick="showExpiryList()">📅 临期商品</button>\
     </div>';
 }
 
 function toggleThreshold(on) {
   userPrefs.lowStockThreshold = on ? (parseInt($('thresholdInput')?.value) || 100) : false;
   $('thresholdConfig').style.display = on ? '' : 'none';
+  dbPut('prefs', { key: 'lowStockThreshold', value: userPrefs.lowStockThreshold });
 }
 
 function toggleExpiry(on) {
   userPrefs.expiryWarningDays = on ? (parseInt($('expiryWarningInput')?.value) || 3) : false;
   $('expiryConfig').style.display = on ? '' : 'none';
+  dbPut('prefs', { key: 'expiryWarningDays', value: userPrefs.expiryWarningDays });
 }
 
 function saveThreshold() {
@@ -1089,10 +1129,10 @@ function saveExpiryWarning() {
   dbPut('prefs', { key: 'expiryWarningDays', value: userPrefs.expiryWarningDays }).then(function() { toast('✅ 已保存'); });
 }
 
-function checkLowStock() {
+function showLowStockList() {
   var threshold = userPrefs.lowStockThreshold;
   if (threshold === false || threshold === undefined) {
-    toast('请在设置中开启低库存提醒');
+    toast('请先在设置中开启低库存提醒');
     return;
   }
 
@@ -1106,16 +1146,31 @@ function checkLowStock() {
     return;
   }
 
-  var list = items.map(function(k) {
-    return userInventory[k].name + ': ' + userInventory[k].amount + ' ' + userInventory[k].unit;
-  }).join('\n');
-  alert('⚠️ 低库存清单（< ' + threshold + ' ml）：\n\n' + list);
+  var listHtml = items.map(function(k) {
+    var item = userInventory[k];
+    return '<div style="display:flex;align-items:center;padding:10px 0;border-bottom:1px dashed #E0D5C8">\
+      <span style="font-size:16px;flex:1">' + item.name + '</span>\
+      <span style="font-size:14px;color:var(--red)">' + item.amount + ' ' + item.unit + ' / ' + threshold + ' ml</span>\
+    </div>';
+  }).join('');
+
+  var modal = document.createElement('div');
+  modal.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px';
+  modal.onclick = function(e) { if (e.target === modal) modal.remove(); };
+  modal.innerHTML = '\
+    <div style="background:#fff;border-radius:20px;width:100%;max-width:380px;max-height:70vh;overflow-y:auto;padding:24px" onclick="event.stopPropagation()">\
+      <div style="font-size:18px;font-weight:700;margin-bottom:4px;text-align:center">⚠️ 低库存清单</div>\
+      <div style="font-size:13px;color:var(--text2);text-align:center;margin-bottom:16px">库存低于 ' + threshold + ' ml 的材料</div>\
+      <div style="background:var(--surface2);border-radius:12px;padding:12px 16px;margin-bottom:16px">' + listHtml + '</div>\
+      <button class="btn-primary" style="width:100%;padding:12px" onclick="this.closest(\'[style*=fixed]\').remove()">知道了</button>\
+    </div>';
+  document.body.appendChild(modal);
 }
 
-function checkExpiringSoon() {
+function showExpiryList() {
   var days = userPrefs.expiryWarningDays;
   if (days === false || days === undefined) {
-    toast('请在设置中开启过期预警');
+    toast('请先在设置中开启过期预警');
     return;
   }
 
@@ -1137,10 +1192,24 @@ function checkExpiringSoon() {
     return;
   }
 
-  var list = items.map(function(i) {
-    return i.name + ' — ' + i.daysLeft + ' 天后过期（' + i.expiryDate + '）';
-  }).join('\n');
-  alert('📅 临期商品（' + days + ' 天内过期）：\n\n' + list);
+  var listHtml = items.map(function(i) {
+    return '<div style="display:flex;align-items:center;padding:10px 0;border-bottom:1px dashed #E0D5C8">\
+      <span style="font-size:16px;flex:1">' + i.name + '</span>\
+      <span style="font-size:14px;color:var(--red)">' + i.daysLeft + ' 天后过期</span>\
+    </div>';
+  }).join('');
+
+  var modal = document.createElement('div');
+  modal.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px';
+  modal.onclick = function(e) { if (e.target === modal) modal.remove(); };
+  modal.innerHTML = '\
+    <div style="background:#fff;border-radius:20px;width:100%;max-width:380px;max-height:70vh;overflow-y:auto;padding:24px" onclick="event.stopPropagation()">\
+      <div style="font-size:18px;font-weight:700;margin-bottom:4px;text-align:center">📅 临期商品</div>\
+      <div style="font-size:13px;color:var(--text2);text-align:center;margin-bottom:16px">以下商品将在 ' + days + ' 天内过期</div>\
+      <div style="background:var(--surface2);border-radius:12px;padding:12px 16px;margin-bottom:16px">' + listHtml + '</div>\
+      <button class="btn-primary" style="width:100%;padding:12px" onclick="this.closest(\'[style*=fixed]\').remove()">知道了</button>\
+    </div>';
+  document.body.appendChild(modal);
 }
 
 // ===== 启动 =====

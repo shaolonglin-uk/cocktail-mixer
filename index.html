@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>调酒笔记</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Onboarding -->
+    <div id="viewOnboarding" class="view on"></div>
+    <!-- Recipes -->
+    <div id="viewRecipes" class="view"></div>
+    <!-- Recipe Detail -->
+    <div id="viewRecipeDetail" class="view"></div>
+    <!-- Random -->
+    <div id="viewRandom" class="view"></div>
+    <!-- Inventory -->
+    <div id="viewInventory" class="view"></div>
+    <!-- Shopping -->
+    <div id="viewShopping" class="view"></div>
+    <!-- Tutorials -->
+    <div id="viewTutorials" class="view"></div>
+    <!-- Settings -->
+    <div id="viewSettings" class="view"></div>
+    <!-- Timer Overlay -->
+    <div id="timerOverlay" class="overlay"></div>
+  </div>
+  <nav id="tabBar">
+    <button data-view="viewRecipes"><span class="tab-icon">📖</span><span>配方</span></button>
+    <button data-view="viewRandom"><span class="tab-icon">🎲</span><span>随便来一杯</span></button>
+    <button data-view="viewInventory"><span class="tab-icon">🍾</span><span>酒柜</span></button>
+    <button data-view="viewShopping"><span class="tab-icon">🛒</span><span>购物</span></button>
+    <button data-view="viewTutorials"><span class="tab-icon">📚</span><span>教程</span></button>
+  </nav>
+  <div id="toast" class="toast"></div>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

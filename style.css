@@ -1,0 +1,125 @@
+/* ===== Reset & Base ===== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+:root {
+  --bg: #FBF7F2;
+  --surface: #FFFFFF;
+  --surface2: #F5EDE3;
+  --text: #3D2C2C;
+  --text2: #8B7E74;
+  --text3: #B5A99A;
+  --accent: #E8734A;
+  --accent2: #D4573A;
+  --gold: #C5A55A;
+  --green: #5B8C5A;
+  --blue: #4A90D9;
+  --red: #D94F4F;
+  --shadow: 0 2px 12px rgba(61,44,44,0.08);
+  --radius: 16px;
+  --radius-sm: 10px;
+}
+html, body { height: 100%; font-family: -apple-system, 'SF Pro', 'PingFang SC', 'Helvetica Neue', sans-serif; background: var(--bg); color: var(--text); overflow: hidden; }
+#app { height: 100%; display: flex; flex-direction: column; }
+
+/* ===== Views ===== */
+.view { display: none; flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 16px; padding-bottom: 80px; }
+.view.on { display: block; }
+.view::-webkit-scrollbar { display: none; }
+
+/* ===== Header ===== */
+.header { display: flex; align-items: center; justify-content: center; padding: 12px 16px; position: sticky; top: 0; background: var(--bg); z-index: 10; }
+.header h1 { font-size: 22px; font-weight: 700; letter-spacing: 0.5px; }
+.header .back { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 24px; color: var(--text); cursor: pointer; padding: 8px; }
+.header .action { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); font-size: 20px; cursor: pointer; padding: 8px; }
+
+/* ===== Cards ===== */
+.card { background: var(--surface); border-radius: var(--radius); padding: 16px; margin-bottom: 12px; box-shadow: var(--shadow); }
+.card-title { font-size: 16px; font-weight: 600; margin-bottom: 12px; }
+
+/* ===== Bottom Nav ===== */
+#tabBar { display: flex; background: var(--surface); border-top: 1px solid #EDE4DA; padding: 6px 0; padding-bottom: calc(6px + env(safe-area-inset-bottom)); flex-shrink: 0; }
+#tabBar button { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px; background: none; border: none; color: var(--text3); font-size: 10px; cursor: pointer; padding: 4px; }
+#tabBar button.on { color: var(--accent); }
+#tabBar button .tab-icon { font-size: 22px; }
+
+/* ===== Forms ===== */
+.s-input { width: 100%; padding: 12px 14px; border: 1.5px solid #E0D5C8; border-radius: var(--radius-sm); font-size: 15px; background: var(--surface); color: var(--text); outline: none; transition: border-color 0.2s; }
+.s-input:focus { border-color: var(--accent); }
+.btn-primary { width: 100%; padding: 14px; background: var(--accent); color: #fff; border: none; border-radius: var(--radius-sm); font-size: 16px; font-weight: 600; cursor: pointer; }
+.btn-primary:active { background: var(--accent2); }
+.btn-secondary { width: 100%; padding: 12px; background: var(--surface); color: var(--text); border: 1.5px solid #E0D5C8; border-radius: var(--radius-sm); font-size: 15px; cursor: pointer; }
+
+/* ===== Tags ===== */
+.tag { display: inline-block; padding: 4px 10px; border-radius: 20px; font-size: 12px; margin: 2px; }
+.tag-accent { background: #FFF0EB; color: var(--accent); }
+.tag-green { background: #EDF5EB; color: var(--green); }
+.tag-blue { background: #EBF0FB; color: var(--blue); }
+.tag-gold { background: #FBF5E8; color: var(--gold); }
+
+/* ===== Recipe Card ===== */
+.recipe-card { background: var(--surface); border-radius: var(--radius); overflow: hidden; margin-bottom: 12px; box-shadow: var(--shadow); cursor: pointer; }
+.recipe-card-img { width: 100%; height: 180px; object-fit: cover; background: var(--surface2); }
+.recipe-card-body { padding: 14px; }
+.recipe-card-name { font-size: 17px; font-weight: 700; margin-bottom: 4px; }
+.recipe-card-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+.recipe-card-info { font-size: 13px; color: var(--text2); }
+
+/* ===== Search Bar ===== */
+.search-bar { display: flex; gap: 8px; margin-bottom: 12px; }
+.search-bar input { flex: 1; }
+.filter-row { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 8px; margin-bottom: 8px; -webkit-overflow-scrolling: touch; }
+.filter-chip { padding: 6px 14px; border-radius: 20px; font-size: 13px; background: var(--surface2); color: var(--text2); border: none; cursor: pointer; white-space: nowrap; }
+.filter-chip.on { background: var(--accent); color: #fff; }
+
+/* ===== Ingredient List ===== */
+.ing-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #F5EDE3; font-size: 14px; }
+.ing-item:last-child { border-bottom: none; }
+.ing-item .ing-name { flex: 1; }
+.ing-item .ing-amount { color: var(--text2); margin-left: 8px; }
+
+/* ===== Step List ===== */
+.step-item { display: flex; gap: 12px; padding: 10px 0; }
+.step-num { width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; flex-shrink: 0; }
+.step-text { font-size: 14px; line-height: 1.6; padding-top: 4px; }
+
+/* ===== Toast ===== */
+.toast { position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%) translateY(20px); background: rgba(61,44,44,0.92); color: #fff; padding: 10px 24px; border-radius: 24px; font-size: 14px; opacity: 0; transition: all 0.3s; z-index: 1000; pointer-events: none; white-space: nowrap; }
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* ===== Inventory ===== */
+.inv-item { display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #F5EDE3; }
+.inv-item:last-child { border-bottom: none; }
+.inv-info { flex: 1; }
+.inv-name { font-size: 15px; font-weight: 500; }
+.inv-qty { font-size: 13px; color: var(--text2); margin-top: 2px; }
+.inv-controls { display: flex; align-items: center; gap: 10px; }
+.inv-btn { width: 32px; height: 32px; border-radius: 50%; border: 1.5px solid #E0D5C8; background: var(--surface); font-size: 18px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--text); }
+.inv-btn:active { background: var(--surface2); }
+.inv-qty-num { font-size: 15px; font-weight: 600; min-width: 50px; text-align: center; }
+
+/* ===== Timer ===== */
+.timer-circle { width: 200px; height: 200px; border-radius: 50%; border: 6px solid var(--accent); display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 40px auto; }
+.timer-time { font-size: 48px; font-weight: 700; color: var(--text); }
+.timer-label { font-size: 14px; color: var(--text2); margin-top: 4px; }
+
+/* ===== Onboarding ===== */
+.onboard-page { display: none; flex-direction: column; align-items: center; justify-content: center; min-height: 100%; padding: 40px 32px; text-align: center; }
+.onboard-page.on { display: flex; }
+.onboard-icon { font-size: 64px; margin-bottom: 24px; }
+.onboard-title { font-size: 24px; font-weight: 700; margin-bottom: 12px; }
+.onboard-desc { font-size: 15px; color: var(--text2); line-height: 1.7; margin-bottom: 32px; }
+.flavor-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; max-width: 320px; margin-bottom: 24px; }
+.flavor-opt { padding: 16px; border-radius: var(--radius-sm); border: 2px solid #E0D5C8; background: var(--surface); font-size: 15px; cursor: pointer; text-align: center; }
+.flavor-opt.on { border-color: var(--accent); background: #FFF0EB; color: var(--accent); font-weight: 600; }
+
+/* ===== Tutorial ===== */
+.tutorial-card { background: var(--surface); border-radius: var(--radius); overflow: hidden; margin-bottom: 12px; box-shadow: var(--shadow); }
+.tutorial-thumb { width: 100%; height: 140px; background: var(--surface2); display: flex; align-items: center; justify-content: center; font-size: 48px; }
+.tutorial-body { padding: 14px; }
+.tutorial-title { font-size: 16px; font-weight: 600; }
+.tutorial-desc { font-size: 13px; color: var(--text2); margin-top: 4px; }
+
+/* ===== Responsive ===== */
+@media (min-width: 480px) {
+  .view { max-width: 480px; margin: 0 auto; width: 100%; }
+  #tabBar { max-width: 480px; margin: 0 auto; width: 100%; }
+}

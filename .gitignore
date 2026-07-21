@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Firebase (local emulator data)
+.firebase/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/

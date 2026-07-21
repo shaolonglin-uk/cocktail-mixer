@@ -123,3 +123,6 @@ html, body { height: 100%; font-family: -apple-system, 'SF Pro', 'PingFang SC', 
   .view { max-width: 480px; margin: 0 auto; width: 100%; }
   #tabBar { max-width: 480px; margin: 0 auto; width: 100%; }
 }
+
+/* ===== Category filter ===== */
+.cat-row { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 6px; margin-bottom: 8px; -webkit-overflow-scrolling: touch; }

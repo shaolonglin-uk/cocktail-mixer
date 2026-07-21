@@ -9,7 +9,13 @@
 <body>
   <div id="app">
     <!-- Onboarding -->
-    <div id="viewOnboarding" class="view on"></div>
+    <div id="viewOnboarding" class="view on">
+      <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:12px;padding:40px 20px">
+        <div style="font-size:48px">🍸</div>
+        <div style="font-size:18px;font-weight:600;color:var(--text)">调酒笔记</div>
+        <div style="font-size:14px;color:var(--text3)">正在准备你的酒柜...</div>
+      </div>
+    </div>
     <!-- Recipes -->
     <div id="viewRecipes" class="view"></div>
     <!-- Recipe Detail -->
@@ -37,6 +43,11 @@
     <button data-view="viewTutorials"><span class="tab-icon">📚</span><span>教程</span></button>
   </nav>
   <div id="toast" class="toast"></div>
+  <noscript>
+    <div style="display:flex;align-items:center;justify-content:center;height:100vh;padding:40px;text-align:center;font-size:16px;color:#3D2C2C">
+      <div><div style="font-size:48px;margin-bottom:16px">🍸</div><div style="font-weight:600;margin-bottom:8px">调酒笔记</div><div>请开启 JavaScript 以使用此应用</div></div>
+    </div>
+  </noscript>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>

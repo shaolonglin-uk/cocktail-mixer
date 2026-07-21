@@ -56,9 +56,15 @@ function toast(msg) {
 
 // ===== 初始化 =====
 function init() {
-  db.enablePersistence({ synchronizeTabs: true }).catch(function(err) {
-    if (err.code !== 'failed-precondition') console.error('Persistence error:', err);
-  });
+  try {
+    db.enablePersistence({ synchronizeTabs: true }).catch(function(err) {
+      if (err.code !== 'failed-precondition') console.error('Persistence error:', err);
+    });
+  } catch(e) {
+    console.error('Firebase init error:', e);
+    showFirebaseError();
+    return;
+  }
 
   // Tab bar 事件
   document.querySelectorAll('#tabBar button').forEach(function(btn) {
@@ -78,9 +84,25 @@ function init() {
     if (user) {
       loadUserData();
     } else {
-      auth.signInAnonymously().catch(function(e) { console.error('Auth error:', e); });
+      auth.signInAnonymously().catch(function(e) {
+        console.error('Auth error:', e);
+        showFirebaseError();
+      });
     }
   });
+}
+
+function showFirebaseError() {
+  var el = $('viewOnboarding');
+  if (el) {
+    el.innerHTML = '\
+      <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:12px;padding:40px 20px">\
+        <div style="font-size:48px">😅</div>\
+        <div style="font-size:18px;font-weight:600">网络好像不太给力</div>\
+        <div style="font-size:14px;color:var(--text3);text-align:center">请检查网络连接后刷新页面<br>或者稍后再试</div>\
+        <button class="btn-primary" style="margin-top:16px" onclick="location.reload()">刷新页面</button>\
+      </div>';
+  }
 }
 
 // ===== 加载用户数据 =====
@@ -113,11 +135,7 @@ function loadUserData() {
     }
   }).catch(function(err) {
     console.error('loadUserData error:', err);
-    // Fallback: use local recipes
-    allRecipes = typeof RECIPES_DATA !== 'undefined' ? RECIPES_DATA : [];
-    recipeCacheReady = true;
-    renderOnboarding();
-    showView('viewOnboarding');
+    showFirebaseError();
   });
 }
 

@@ -1,34 +1,44 @@
 /* ===== 调酒笔记 — 主应用逻辑 v0.3 ===== */
 
 // ===== Firebase 配置 =====
-const firebaseConfig = {
-  apiKey: "AIzaSyCGX6jzIZ8XG3Ov72yVlozoWnm_bQEnslxY",
-  authDomain: "cocktail-notes-08288.firebaseapp.com",
-  projectId: "cocktail-notes-08288",
-  storageBucket: "cocktail-notes-08288.firebasestorage.app",
-  messagingSenderId: "549453200909",
-  appId: "1:549453200909:web:32c820c3906e5e93091f44",
-  measurementId: "G-WHF9MC23CK"
-};
-firebase.initializeApp(firebaseConfig);
-const db = firebase.firestore();
-const auth = firebase.auth();
+if (typeof firebase === 'undefined') {
+  // Firebase SDK failed to load (likely blocked by GFW)
+  document.addEventListener('DOMContentLoaded', function() {
+    var el = $('viewOnboarding');
+    if (el) {
+      el.innerHTML = '\
+        <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;gap:16px;padding:40px 20px;background:#FBF7F2">\
+          <div style="font-size:56px">🌐</div>\
+          <div style="font-size:20px;font-weight:700;color:#3D2C2C;font-family:-apple-system,\'SF Pro\',\'PingFang SC\',sans-serif">需要连接网络服务</div>\
+          <div style="font-size:14px;color:#8B7E74;text-align:center;line-height:1.8;font-family:-apple-system,\'SF Pro\',\'PingFang SC\',sans-serif">\
+            调酒笔记需要连接到 Firebase 云端服务<br>\
+            请确保你的网络可以访问国际互联网<br>\
+            开启 VPN 或代理后刷新页面即可\
+          </div>\
+          <button class="btn-primary" style="margin-top:16px" onclick="location.reload()">刷新页面</button>\
+        </div>';
+    }
+  });
+} else {
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+  const auth = firebase.auth();
 
-// ===== 全局状态 =====
-let currentUser = null;
-let recipesSeeded = false;
-let userInventory = {};
-let userBrewCounts = {};
-let userFavorites = {};
-let userShopping = {};
-let userPrefs = {};
-let allRecipes = [];
-let recipeCacheReady = false;
+  // ===== 全局状态 =====
+  let currentUser = null;
+  let recipesSeeded = false;
+  let userInventory = {};
+  let userBrewCounts = {};
+  let userFavorites = {};
+  let userShopping = {};
+  let userPrefs = {};
+  let allRecipes = [];
+  let recipeCacheReady = false;
 
-// 筛选状态
-let filterBaseSpirit = [];
-let filterFlavor = [];
-let searchQuery = '';
+  // 筛选状态
+  let filterBaseSpirit = [];
+  let filterFlavor = [];
+  let searchQuery = '';
 
 // ===== 工具函数 =====
 function $(id) { return document.getElementById(id); }
@@ -1072,3 +1082,5 @@ function checkLowStock() {
 
 // ===== 启动 =====
 document.addEventListener('DOMContentLoaded', init);
+
+} // end else (firebase loaded)

@@ -1,4 +1,4 @@
-// Auto-generated from TheCocktailDB — 441 recipes (Chinese + metric)
+// Auto-generated from TheCocktailDB — 441 recipes (Chinese + metric + steps)
 const RECIPES_DATA = [
   {
     "id": "15423",
@@ -26,7 +26,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Drop shooter in glass. Fill with beer"
+      "Drop shooter in 杯.",
+      "加入 beer"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -89,7 +90,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine all ingredients. Blend until smooth. Garnish with chocolate shavings if desired."
+      "混合 all ingredients.",
+      "搅拌 until smooth.",
+      "用...装饰 巧克力 shavings if desired."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -133,7 +136,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Blend with ice. Serve in a wine glass. Garnish with carrot."
+      "搅拌 加冰.",
+      "上桌 在 葡萄酒杯.",
+      "用...装饰 carrot."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -176,7 +181,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add over ice,shake and pour."
+      "加入 加冰,摇晃 并 倒入."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -209,7 +214,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add both ingredients to shot glass, shoot, and get drunk quick"
+      "加入 both ingredients to 烈酒杯, shoot, 并 get drunk quick"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -245,7 +250,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "put them them in a glass... and slam it to tha head."
+      "放 them them 在 杯...",
+      "并 slam it to tha head."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -316,7 +322,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill 14oz glass with ice and alcohol. Fill 2/3 glass with cola and remainder with sweet & sour. Top with dash of bitters and lemon wedge."
+      "加满 14oz 杯 加冰 并 alcohol.",
+      "加满 2/3 杯 with cola 并 remainder with sweet & sour.",
+      "顶部加 dash of 苦精 并 柠檬 wedge."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -349,7 +357,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix together and enjoy!"
+      "混合 together 并 enjoy!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -387,7 +395,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "fill glass with crushed ice. Add vodka. Add a splash of grand-marnier. Fill with o.j."
+      "加满 杯 with 碎冰.",
+      "加入 伏特加.",
+      "加入 a splash of gr并-marnier.",
+      "加入 o.j."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -435,7 +446,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix equal amounts into a glass with ice."
+      "混合 equal amounts into a 杯 加冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -468,7 +479,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "1. Fill a rocks glass with ice 2.add white creme de cacao and vodka 3.stir"
+      "加满 a 古典杯 加冰 2.加入 white creme de cacao 并 伏特加 3.搅拌"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -506,7 +517,12 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour 2 oz. gin. Add 4 oz. 7-up. Add Lemon Juice for flavor. If you are weak, top up glass with more 7-Up."
+      "倒入 2 oz.",
+      "金酒.",
+      "加入 4 oz.",
+      "7-up.",
+      "加入 柠檬 Ju冰 for flavor.",
+      "If you are weak, 加满 杯 with more 7-Up."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -542,7 +558,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "pour kaluha, then Baileys, then Frangelico not chilled and not layered -- SERVE!!!"
+      "倒入 kaluha, 然后 百利甜, 然后 榛子力娇酒 not 冰镇 并 not 分层ed -- 上桌!!!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -585,10 +601,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill a Collins glass with ice.",
-      "Pour in vodka, lime cordial, and cranberry juice.",
-      "Fill up with Sprite.",
-      "Garnish with a Lime wheel or some cranberries"
+      "加满 a 柯林斯杯 加冰.",
+      "倒入 in 伏特加, 青柠 cordial, 并 cranberry ju冰.",
+      "加满 up with Sprite.",
+      "用...装饰 a 青柠 wheel or some cranberries"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -629,7 +645,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine all ingredients in glass mixer. Chill and strain into Cocktail glass. Garnish with sliced strawberry."
+      "混合 all ingredients in 杯 混合er.",
+      "冰镇 并 滤入 into 鸡尾酒杯.",
+      "用...装饰 sl冰d 草莓y."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -660,7 +678,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake ingredients with ice, strain into a cocktail glass, and serve."
+      "摇晃 ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -703,7 +721,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients into a cocktail shaker, mix and serve over ice into a chilled glass."
+      "倒入 all ingredients into a cocktail 摇酒壶, 混合 并 上桌 加冰 into a 冰镇 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -739,7 +757,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Layered in a shot glass."
+      "分层ed 在 烈酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -772,7 +790,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Poor in the 151 first followed by the 101 served with a Coke or Dr Pepper chaser."
+      "Poor in the 151 first followed by the 101 上桌d with a Coke or Dr Pepper chaser."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -811,7 +829,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour Vodka and Gin over ice, add Tonic and Stir"
+      "倒入 伏特加 并 金酒 加冰, 加入 Tonic 并 搅拌"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -849,7 +867,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all of the ingredients into a highball glass almost filled with ice cubes. Stir well."
+      "倒入 all of the ingredients into a 高球杯 almost 加满ed with 冰块.",
+      "充分搅拌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -902,7 +921,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine and shake all ingredients (except mint) with ice and strain into an old-fashioned glass over ice cubes. Add the sprig of mint and serve."
+      "混合 并 摇晃 all ingredients (except 薄荷) 加冰 并 滤入 into an old-fashioned 杯 over 冰块.",
+      "加入 the sprig of 薄荷 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -950,7 +970,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all the ingredients in a cocktail shaker and ice then strain in a cold glass."
+      "摇晃 all the ingredients 在 cocktail 摇酒壶 并 冰 然后 滤入 在 cold 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -988,7 +1008,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass."
+      "在 摇酒壶 half-加满ed with 冰块, 混合 all of the ingredients.",
+      "充分摇晃.",
+      "滤入 into a 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1024,7 +1046,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix both the vermouth's in a shaker and strain into a cold glass. Top up with a squirt of Soda Water."
+      "混合 both the 味美思's 在 摇酒壶 并 滤入 into a cold 杯.",
+      "加满 with a squirt of Soda Water."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1057,7 +1080,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake together all the ingredients and strain into a cold glass."
+      "摇晃 together all the ingredients 并 滤入 into a cold 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1098,7 +1121,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour schnapps, orange juice, and cranberry juice over ice in a highball glass. Top with club soda and serve."
+      "倒入 schnapps, 橙子 ju冰, 并 cranberry ju冰 加冰 在 高球杯.",
+      "顶部加 club soda 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1141,7 +1165,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass."
+      "在 混合ing 杯 half-加满ed with 冰块, 混合 all of the ingredients.",
+      "充分搅拌.",
+      "滤入 into a 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1177,7 +1203,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix. Serve over ice."
+      "混合.",
+      "上桌 加冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1220,7 +1247,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve."
+      "摇晃 all ingredients 加冰 并 滤入 contents into a 鸡尾酒杯.",
+      "撒 nutmeg on top 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1258,7 +1286,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine and shake all ingredients with ice, strain contents into a cocktail glass, and serve."
+      "混合 并 摇晃 all ingredients 加冰, 滤入 contents into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1307,7 +1335,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients (except lemon peel) with ice and strain into a cocktail glass. Top with the twist of lemon peel and serve."
+      "摇晃 all ingredients (except 柠檬 peel) 加冰 并 滤入 into a 鸡尾酒杯.",
+      "Top 用 twist of 柠檬 peel 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1345,7 +1374,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass."
+      "在 摇酒壶 half-加满ed with 冰块, 混合 all of the ingredients.",
+      "充分摇晃.",
+      "滤入 into a 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1386,7 +1417,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the Campari and vermouth over ice into glass, add a splash of soda water and garnish with half orange slice."
+      "倒入 the Campari 并 味美思 加冰 into 杯, 加入 a splash of soda water 并 用...装饰 half 橙子 sl冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1427,7 +1458,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stirr. Grnish with maraschino cherry."
+      "搅拌r.",
+      "Grnish with maraschino 樱桃."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1463,7 +1495,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a cocktail glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1501,7 +1533,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir all ingredients with ice, strain into a cocktail glass, and serve."
+      "搅拌 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1537,7 +1569,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix in highball glass over ice, shake well."
+      "混合 in 高球杯 加冰, 充分摇晃."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1585,7 +1617,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill a tall glass with ice. Layer the Finlandia Vodka, lemon and apple juices, Pisang Ambon, and top up with lemonade. Stir slightly and garnish with a spiralled cucumber skin and a red cherry. The cucumber provides zest and looks attractive. This drink, created by Timo Haimi, took first prize in the 1991 Finlandia Vodka Long Drink Competition."
+      "加满 a tall 杯 加冰.",
+      "分层 the Finl并ia 伏特加, 柠檬 并 apple ju冰s, Pisang Ambon, 并 加满 with 柠檬ade.",
+      "搅拌 slightly 并 用...装饰 a spiralled cucumber sk在nd a red 樱桃.",
+      "The cucumber provides zest 并 looks attractive.",
+      "This drink, created by Timo Haimi, took first prize in the 1991 Finl并ia 伏特加 Long Drink Competition."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1623,7 +1659,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass. Garnish with a cherry."
+      "加入 all ingredients into cocktail 摇酒壶 加满ed 加冰.",
+      "充分摇晃 并 滤入 into 鸡尾酒杯.",
+      "用...装饰 a 樱桃."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1659,7 +1697,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Layer ingredients into a shot glass. Serve with a stirrer."
+      "分层 ingredients into a 烈酒杯.",
+      "上桌 with a 搅拌rer."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1695,7 +1734,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Layer the Kahlua, Sambucca and Grand Marnier into a shot glas in that order. Better than B-52"
+      "分层 the 甘露咖啡酒, Sambucca 并 柑曼怡 into a shot glas in that order.",
+      "Better than B-52"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1731,7 +1771,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Leave ice-cream out for about 10 minutes. Add ingredients in order, stir with chopstick (butter knife or spoon works too). Consume immediately and often. Nice and light, great for following a heavy drink."
+      "Leave 冰-奶油 out for about 10 minutes.",
+      "加入 ingredients in order, 搅拌 with chopstick (butter knife or 勺 works too).",
+      "Consume immediately 并 often.",
+      "N冰 并 light, great for following a heavy drink."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1789,8 +1832,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add 2 parts club soda or more or less to taste.",
-      "Mix it all together and pour over a bunch of ice. Drink with a straw."
+      "加入 2 parts club soda or more or less 适量.",
+      "混合 it all together 并 倒入 over a bunch of 冰.",
+      "Drink with a 吸管."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1833,7 +1877,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass."
+      "在 混合ing 杯 half-加满ed with 冰块, 混合 all of the ingredients.",
+      "充分搅拌.",
+      "滤入 into a 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1881,7 +1927,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake pour ingredients with ice. Strain into glass, top with Sparkling wine."
+      "摇晃 倒入 ingredients 加冰.",
+      "滤入 into 杯, 顶部加 Sparkling wine."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1912,7 +1959,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour peach purée into chilled flute, add sparkling wine. Stir gently."
+      "倒入 peach purée into 冰镇 flute, 加入 sparkling wine.",
+      "搅拌 轻轻."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1953,7 +2001,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix all ingredients, and pour over ice."
+      "混合 all ingredients, 并 倒入 加冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -1984,7 +2032,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour ingredients into 1 ounce shot glass"
+      "倒入 ingredients into 1 ounce 烈酒杯"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2027,7 +2075,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir in mixing glass with ice and strain"
+      "搅拌 in 混合ing 杯 加冰 并 滤入"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2065,7 +2113,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir sloe gin and vermouth with ice and strain into a cocktail glass. Add the twist of lemon peel and serve."
+      "搅拌 sloe g在nd 味美思 加冰 并 滤入 into a 鸡尾酒杯.",
+      "加入 the twist of 柠檬 peel 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2118,7 +2167,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a mixing glass half-filled with crushed ice, combine the gin, triple sec, Curacao, and bitters. Stir well. Strain into a cocktail glass and garnish with the lemon twist and the cherry."
+      "在 混合ing 杯 half-加满ed with 碎冰, 混合 the 金酒, 橙皮甜酒, Curacao, 并 苦精.",
+      "充分搅拌.",
+      "滤入 into a 鸡尾酒杯 并 用...装饰 the 柠檬 twist 并 the 樱桃."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2154,7 +2205,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Layer in a 2 oz shot glass or pony glass"
+      "分层 在 2 oz 烈酒杯 or pony 杯"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2202,7 +2253,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a mixing glass half-filled with ice cubes, combine the gin, vermouth, bitters, and maraschino liqueur. Stir well. Strain into a cocktail glass and garnish with the cherry."
+      "在 混合ing 杯 half-加满ed with 冰块, 混合 the 金酒, 味美思, 苦精, 并 maraschino liqueur.",
+      "充分搅拌.",
+      "滤入 into a 鸡尾酒杯 并 用...装饰 the 樱桃."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2243,7 +2296,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Prepare in a blender or shaker, serve in a highball glass on the rocks. Garnish with 1 slice of pineapple and one cherry."
+      "Prepare 在 搅拌机 or 摇酒壶, 上桌 在 高球杯 on the rocks.",
+      "用...装饰 1 sl冰 of 菠萝 并 one 樱桃."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2296,7 +2350,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake juice of lemon, powdered sugar, blended whiskey, and egg white with cracked ice and strain into a whiskey sour glass. Add the slice of lemon, top with the cherry, and serve."
+      "摇晃 ju冰 of 柠檬, powdered 糖, 搅拌ed 威士忌, 并 egg white with cracked 冰 并 滤入 into a 威士忌 sour 杯.",
+      "加入 the sl冰 of 柠檬, top 用 樱桃, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2344,7 +2399,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a sour glass."
+      "在 摇酒壶 half-加满ed with 冰块, 混合 all of the ingredients.",
+      "充分摇晃.",
+      "滤入 into a sour 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2398,7 +2455,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix all ingredients together. Slowly and gently. Works best if ice is added to punch bowl and soda's are very cold."
+      "混合 all ingredients together.",
+      "Slowly 并 轻轻.",
+      "Works best if 冰 is 加入ed to punch bowl 并 soda's are very cold."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2441,7 +2500,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill glass with crushed ice. Build gin, lemon juice and simple syrup over. Stir, and then pour blackberry liqueur over in a circular fashion to create marbling effect. Garnish with two blackberries and lemon slice."
+      "加满 杯 with 碎冰.",
+      "Build 金酒, 柠檬 ju冰 并 simple 糖浆 over.",
+      "搅拌, 并 然后 倒入 blackberry liqueur over 在 circular fashion to create marbling effect.",
+      "用...装饰 two blackberries 并 柠檬 sl冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2477,7 +2539,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix ingredients in a warmed mug and stir."
+      "混合 ingredients 在 warmed 杯 并 搅拌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2526,7 +2588,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Half fill the glass with ice cubes. Crush the wormwood and add to ice. Pour rum, scotch and butters, then serve!"
+      "Half 加满 the 杯 with 冰块.",
+      "Crush the wormwood 并 加入 to 冰.",
+      "倒入 朗姆, 苏格兰威士忌 并 butters, 然后 上桌!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2576,7 +2640,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine ingredients with ice and stir until well-chilled. Strain into a chilled cocktail glass."
+      "混合 ingredients 加冰 并 搅拌 until 充分-冰镇.",
+      "滤入 into a 冰镇 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2619,7 +2684,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Layer in order into a shot glass."
+      "分层 in order into a 烈酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2650,7 +2715,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the corona into an 18oz beer glass pour the bacardi limon into the beer stir very gently"
+      "倒入 the corona into an 18oz beer 杯 倒入 the bacardi limon into the beer 搅拌 very 轻轻"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2686,7 +2751,13 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "This is a layered shot. First pour the Bailey's into the shot glass. Then take an upside down spoon and touch it to the inside wall of the glass. Carefully add the Kahlua. Repeat this process for the Sambuca. If done properly, the alcohol will stay separated and resemble a bumble bee. Enjoy!!!"
+      "This is a 分层ed shot.",
+      "First 倒入 the Bailey's into the 烈酒杯.",
+      "然后 take an upside down 勺 并 touch it to the inside wall of the 杯.",
+      "小心 加入 the 甘露咖啡酒.",
+      "Repeat this process for the 萨姆布卡.",
+      "If done properly, the alcohol will stay separated 并 resemble a bumble bee.",
+      "Enjoy!!!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2729,7 +2800,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill mug almost to top with coffee.Add milk, triple sec and brandy. Stir."
+      "加满 杯 almost to 顶部加 咖啡.加入 牛奶, 橙皮甜酒 并 白兰地.",
+      "搅拌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2765,7 +2837,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Place lime and sugar into old fashioned glass and muddle (mash the two ingredients together using a muddler or a wooden spoon). Fill the glass with ice and add the Cachaça."
+      "放 青柠 并 糖 into old fashioned 杯 并 捣碎 (mash the two ingredients together using a 捣碎r or a wooden 勺).",
+      "加满 the 杯 加冰 并 加入 the Cachaça."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2808,7 +2881,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Same as Caipirinha but instead of cachaca you add WHITE RUM. It's great!!!!!!!!"
+      "Same as Caipirinha but instead of cachaca you 加入 WHITE 朗姆.",
+      "It's great!!!!!!!!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2839,7 +2913,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Use a 15 oz glass. Add Campari first. Fill with beer."
+      "Use a 15 oz 杯.",
+      "加入 Campari first.",
+      "加入 beer."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2882,7 +2958,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a cocktail glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2930,7 +3006,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients into shaker with ice cubes. Shake well. Strain into chilled cocktail glass. Garnish with a lemon twist and a maraschino cherry. Serve without a straw."
+      "倒入 all ingredients into 摇酒壶 with 冰块.",
+      "充分摇晃.",
+      "滤入 into 冰镇 鸡尾酒杯.",
+      "用...装饰 a 柠檬 twist 并 a maraschino 樱桃.",
+      "上桌 without a 吸管."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -2978,7 +3058,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a sour glass."
+      "在 摇酒壶 half-加满ed with 冰块, 混合 all of the ingredients.",
+      "充分摇晃.",
+      "滤入 into a sour 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3017,7 +3099,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a cocktail glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3070,7 +3152,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve."
+      "摇晃 all ingredients (except carbonated water) 加冰 并 滤入 into a 高球杯 over two 冰块.",
+      "加入 carbonated water, 搅拌, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3106,7 +3189,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Melt the bar in a small amount of boiling water. Add milk. Cook over low heat, whipping gently (with a whisk, i would assume) until heated well. Don't let it boil! Serve in coffee mug."
+      "Melt the bar 在 small amount of boiling water.",
+      "加入 牛奶.",
+      "Cook over low heat, whipping 轻轻 (with a whisk, i would assume) until heated 充分.",
+      "Don't let it boil!",
+      "上桌 in 咖啡 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3142,7 +3229,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Put the milk in the bottom, pour the Liquer on top and add the dash of amaretto. Do not mix. SLAM IT!"
+      "放 the 牛奶 in the bottom, 倒入 the Liquer on top 并 加入 the dash of amaretto.",
+      "Do not 混合.",
+      "SLAM IT!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3173,7 +3262,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour half of coke in a glass. Then add Bacardi and top it off with the remaining coke. Stir and drink up!"
+      "倒入 half of coke 在 杯.",
+      "然后 加入 Bacardi 并 top it off 用 remaining coke.",
+      "搅拌 并 drink up!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3211,7 +3302,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass."
+      "在 摇酒壶 half-加满ed with 冰块, 混合 all of the ingredients.",
+      "充分摇晃.",
+      "滤入 into a 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3249,7 +3342,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir all ingredients with ice, strain into a cocktail glass, and serve."
+      "搅拌 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3292,7 +3385,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Dry shake ingredients to emulsify, add ice, shake and served straight up."
+      "Dry 摇晃 ingredients to emulsify, 加入 冰, 摇晃 并 上桌d straight up."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3340,7 +3433,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine coffee, sugar and water. Simmer 1 hour and let cool. Add vanilla and vodka. Age in sealed jar 2 to 3 weeks."
+      "混合 咖啡, 糖 并 water.",
+      "Simmer 1 hour 并 let cool.",
+      "加入 vanilla 并 伏特加.",
+      "Age in sealed 罐 2 to 3 weeks."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3393,7 +3489,14 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Boil water and sugar until dissolved. Turn off heat. Slowly add dry instant coffee and continue stirring. Add a chopped vanilla bean to the vodka, then combine the cooled sugar syrup and coffee solution with the vodka. Cover tightly and shake vigorously each day for 3 weeks. Strain and filter. Its also best to let the sugar mixture cool completely so the vodka won't evaporate when its added. If you like a smoother feel to the liqueur you can add about 1 teaspoon of glycerine to the finished product."
+      "Boil water 并 糖 until 溶解d.",
+      "Turn off heat.",
+      "Slowly 加入 dry instant 咖啡 并 continue 搅拌ring.",
+      "加入 a chopped vanilla bean to the 伏特加, 然后 混合 the cooled 糖 糖浆 并 咖啡 solution 用 伏特加.",
+      "Cover tightly 并 摇晃 用力 each day for 3 weeks.",
+      "滤入 并 filter.",
+      "Its also best to let the 糖 混合ture cool completely so the 伏特加 won't evaporate when its 加入ed.",
+      "If you like a smoother feel to the liqueur you can 加入 about 1 tea勺 of glycerine to the finished product."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3424,7 +3527,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Take a glass, pour the Coke in the glass, then you take 7 drops of lemon juice. Granish with a lemon slice on the rim of the glass."
+      "Take a 杯, 倒入 the Coke in the 杯, 然后 you take 7 drops of 柠檬 ju冰.",
+      "Granish with a 柠檬 sl冰 on the rim of the 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3472,7 +3576,14 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Cut the half lime in half again. Add the lime, falernum, and bitters to a rocks glass. Muddle. Add the rum. (Aged Barbados rum such as Plantation 5 Year is recommended). Add ice and stir. Float the blackstrap rum on top. Serve with a straw."
+      "切 the half 青柠 in half again.",
+      "加入 the 青柠, falernum, 并 苦精 to a 古典杯.",
+      "捣碎.",
+      "加入 the 朗姆.",
+      "(Aged Barbados 朗姆 such as Plantation 5 Year is recommended).",
+      "加入 冰 并 搅拌.",
+      "漂浮 the blackstrap 朗姆 on top.",
+      "上桌 with a 吸管."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3520,7 +3631,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake, strain, straight up, cocktail glass rinsed with absinthe"
+      "摇晃, 滤入, straight up, 鸡尾酒杯 rinsed with absinthe"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3563,7 +3674,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add all ingredients into cocktail shaker filled with ice. Shake well and double strain into large cocktail glass. Garnish with lime wheel."
+      "加入 all ingredients into cocktail 摇酒壶 加满ed 加冰.",
+      "充分摇晃 并 double 滤入 into large 鸡尾酒杯.",
+      "用...装饰 青柠 wheel."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3611,7 +3724,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine first four ingredients. Stir until sugar is dissolved, chill. Then add ginger ale just before serving. Add ice ring to keep punch cold."
+      "混合 first four ingredients.",
+      "搅拌 until 糖 is 溶解d, 冰镇.",
+      "然后 加入 金酒ger ale just before serving.",
+      "加入 冰 ring to keep punch cold."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3645,7 +3761,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour 1oz of Spiced Rum into a highball glass with ice. Fill with Ginger Ale."
+      "倒入 1oz of Sp冰d 朗姆 into a 高球杯 加冰.",
+      "加入 金酒ger Ale."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3688,7 +3805,12 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill tall glass with ice cubes. Add rum. Rub cut edge of lime on rim of glass then squeeze juice into glass. Fill with Coca-Cola. Garnish with lime slice. Enjoy!"
+      "加满 tall 杯 with 冰块.",
+      "加入 朗姆.",
+      "擦 切 edge of 青柠 on rim of 杯 然后 挤 ju冰 into 杯.",
+      "加入 Coca-Cola.",
+      "用...装饰 青柠 sl冰.",
+      "Enjoy!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3726,7 +3848,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Build all ingredients in a Collins glass filled with ice. Garnish with lime wedge."
+      "Build all ingredients 在 柯林斯杯 加满ed 加冰.",
+      "用...装饰 青柠 wedge."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3764,7 +3887,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass."
+      "倒入 all ingredients into 摇酒壶 with 冰块.",
+      "充分摇晃.",
+      "滤入 in 冰镇 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3797,7 +3922,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour into shot glass. Put in mouth. Repeat as deemed necessary."
+      "倒入 into 烈酒杯.",
+      "放 in mouth.",
+      "Repeat as deemed necessary."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3828,7 +3955,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "pour it in and mix it."
+      "倒入 it 在nd 混合 it."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3864,10 +3991,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Muddle the sugar into the lime wedges in an old-fashioned glass.",
-      "Fill the glass with ice cubes.",
-      "Pour the cachaca into the glass.",
-      "Stir well."
+      "捣碎 the 糖 into the 青柠 wedges 在n old-fashioned 杯.",
+      "加满 the 杯 with 冰块.",
+      "倒入 the cachaca into the 杯.",
+      "充分搅拌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3901,7 +4028,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a highball glass filled with ice add 6cl dark rum and top with ginger beer. Garnish with lime wedge."
+      "在 高球杯 加满ed 加冰 加入 6cl dark 朗姆 并 顶部加 金酒ger beer.",
+      "用...装饰 青柠 wedge."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3942,7 +4070,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "There are many good cherry liqueurs you can use, but I prefere Heering. Add one share of the liqueur. Then you add one share of Soda. For a sour sling use Tonic (most people prefer the drink without Tonic). Afterwards you fill the glass with Orange Juice and ice cubes."
+      "There are many good 樱桃 liqueurs you can use, but I prefere Heering.",
+      "加入 one share of the liqueur.",
+      "然后 you 加入 one share of Soda.",
+      "For a sour sling use Tonic (most people prefer the drink without Tonic).",
+      "Afterwards you 加满 the 杯 with 橙子 Ju冰 并 冰块."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -3973,7 +4105,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Easy as you like, pour the absinthe into a chilled glass, top with champagne. Must be drunk mid afternoon for the optimum effect."
+      "Easy as you like, 倒入 the absinthe into a 冰镇 杯, 顶部加 champagne.",
+      "Must be drunk mid afternoon for the optimum effect."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4011,7 +4144,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients into a mixing glass with ice. Stir. Strain into a cocktail glass. Garnish with a sprig of fresh mint in the drink."
+      "倒入 all ingredients into a 混合ing 杯 加冰.",
+      "搅拌.",
+      "滤入 into a 鸡尾酒杯.",
+      "用...装饰 a sprig of 新鲜 薄荷 in the drink."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4047,7 +4183,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the lager first then add the blackcurrant cordial. Top up with the cider. The colour sholud be very dark approaching the colour of Guiness."
+      "倒入 the lager first 然后 加入 the blackcurrant cordial.",
+      "加满 用 cider.",
+      "The colour sholud be very dark approaching the colour of Guiness."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4095,10 +4233,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the vodka, dry vermouth and olive brine into a cocktail shaker with a handful of ice and shake well.",
-      "Rub the rim of a martini glass with the wedge of lemon.",
-      "Strain the contents of the cocktail shaker into the glass and add the olive.",
-      "A dirty Martini contains a splash of olive brine or olive juice and is typically garnished with an olive."
+      "倒入 the 伏特加, dry 味美思 并 olive brine into a cocktail 摇酒壶 with a h并ful of 冰 并 充分摇晃.",
+      "擦 the rim of a martini 杯 用 wedge of 柠檬.",
+      "滤入 the contents of the cocktail 摇酒壶 into the 杯 并 加入 the olive.",
+      "A dirty Martini contains a splash of olive brine or olive ju冰 并 is typically 装饰ed with an olive."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4134,7 +4272,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "This is a layered shot - the Bailey's must be on top"
+      "This is a 分层ed shot - the Bailey's must be on top"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4178,7 +4316,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Start with the Sprite. Next comes the tequila. After that, add the Minute Maid Fruit Punch, then float the 151. Rocks optional."
+      "Start 用 Sprite.",
+      "Next comes the 龙舌兰.",
+      "After that, 加入 the Minute Maid Fruit Punch, 然后 漂浮 the 151.",
+      "Rocks 可选."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4216,7 +4357,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a highball glass almost filled with ice cubes, combine the gin and ginger ale. Stir well. Garnish with the lime wedge."
+      "在 高球杯 almost 加满ed with 冰块, 混合 the g在nd 金酒ger ale.",
+      "充分搅拌.",
+      "用...装饰 the 青柠 wedge."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4267,7 +4410,15 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Heat the cream and milk with the cinnamon and vanilla bean very slowly for 15-20 minutes. (If you don't have any beans add 1-2 tsp of vanilla after heating). Remove the bean and cinnamon. Add the chocolate. Mix until fully melted. Serve topped with some very dense fresh whipped cream. Serves 1-2 depending upon how much of a glutton you are. For a richer chocolate, use 4 oz of milk, 4 oz of cream, 4 oz of chocolate. Serve in coffee mug."
+      "Heat the 奶油 并 牛奶 用 cinnamon 并 vanilla bean very slowly for 15-20 minutes.",
+      "(If you don't have any beans 加入 1-2 tsp of vanilla after heating).",
+      "Remove the bean 并 cinnamon.",
+      "加入 the 巧克力.",
+      "混合 until fully melted.",
+      "上桌 topped with some very dense 新鲜 whipped 奶油.",
+      "上桌s 1-2 depending upon how much of a glutton you are.",
+      "For a richer 巧克力, use 4 oz of 牛奶, 4 oz of 奶油, 4 oz of 巧克力.",
+      "上桌 in 咖啡 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4305,7 +4456,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Straight: Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive."
+      "Straight: 倒入 all ingredients into 混合ing 杯 with 冰块.",
+      "充分搅拌.",
+      "滤入 in 冰镇 martini 鸡尾酒杯.",
+      "挤 oil from 柠檬 peel onto the drink, or 用...装饰 olive."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4343,7 +4497,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a mixing glass half-filled with ice cubes, combine the Scotch and vermouth. Stir well. Strain into a cocktail glass. Garnish with the lemon twist."
+      "在 混合ing 杯 half-加满ed with 冰块, 混合 the 苏格兰威士忌 并 味美思.",
+      "充分搅拌.",
+      "滤入 into a 鸡尾酒杯.",
+      "用...装饰 the 柠檬 twist."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4386,7 +4543,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir all ingredients (except lemon peel) with ice and strain into a cocktail glass. Add the twist of lemon peel and serve."
+      "搅拌 all ingredients (except 柠檬 peel) 加冰 并 滤入 into a 鸡尾酒杯.",
+      "加入 the twist of 柠檬 peel 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4442,9 +4600,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients.",
-      "Double strain in a chilled double old fashioned glass with abig ice cube.",
-      "Garnish with a couple of lavender sprigs"
+      "摇晃 all ingredients.",
+      "Double 滤入 在 冰镇 double old fashioned 杯 with abig 冰 cube.",
+      "用...装饰 a couple of lavender sprigs"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4480,7 +4638,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix syrup and milk in a fountain glass. Add soda water, serve with a straw."
+      "混合 糖浆 并 牛奶 在 fountain 杯.",
+      "加入 soda water, 上桌 with a 吸管."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4559,7 +4718,19 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a small mixer bowl beat egg yolks till blended. Gradually add 1/4 cup sugar, beating at high speed till thick and lemon colored. Stir in milk, stir in rum, bourbon, vanilla, and salt. Chill thoroughly. Whip cream. Wash beaters well. In a large mixer bowl beat egg whites till soft peaks form. Gradually add remaining 1/4 cup sugar, beating to stiff peaks. Fold yolk mixture and whipped cream into egg whites. Serve immediately. Sprinkle nutmeg over each serving. Serve in a punch bowl or another big bowl. NOTE: For a nonalcoholic eggnog, prepare Eggnog as above, except omit the bourbon and rum and increase the milk to 3 cups."
+      "在 small 混合er bowl beat egg yolks till 搅拌ed.",
+      "Gradually 加入 1/4 cup 糖, beating at high speed till thick 并 柠檬 colored.",
+      "搅拌 in 牛奶, 搅拌 in 朗姆, 波本, vanilla, 并 salt.",
+      "冰镇 thoroughly.",
+      "Whip 奶油.",
+      "Wash beaters 充分.",
+      "在 large 混合er bowl beat egg whites till soft peaks form.",
+      "Gradually 加入 remaining 1/4 cup 糖, beating to stiff peaks.",
+      "Fold yolk 混合ture 并 whipped 奶油 into egg whites.",
+      "上桌 immediately.",
+      "撒 nutmeg over each serving.",
+      "上桌 在 punch bowl or another big bowl.",
+      "NOTE: For a nonalcoholic eggnog, prepare Eggnog as above, except omit the 波本 并 朗姆 并 increase the 牛奶 to 3 cups."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4617,7 +4788,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Whip egg substitute and sugar together, combine with the two kinds of milk, vanilla, and rum. Mix well. Chill over night. Sprinkle with nutmeg. Makes 6 servings."
+      "Whip egg substitute 并 糖 together, 混合 用 two kinds of 牛奶, vanilla, 并 朗姆.",
+      "混合 充分.",
+      "冰镇 over night.",
+      "撒 with nutmeg.",
+      "Makes 6 servings."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4663,7 +4838,16 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In large saucepan, beat together eggs, sugar and salt, if desired. Stir in 2 cups of the milk. Cook over low heat, stirring constantly, until mixture is thick enough to coat a metal spoon and reaches 160 degrees F. Remove from heat. Stir in remaining 2 cups milk and vanilla. Cover and regfigerate until thoroughly chilled, several hours or overnight. Just before serving, pour into bowl or pitcher. Garnish or add stir-ins, if desired. Choose 1 or several of: Chocolate curls, cinnamon sticks, extracts of flavorings, flavored brandy or liqueur, fruit juice or nectar, ground nutmeg, maraschino cherries, orange slices, peppermint sticks or candy canes, plain brandy, run or whiskey, sherbet or ice-cream, whipping cream, whipped. Serve immediately."
+      "In large saucepan, beat together eggs, 糖 并 salt, if desired.",
+      "搅拌 in 2 cups of the 牛奶.",
+      "Cook over low heat, 搅拌ring constantly, until 混合ture is thick enough to coat a metal 勺 并 reaches 160 degrees F.",
+      "Remove from heat.",
+      "搅拌 in remaining 2 cups 牛奶 并 vanilla.",
+      "Cover 并 regfigerate until thoroughly 冰镇, several hours or overnight.",
+      "Just before serving, 倒入 into bowl or pitcher.",
+      "装饰 or 加入 搅拌-ins, if desired.",
+      "Choose 1 or several of: 巧克力 curls, cinnamon sticks, extracts of flavorings, flavored 白兰地 or liqueur, fruit ju冰 or nectar, ground nutmeg, maraschino cherries, 橙子 sl冰s, pepper薄荷 sticks or c并y canes, plain 白兰地, run or 威士忌, sherbet or 冰-奶油, whipping 奶油, whipped.",
+      "上桌 immediately."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4699,7 +4883,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Take the glass and muddle the lime in it. Fill the glass with crushed ice and add the Cachaca. Stir well and top with some more crushed ice. Garnish with lime and enjoy!"
+      "Take the 杯 并 捣碎 the 青柠 in it.",
+      "加满 the 杯 with 碎冰 并 加入 the Cachaca.",
+      "充分搅拌 并 顶部加 some more 碎冰.",
+      "用...装饰 青柠 并 enjoy!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4735,21 +4922,32 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "To ensure that your pork fat is just as delicious as theirs, here’s their adobo marinade and what to do with it (you’ll also need a rack of ribs):",
-      "4 ancho chiles, 8 guajillo chiles and 4 chipotle chiles, plus 4 cloves roasted garlic, half a cup of cider vinegar, a quarter teaspoon of Mexican oregano, 1 teaspoon of ground black pepper, a whole clove, a quarter teaspoon of ground cinnamon and a half teaspoon of ground cumin.",
-      "Toast the dried chiles and soak in water for at least an hour until they are rehydrated. Drain and discard the soaking liquid. Combine the soaked chiles with the remaining ingredients and purée until smooth.",
-      "Cold smoke a rack of baby back pork ribs by taking a large hotel pan with woodchips on one side and charcoal on the other. Place another, smaller, pan with pork ribs, above the charcoal/woodchip pan. Ignite the charcoal, being careful to not ignite the woodchips. Cover both pans with foil and allow to smoke for 10-15 minutes, until desired level of smoke is achieved, then coat with adobo marinade and wrap in tin foil prior to placing ribs in a 300 degree oven for 7 hours. When the ribs have cooled, strain off the fat and use for the infusion.",
-      "If you’re having a hard time coming up to the same kind of volume of fat, make up the balance with pork lard from a butcher. To get the same depth of flavor without the ribs, heat up the fat in a pot with a few spoons of the marinade.",
-      "Once you’ve got your tub of seasoned pork fat in cooled liquid form, pour equal amounts of Ilegal Joven mezcal and fat into a sealable container. Seal the container and give it a really good shake, then put it in the freezer overnight. When the whole thing is separated and congealed, pour it through a fine mesh chinoise. If you don’t have a chinoise, try a fine mesh strainer, or if you don’t have one of those, try spooning off most of the fat. There will be some beads of orange fat left in the strained mezcal: run that through a few layers of cheesecloth (or coffee filters in a pinch) to get rid of the last of it.",
-      "The mezcal is now ready for drinking, straight-up or in a cocktail.",
+      "To ensure that your pork fat is just as delicious as theirs, here’s their adobo marinade 并 what to do with it (you’ll also need a rack of ribs):",
+      "4 ancho chiles, 8 guajillo chiles 并 4 chipotle chiles, plus 4 cloves roasted garlic, half a cup of cider vinegar, a quarter tea勺 of Mexican oregano, 1 tea勺 of ground black pepper, a whole clove, a quarter tea勺 of ground cinnamon 并 a half tea勺 of ground cumin.",
+      "Toast the dried chiles 并 soak in water for at least an hour until they are rehydrated.",
+      "Dra在nd 丢弃 the soaking liquid.",
+      "混合 the soaked chiles 用 remaining ingredients 并 purée until smooth.",
+      "Cold smoke a rack of baby back pork ribs by taking a large hotel pan with woodchips on one side 并 charcoal on the other.",
+      "放 another, smaller, pan with pork ribs, above the charcoal/woodchip pan.",
+      "Ignite the charcoal, being careful to not ignite the woodchips.",
+      "Cover both pans with foil 并 allow to smoke for 10-15 minutes, until desired level of smoke is achieved, 然后 coat with adobo marinade 并 wrap in tin foil prior to placing ribs 在 300 degree oven for 7 hours.",
+      "When the ribs have cooled, 滤入 off the fat 并 use for the infusion.",
+      "If you’re having a hard time coming up to the same kind of volume of fat, make up the balance with pork lard from a butcher.",
+      "To get the same depth of flavor without the ribs, heat up the fat 在 pot with a few 勺s of the marinade.",
+      "Once you’ve got your tub of seasoned pork fat in cooled liquid form, 倒入 equal amounts of Ilegal Joven mezcal 并 fat into a sealable container.",
+      "Seal the container 并 give it a really good 摇晃, 然后 放 it in the freezer overnight.",
+      "When the whole thing is separated 并 congealed, 倒入 it through a fine mesh chinoise.",
+      "If you don’t have a chinoise, try a fine mesh 滤入er, or if you don’t have one of those, try 勺ing off most of the fat.",
+      "There will be some beads of 橙子 fat left in the 滤入ed mezcal: run that through a few 分层s of cheesecloth (or 咖啡 filters 在 pinch) to get rid of the last of it.",
+      "The mezcal is now ready for drinking, straight-up or 在 cocktail.",
       "Habanero tincture",
-      "Slice habaneros and add 2 ounces Ilegal Joven mezcal.",
+      "Sl冰 habaneros 并 加入 2 ounces Ilegal Joven mezcal.",
       "Allow to sit overnight or until desired level of heat is achieved.",
       "Cocktail",
-      "Combine mezcal and chocolate liqueur in a mixing glass with ice and stir for 45 seconds.",
-      "Strain into chilled coupe.",
-      "Carefully \"sink\" the coffee liqueur down the inside of the coupe over a spoon.",
-      "Garnish with 5 drops habanero tincture."
+      "混合 mezcal 并 巧克力 liqueur 在 混合ing 杯 加冰 并 搅拌 for 45 seconds.",
+      "滤入 into 冰镇 coupe.",
+      "小心 \"sink\" the 咖啡 liqueur down the inside of the coupe over a 勺.",
+      "用...装饰 5 drops habanero tincture."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4798,7 +4996,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour brandy, gin, and sweet vermouth into a highball glass over ice cubes. Fill with carbonated water. Add the twist of lemon peel, stir, and serve. (Ginger ale may be substituted for carbonated water, if preferred.)"
+      "倒入 白兰地, 金酒, 并 sweet 味美思 into a 高球杯 over 冰块.",
+      "加入 carbonated water.",
+      "加入 the twist of 柠檬 peel, 搅拌, 并 上桌.",
+      "(金酒ger ale may be substituted for carbonated water, if preferred.)"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4852,7 +5053,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Rub rim of cocktail glass with lemon juice and dip rim of glass in powdered sugar. Shake all ingredients (except cherry) with ice and strain into sugar-rimmed glass. Top with the cherry and serve."
+      "擦 rim of 鸡尾酒杯 with 柠檬 ju冰 并 dip rim of 杯 in powdered 糖.",
+      "摇晃 all ingredients (except 樱桃) 加冰 并 滤入 into 糖-rimmed 杯.",
+      "Top 用 樱桃 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4890,7 +5093,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour ingredients into shaker filled with ice, shake vigorously, and strain into chilled martini glass"
+      "倒入 ingredients into 摇酒壶 加满ed 加冰, 摇晃 用力, 并 滤入 into 冰镇 martini 杯"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4933,7 +5136,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix together in a cocktail glass. Garnish with some choclate powder and coffee beans"
+      "混合 together 在 鸡尾酒杯.",
+      "用...装饰 some choclate powder 并 咖啡 beans"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -4969,7 +5173,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Cover bottom of shot glass with Tabasco Sauce and then fill with half Firewater and half Absolut Peppar."
+      "Cover bottom of 烈酒杯 with Tabasco Sauce 并 然后 加入 half Firewater 并 half Absolut Peppar."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5024,7 +5228,13 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a lewis bag, crush up some ice like a baller/maniac (@glacioice). Pour your precious ice into a collins glass. In a cocktail shaker, muddle the figs and thyme together. Add honey vodka, lemon juice, and a large ice cube (@glacioice). Shake until well chilled, and strain into glass. Add tonic water and finally 2 dashes of angostura bitters. Garnish with sliced figs and thyme."
+      "在 lewis bag, crush up some 冰 like a baller/maniac (@glacio冰).",
+      "倒入 your precious 冰 into a 柯林斯杯.",
+      "在 cocktail 摇酒壶, 捣碎 the figs 并 thyme together.",
+      "加入 蜂蜜 伏特加, 柠檬 ju冰, 并 a large 冰 cube (@glacio冰).",
+      "摇晃 until 充分 冰镇, 并 滤入 into 杯.",
+      "加入 tonic water 并 finally 2 dashes of angostura 苦精.",
+      "用...装饰 sl冰d figs 并 thyme."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5073,7 +5283,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add Amaretto, Bacardi, and vodka. Mix in the Dr. Pepper and beer"
+      "加入 Amaretto, Bacardi, 并 伏特加.",
+      "混合 in the Dr.",
+      "Pepper 并 beer"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5114,7 +5326,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the Sambuca and Kahlua into the Cocktail Glass and give the drinker a straw. Pour the Baileys and Blue Curacao into two sepsrate shot glasses either side of the cocktail glass. Set light the concotion in the cocktail glass and start to drink through the straw (this drink should be drunk in one) , as the bottom of the glass is reached put out the fire by pouring the Baileys and Blue Curacao into the cocktail glass and keep drinking till it's all gone!!"
+      "倒入 the 萨姆布卡 并 甘露咖啡酒 into the 鸡尾酒杯 并 give the drinker a 吸管.",
+      "倒入 the 百利甜 并 蓝柑橘酒 into two sepsrate 烈酒杯es either side of the 鸡尾酒杯.",
+      "Set light the concotion in the 鸡尾酒杯 并 start to drink through the 吸管 (this drink should be drunk in one) , as the bottom of the 杯 is reached 放 out the fire by 倒入ing the 百利甜 并 蓝柑橘酒 into the 鸡尾酒杯 并 keep drinking till it's all gone!!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5178,7 +5392,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In an old-fashioned glass almost filled with ice cubes, combine the gin and triple sec. Stir well."
+      "在n old-fashioned 杯 almost 加满ed with 冰块, 混合 the g在nd 橙皮甜酒.",
+      "充分搅拌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5221,7 +5436,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a cocktail glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5257,7 +5472,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a chilled cocktail glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 冰镇 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5293,7 +5508,13 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix together. Blend at highest blender speed for about 1 minute. Pour into a glass and drink with a straw. Notes: This works best if everything is cold (if you make fresh coffee, mix it with the milk and let it sit in the fridge for 1/2 hour. If it is not frothy, add more milk, or even just some more milk powder. The froth gradually turns to liquid at the bottom of the glass, so you will find that you can sit and drink this for about 1/2 hour, with more iced coffee continually appearing at the bottom. Very refreshing."
+      "混合 together.",
+      "搅拌 at highest 搅拌机 speed for about 1 minute.",
+      "倒入 into a 杯 并 drink with a 吸管.",
+      "Notes: This works best if everything is cold (if you make 新鲜 咖啡, 混合 it 用 牛奶 并 let it sit in the fridge for 1/2 hour.",
+      "If it is not frothy, 加入 more 牛奶, or even just some more 牛奶 powder.",
+      "The froth gradually turns to liquid at the bottom of the 杯, so you will find that you can sit 并 drink this for about 1/2 hour, with more 冰d 咖啡 continually appearing at the bottom.",
+      "Very re新鲜ing."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5384,7 +5605,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine gin, sugar, and lemon juice in a cocktail shaker filled with ice. Shake vigorously and strain into a chilled champagne glass. Top up with Champagne. Stir gently."
+      "混合 金酒, 糖, 并 柠檬 ju冰 在 cocktail 摇酒壶 加满ed 加冰.",
+      "摇晃 用力 并 滤入 into a 冰镇 champagne 杯.",
+      "加满 with Champagne.",
+      "搅拌 轻轻."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5415,7 +5639,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently."
+      "倒入 all ingredients directly into old fashioned 杯 加满ed with 冰块.",
+      "搅拌 轻轻."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5453,7 +5678,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients into shaker with ice cubes. Shake well and strain into a chilled cocktail glass. Squeeze oil from lemon peel onto the drink."
+      "倒入 all ingredients into 摇酒壶 with 冰块.",
+      "充分摇晃 并 滤入 into a 冰镇 鸡尾酒杯.",
+      "挤 oil from 柠檬 peel onto the drink."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5496,9 +5723,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add ice to a shaker and pour in all ingredients.",
-      "Using a bar spoon, stir 40 to 45 revolutions or until thoroughly chilled.",
-      "Strain into a martini glass or over ice into a rocks glass. Garnish with orange twist."
+      "加入 冰 to a 摇酒壶 并 倒入 在ll ingredients.",
+      "Using a bar 勺, 搅拌 40 to 45 revolutions or until thoroughly 冰镇.",
+      "滤入 into a martini 杯 or 加冰 into a 古典杯.",
+      "用...装饰 橙子 twist."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5551,7 +5779,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients (except slices of lemon and lime) with ice and strain into a whiskey sour glass. Decorate with the slices of lemon and lime and serve."
+      "摇晃 all ingredients (except sl冰s of 柠檬 并 青柠) 加冰 并 滤入 into a 威士忌 sour 杯.",
+      "Decorate 用 sl冰s of 柠檬 并 青柠 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5593,13 +5822,20 @@ const RECIPES_DATA = [
     ],
     "steps": [
       "Step 1",
-      "Pour rosé into a 13x9\" pan and freeze until almost solid (it won't completely solidify due to the alcohol), at least 6 hours.",
+      "倒入 rosé into a 13x9\" pan 并 freeze until almost solid (it won't completely solidify due to the alcohol), at least 6 hours.",
       "Step 2",
-      "Meanwhile, bring sugar and ½ cup water to a boil in a medium saucepan; cook, stirring constantly, until sugar dissolves, about 3 minutes. Add strawberries, remove from heat, and let sit 30 minutes to infuse syrup with strawberry flavor. Strain through a fine-mesh sieve into a small bowl (do not press on solids); cover and chill until cold, about 30 minutes.",
+      "Meanwhile, bring 糖 并 ½ cup water to a boil 在 medium saucepan;",
+      "cook, 搅拌ring constantly, until 糖 溶解s, about 3 minutes.",
+      "加入 草莓ies, remove from heat, 并 let sit 30 minutes to infuse 糖浆 with 草莓y flavor.",
+      "滤入 through a fine-mesh sieve into a small bowl (do not press on solids);",
+      "cover 并 冰镇 until cold, about 30 minutes.",
       "Step 3",
-      "Scrape rosé into a blender. Add lemon juice, 3½ ounces strawberry syrup, and 1 cup crushed ice and purée until smooth. Transfer blender jar to freezer and freeze until frosé is thickened (aim for milkshake consistency), 25–35 minutes.",
+      "Scrape rosé into a 搅拌机.",
+      "加入 柠檬 ju冰, 3½ ounces 草莓y 糖浆, 并 1 cup 碎冰 并 purée until smooth.",
+      "Transfer 搅拌机 罐 to freezer 并 freeze until frosé is thickened (aim for 牛奶摇晃 consistency), 25–35 minutes.",
       "Step 4",
-      "Blend again until frosé is slushy. Divide among glasses.",
+      "搅拌 again until frosé is slushy.",
+      "Divide among 杯es.",
       "Step 5",
       "Do Ahead: Rosé can be frozen 1 week ahead."
     ],
@@ -5654,7 +5890,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine all ingredients (except for the cherry) in an electric blender and blend at a low speed for five seconds, then blend at a high speed until firm. Pour contents into a champagne flute, top with the cherry, and serve."
+      "混合 all ingredients (except for the 樱桃) 在n electric 搅拌机 并 搅拌 at a low speed for five seconds, 然后 搅拌 at a high speed until firm.",
+      "倒入 contents into a champagne flute, top 用 樱桃, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5697,7 +5934,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine all ingredients with 1 cup of crushed ice in an electric blender. Blend at a low speed for a short length of time. Pour into an old-fashioned glass and serve."
+      "混合 all ingredients with 1 cup of 碎冰 在n electric 搅拌机.",
+      "搅拌 at a low speed for a short length of time.",
+      "倒入 into an old-fashioned 杯 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5740,7 +5979,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine all ingredients with 1 cup of crushed ice in an electric blender. Blend at a low speed for a short length of time. Pour into a cocktail glass and serve."
+      "混合 all ingredients with 1 cup of 碎冰 在n electric 搅拌机.",
+      "搅拌 at a low speed for a short length of time.",
+      "倒入 into a 鸡尾酒杯 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5796,7 +6037,13 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Toss strawberries with sugar, and let sit overnight in refrigerator. Cut lemon, reserve two slices. Juice the rest. Mix together the lemon juice, strawberries, apple juice, and soda water. Add slices of lemon (decor, really). In glasses, put ice cubes, and a slice of apple. Pour drink in, and serve."
+      "Toss 草莓ies with 糖, 并 let sit overnight in refrigerator.",
+      "切 柠檬, re上桌 two sl冰s.",
+      "Ju冰 the rest.",
+      "混合 together the 柠檬 ju冰, 草莓ies, apple ju冰, 并 soda water.",
+      "加入 sl冰s of 柠檬 (decor, really).",
+      "In 杯es, 放 冰块, 并 a sl冰 of apple.",
+      "倒入 drink in, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5827,7 +6074,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up."
+      "放 all ingredients in the 搅拌机 罐 - cover 并 whiz on medium speed until 充分 搅拌ed.",
+      "倒入 in one tall, 2 medium or 3 small 杯es 并 drink up."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5873,7 +6121,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Blend til smooth."
+      "搅拌 til smooth."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5921,7 +6169,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix all ingredients together and strain into a Collins glass. Use Jamaican rum where possible for a more authentic taste."
+      "混合 all ingredients together 并 滤入 into a 柯林斯杯.",
+      "Use Jamaican 朗姆 where possible for a more au然后tic taste."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5952,7 +6201,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "fill coffe mug half full of coffee. Fill the other half full of Peach Schnapps. Stir and drink while hot."
+      "加满 coffe 杯 half full of 咖啡.",
+      "加满 the other half full of Peach Schnapps.",
+      "搅拌 并 drink while hot."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -5990,7 +6241,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the Galliano liqueur over ice. Fill the remainder of the glass with ginger ale and thats all there is to it. You now have a your very own GG."
+      "倒入 the 加利安奴 liqueur 加冰.",
+      "加满 the remainder of the 杯 with 金酒ger ale 并 thats all there is to it.",
+      "You now have a your very own GG."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6033,7 +6286,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake well and serve in a cocktail glass. This is a home cocktail of American/Internet Bar del Pozzo, Pavia, Italy."
+      "充分摇晃 并 上桌 在 鸡尾酒杯.",
+      "This is a home cocktail of American/Internet Bar del Pozzo, Pavia, Italy."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6076,9 +6330,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add all the ingredients to a shaker and fill with ice.",
-      "Shake, and strain into a chilled cocktail glass or an Old Fashioned glass filled with fresh ice.",
-      "Garnish with a lime wheel."
+      "加入 all the ingredients to a 摇酒壶 并 加入 冰.",
+      "摇晃, 并 滤入 into a 冰镇 鸡尾酒杯 or an Old Fashioned 杯 加满ed with 新鲜 冰.",
+      "用...装饰 a 青柠 wheel."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6126,7 +6380,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir powdered sugar and 2 oz. carbonated water in a collins glass. Fill glass with ice and add gin. Fill with carbonated water and stir. Add the lemon peel and the orange spiral so that the end of the orange spiral dangles over rim of glass."
+      "搅拌 powdered 糖 并 2 oz.",
+      "carbonated water 在 柯林斯杯.",
+      "加满 杯 加冰 并 加入 金酒.",
+      "加入 carbonated water 并 搅拌.",
+      "加入 the 柠檬 peel 并 the 橙子 spiral so that the end of the 橙子 spiral dangles over rim of 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6179,7 +6437,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes, combine the gin, lemon juice, sugar, and grenadine. Shake well. Pour into an old-fashioned glass and garnish with the cherry and the orange slice."
+      "在 摇酒壶 half-加满ed with 冰块, 混合 the 金酒, 柠檬 ju冰, 糖, 并 红石榴糖浆.",
+      "充分摇晃.",
+      "倒入 into an old-fashioned 杯 并 用...装饰 the 樱桃 并 the 橙子 sl冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6222,7 +6482,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice cubes, except soda water. Pour into glass. Top with soda water."
+      "摇晃 all ingredients with 冰块, except soda water.",
+      "倒入 into 杯.",
+      "顶部加 soda water."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6267,7 +6529,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "For the preparation of the gin lemon you will not need the shaker. Fill the tumbler with ice, pour the gin and lemonade over it. Gently mix and decorate with a slice of lemon. Those who prefer can also add a few mint leaves. Your gin lemon is ready to be served."
+      "For the preparation of the 金酒 柠檬 you will not need the 摇酒壶.",
+      "加满 the tumbler 加冰, 倒入 the g在nd 柠檬ade over it.",
+      "轻轻 混合 并 decorate with a sl冰 of 柠檬.",
+      "Those who prefer can also 加入 a few 薄荷 leaves.",
+      "Your 金酒 柠檬 is ready to be 上桌d."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6315,7 +6581,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Half-fill a tall glass with ice. Mix the gin and Grenadine together and pour over the ice. Add the lime or lemon juice and top off with soda water. Decorate the glass with lime and/or lemon slices."
+      "Half-加满 a tall 杯 加冰.",
+      "混合 the g在nd 红石榴糖浆 together 并 倒入 over the 冰.",
+      "加入 the 青柠 or 柠檬 ju冰 并 top off with soda water.",
+      "Decorate the 杯 with 青柠 并/or 柠檬 sl冰s."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6363,7 +6632,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Dissolve powdered sugar in mixture of water and juice of lemon. Add gin. Pour into an old-fashioned glass over ice cubes and stir. Add the twist of orange peel and serve."
+      "溶解 powdered 糖 in 混合ture of water 并 ju冰 of 柠檬.",
+      "加入 金酒.",
+      "倒入 into an old-fashioned 杯 over 冰块 并 搅拌.",
+      "加入 the twist of 橙子 peel 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6418,7 +6690,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Muddle sugar with carbonated water and mint sprigs in an old-fashioned glass. Add gin and 1 ice cube. Stir, add the orange slice and the cherry, and serve."
+      "捣碎 糖 with carbonated water 并 薄荷 sprigs 在n old-fashioned 杯.",
+      "加入 g在nd 1 冰 cube.",
+      "搅拌, 加入 the 橙子 sl冰 并 the 樱桃, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6466,7 +6740,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a sour glass and garnish with the orange slice and the cherry."
+      "在 摇酒壶 half-加满ed with 冰块, 混合 the 金酒, 柠檬 ju冰, 并 糖.",
+      "充分摇晃.",
+      "滤入 into a sour 杯 并 用...装饰 the 橙子 sl冰 并 the 樱桃."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6519,7 +6795,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir gin, grenadine, and powdered sugar with ice and strain into a highball glass over ice cubes. Fill with carbonated water and stir. Decorate with the pineapple chunks and the strawberries and serve."
+      "搅拌 金酒, 红石榴糖浆, 并 powdered 糖 加冰 并 滤入 into a 高球杯 over 冰块.",
+      "加入 carbonated water 并 搅拌.",
+      "Decorate 用 菠萝 chunks 并 the 草莓ies 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6567,7 +6845,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes, combine the lime juice, sugar, gin, and bitters. Shake well. Almost fill a colling glass with ice cubes. Stir until the glass is frosted. Strain the mixture in the shaker into the glass and add the club soda."
+      "在 摇酒壶 half-加满ed with 冰块, 混合 the 青柠 ju冰, 糖, 金酒, 并 苦精.",
+      "充分摇晃.",
+      "Almost 加满 a colling 杯 with 冰块.",
+      "搅拌 until the 杯 is frosted.",
+      "滤入 the 混合ture in the 摇酒壶 into the 杯 并 加入 the club soda."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6610,7 +6892,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix powdered sugar and water in an old-fashioned glass. Add gin and one ice cube. Stir, add the twist of lemon peel, and serve."
+      "混合 powdered 糖 并 water 在n old-fashioned 杯.",
+      "加入 g在nd one 冰 cube.",
+      "搅拌, 加入 the twist of 柠檬 peel, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6653,7 +6937,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill a highball glass with ice, pour the gin, top with tonic water and squeeze a lemon wedge and garnish with a lemon wedge."
+      "加满 a 高球杯 加冰, 倒入 the 金酒, 顶部加 tonic water 并 挤 a 柠檬 wedge 并 用...装饰 a 柠檬 wedge."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6691,9 +6975,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the Gin and Soda water into a highball glass almost filled with ice cubes.",
-      "Stir well.",
-      "Garnish with the lime wedge."
+      "倒入 the G在nd Soda water into a 高球杯 almost 加满ed with 冰块.",
+      "充分搅拌.",
+      "用...装饰 the 青柠 wedge."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6744,7 +7028,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Boil sugar and spices in water, leave in the water for 30 minutes. Strain the spiced water and mix with the wine. Heat slowly until short of boiling temperature. (To remove alcohol, let it boil for a while.) You may add lemon or orange juice to taste. Serve in irish coffee cup."
+      "Boil 糖 并 sp冰s in water, leave in the water for 30 minutes.",
+      "滤入 the sp冰d water 并 混合 用 wine.",
+      "Heat slowly until short of boiling temperature.",
+      "(To remove alcohol, let it boil for a while.) You may 加入 柠檬 or 橙子 ju冰 适量.",
+      "上桌 in irish 咖啡 cup."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6782,7 +7070,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients well with cracked ice, strain into a champagne flute, and serve."
+      "摇晃 all ingredients 充分 with cracked 冰, 滤入 into a champagne flute, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6815,7 +7103,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently."
+      "倒入 all ingredients directly into old fashioned 杯 加满ed with 冰块.",
+      "搅拌 轻轻."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6848,7 +7137,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour vodka and amaretto into an old-fashioned glass over ice and serve."
+      "倒入 伏特加 并 amaretto into an old-fashioned 杯 加冰 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6891,7 +7180,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Serve in an old fashioned glass."
+      "上桌 在n old fashioned 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6939,7 +7228,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes, combine the gin, triple sec, pineapple juice, and grenadine. Shake well. Pour into an old-fashioned glass and garnish with the pineapple slice."
+      "在 摇酒壶 half-加满ed with 冰块, 混合 the 金酒, 橙皮甜酒, 菠萝 ju冰, 并 红石榴糖浆.",
+      "充分摇晃.",
+      "倒入 into an old-fashioned 杯 并 用...装饰 the 菠萝 sl冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -6975,7 +7266,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour ingredients into a cocktail shaker with ice. Shake briskly and then strain into a chilled cocktail glass."
+      "倒入 ingredients into a cocktail 摇酒壶 加冰.",
+      "摇晃 briskly 并 然后 滤入 into a 冰镇 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7008,8 +7300,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add the vodka to a Collins glass filled with ice.",
-      "Top with grapefruit juice and stir."
+      "加入 the 伏特加 to a 柯林斯杯 加满ed 加冰.",
+      "顶部加 grapefruit ju冰 并 搅拌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7047,7 +7339,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix Kahlua and 151 in glass. Quickly add ice and pour grenadine over ice to give ice red tint."
+      "混合 甘露咖啡酒 并 151 in 杯.",
+      "Quickly 加入 冰 并 倒入 红石榴糖浆 加冰 to give 冰 red tint."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7085,7 +7378,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix the whisky and Baileys Cream in a beer-glass (at least 50 cl). Fill the rest of the glass with coffee."
+      "混合 the whisky 并 百利甜 奶油 在 beer-杯 (at least 50 cl).",
+      "加满 the rest of the 杯 with 咖啡."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7139,8 +7433,14 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Tip the cherry juice, orange peel, chilli, cinnamon sticks, cloves and ginger into a large saucepan. Simmer for 5 mins, then turn off the heat. Leave to cool, then chill for at least 4 hrs, or up to 2 days – the longer you leave it the more intense the flavours. If serving to young children, take the chilli out after a few hours.",
-      "When you’re ready to serve, pour the juice into a jug. Serve in glass bottles or glasses and pop a straw in each. If you're adding vodka, do so at this stage. Dangle a fangs sweet from each glass."
+      "Tip the 樱桃 ju冰, 橙子 peel, 冰镇i, cinnamon sticks, cloves 并 金酒ger into a large saucepan.",
+      "Simmer for 5 mins, 然后 turn off the heat.",
+      "Leave to cool, 然后 冰镇 for at least 4 hrs, or up to 2 days – the longer you leave it the more intense the flavours.",
+      "If serving to young children, take the 冰镇i out after a few hours.",
+      "When you’re ready to 上桌, 倒入 the ju冰 into a jug.",
+      "上桌 in 杯 bottles or 杯es 并 pop a 吸管 in each.",
+      "If you're 加入ing 伏特加, do so at this stage.",
+      "Dangle a fangs sweet from each 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7184,7 +7484,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour Captain Morgan's Spiced Rum over ice, fill glass to top with Ginger Ale. Garnish with lime. Tastes like a cream soda. Named for the Gilligan's Island reference (\"The Captain\" *in* \"Ginger\" is a Happy Skipper!)"
+      "倒入 Captain Morgan's Sp冰d 朗姆 加冰, 加满 杯 to 顶部加 金酒ger Ale.",
+      "用...装饰 青柠.",
+      "Tastes like a 奶油 soda.",
+      "Named for the Gilligan's Isl并 reference (\"The Captain\" *in* \"金酒ger\" is a Happy Skipper!)"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7222,7 +7525,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir the vodka and orange juice with ice in the glass, then float the Galliano on top. Garnish and serve."
+      "搅拌 the 伏特加 并 橙子 ju冰 加冰 in the 杯, 然后 漂浮 the 加利安奴 on top.",
+      "装饰 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7260,7 +7564,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass."
+      "在 摇酒壶 half-加满ed with 冰块, 混合 all of the ingredients.",
+      "充分摇晃.",
+      "滤入 into a 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7298,7 +7604,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a cocktail glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7341,7 +7647,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients into a shaker with ice. Shake."
+      "倒入 all ingredients into a 摇酒壶 加冰.",
+      "摇晃."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7372,7 +7679,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour Hot Damn 100 in bottom of a jar or regular glass. Fill the rest of the glass with sweet tea. Stir with spoon, straw, or better yet a cinnamon stick and leave it in."
+      "倒入 Hot Damn 100 in bottom of a 罐 or regular 杯.",
+      "加满 the rest of the 杯 with sweet tea.",
+      "搅拌 with 勺, 吸管, or better yet a cinnamon stick 并 leave it in."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7415,7 +7724,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir all ingredients (except olive) with ice and strain into a cocktail glass. Add the olive and serve."
+      "搅拌 all ingredients (except olive) 加冰 并 滤入 into a 鸡尾酒杯.",
+      "加入 the olive 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7456,7 +7766,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Take a bunch of grape juice and a bunch of fizzy stuff (club soda, ginger ale, lemonlime, whatever). Mix them in a punch bowl. Take orange sherbet and lime sherbet. Scoop out scoops and float them in the punch, let them melt a little so that a nasty film spreads all over the top of the punch but there are still \"bubbles\" in it in the form of sherbet scoops. Looks horrible, tastes just fine."
+      "Take a bunch of grape ju冰 并 a bunch of fizzy stuff (club soda, 金酒ger ale, 柠檬青柠, whatever).",
+      "混合 them 在 punch bowl.",
+      "Take 橙子 sherbet 并 青柠 sherbet.",
+      "Scoop out scoops 并 漂浮 them in the punch, let them melt a little so that a nasty film spreads all over the top of the punch but there are still \"bubbles\" in it in the form of sherbet scoops.",
+      "Looks horrible, tastes just fine."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7509,7 +7823,12 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Dissolve sugar in 2 cups of boiling water and add corn syrup. Dissolve the instant coffee in the remaining water. Pour syrup and coffee in a gallon jug. Let it cool. Add vodka and vanilla when cold. For the best result, let the mixture \"mature\" for 4-5 weeks."
+      "溶解 糖 in 2 cups of boiling water 并 加入 corn 糖浆.",
+      "溶解 the instant 咖啡 in the remaining water.",
+      "倒入 糖浆 并 咖啡 在 gallon jug.",
+      "Let it cool.",
+      "加入 伏特加 并 vanilla when cold.",
+      "For the best result, let the 混合ture \"mature\" for 4-5 weeks."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7549,7 +7868,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake ingredients with crushed ice"
+      "摇晃 ingredients with 碎冰"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7593,7 +7912,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour brandy and ginger ale directly into highball glass with ice cubes. Stir gently. Garnish with lemon zest. If desired, add dashes of Angostura Bitter."
+      "倒入 白兰地 并 金酒ger ale directly into 高球杯 with 冰块.",
+      "搅拌 轻轻.",
+      "用...装饰 柠檬 zest.",
+      "If desired, 加入 dashes of Angostura Bitter."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7639,7 +7961,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Melt the chocolate, butter and vanilla in a double boiler. When just smooth stir in the cream."
+      "Melt the 巧克力, butter 并 vanilla 在 double boiler.",
+      "When just smooth 搅拌 in the 奶油."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7677,7 +8000,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine all ingredients in glass"
+      "混合 all ingredients in 杯"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7726,9 +8049,11 @@ const RECIPES_DATA = [
     ],
     "steps": [
       "STEP 1",
-      "Whisk the whisky and honey together and split between 2 heatproof glasses. Add half of the cinnamon stick to each, then top up with 200ml boiling water.",
+      "Whisk the whisky 并 蜂蜜 together 并 split between 2 heatproof 杯es.",
+      "加入 half of the cinnamon stick to each, 然后 加满 with 200ml boiling water.",
       "STEP 2",
-      "Add a splash of lemon juice to each, then taste and add more to your preference. Finish each with a slice of lemon, studded with a clove, and serve immediately."
+      "加入 a splash of 柠檬 ju冰 to each, 然后 taste 并 加入 more to your preference.",
+      "Finish each with a sl冰 of 柠檬, studded with a clove, 并 上桌 immediately."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7774,7 +8099,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Put the Bombay Sapphire, Martini Bianco, sugar syrup & blackberries in a cocktail shaker with lots of ice and shake vigorously before pouring into a balloon glass, topping up with lemonade and garnishing with a wedge of orange."
+      "放 the Bombay Sapphire, Martini Bianco, 糖 糖浆 & blackberries 在 cocktail 摇酒壶 with lots of 冰 并 摇晃 用力 before 倒入ing into a balloon 杯, topping up with 柠檬ade 并 装饰ing with a wedge of 橙子."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7812,7 +8137,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Put Vodka in glass fill with iced tea. Stir in lemon to taste."
+      "放 伏特加 in 杯 加入 冰d tea.",
+      "搅拌 in 柠檬 适量."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7853,7 +8179,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix together until coffee and sugar is dissolved. Add milk. Shake well. Using a blender or milk shake maker produces a very foamy drink. Serve in coffee mug."
+      "混合 together until 咖啡 并 糖 is 溶解d.",
+      "加入 牛奶.",
+      "充分摇晃.",
+      "Using a 搅拌机 or 牛奶 摇晃 maker produces a very foamy drink.",
+      "上桌 in 咖啡 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7884,7 +8214,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix together in a coffee mug and chill before serving."
+      "混合 together 在 咖啡 杯 并 冰镇 before serving."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7922,7 +8252,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake with ice and strain into cocktail glass."
+      "摇晃 加冰 并 滤入 into 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -7971,7 +8301,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve."
+      "摇晃 all ingredients (except carbonated water) 加冰 并 滤入 into a 高球杯 over two 冰块.",
+      "加入 carbonated water, 搅拌, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8019,7 +8350,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Cut half a lime into pieces, place in a shaker, add the sugar and crush. Measure the passion fruit juice, add it to the shaker and fill up with ice cubes. Close the shaker and shake vigorously. Pour the liquid into a glass, top up with ginger ale, stir with a teaspoon and then garnish the rim of the glass with a slice of lime"
+      "切 half a 青柠 into pieces, 放 在 摇酒壶, 加入 the 糖 并 crush.",
+      "Measure the passion fruit ju冰, 加入 it to the 摇酒壶 并 加满 up with 冰块.",
+      "Close the 摇酒壶 并 摇晃 用力.",
+      "倒入 the liquid into a 杯, 加满 with 金酒ger ale, 搅拌 with a tea勺 并 然后 装饰 the rim of the 杯 with a sl冰 of 青柠"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8062,7 +8396,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Heat the coffee, whiskey and sugar; do not boil. Pour into glass and top with cream; serve hot."
+      "Heat the 咖啡, 威士忌 并 糖;",
+      "do not boil.",
+      "倒入 into 杯 并 顶部加 奶油;",
+      "上桌 hot."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8110,7 +8447,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix scotch and milk. Add half-and-half. Add rest."
+      "混合 苏格兰威士忌 并 牛奶.",
+      "加入 half-并-half.",
+      "加入 rest."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8154,7 +8493,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour Irish Cream, Vodka, and Bourbon in a glass. Add some ice and mix in the orange juice."
+      "倒入 Irish 奶油, 伏特加, 并 波本 在 杯.",
+      "加入 some 冰 并 混合 in the 橙子 ju冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8197,7 +8537,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add the ingredients in the order listed in the recipe. Care must be taken when adding the Guinness to prevent an excess of foam. Do Not add ice."
+      "加入 the ingredients in the order listed in the recipe.",
+      "Care must be taken when 加入ing the Guinness to prevent an excess of foam.",
+      "Do Not 加入 冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8251,7 +8593,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients (except orange slice and cherry) into a collins glass over ice cubes. Garnish with the slice of orange, add the cherry on top, and serve."
+      "倒入 all ingredients (except 橙子 sl冰 并 樱桃) into a 柯林斯杯 over 冰块.",
+      "用...装饰 the sl冰 of 橙子, 加入 the 樱桃 on top, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8289,7 +8632,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a cocktail glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8332,7 +8675,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "After pouring in your ingredients, and adding 3-5 ice cubes, according to taste. Stir the drink with a stirrer to get the Vanilla off the bottom."
+      "After 倒入ing in your ingredients, 并 加入ing 3-5 冰块, according 适量.",
+      "搅拌 the drink with a 搅拌rer to get the Vanilla off the bottom."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8363,7 +8707,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Serve over ice- Warning,Deadly!"
+      "上桌 加冰- Warning,Deadly!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8404,7 +8748,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Coat the rim of a shot glass with sugar using sugar syrup to stick. Add the Chambord raspberry liqueur to the shot glass, and carefully layer the Baileys Irish Cream on top. Serve."
+      "Coat the rim of a 烈酒杯 with 糖 using 糖 糖浆 to stick.",
+      "加入 the Chambord raspberry liqueur to the 烈酒杯, 并 小心 分层 the 百利甜 Irish 奶油 on top.",
+      "上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8447,7 +8793,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill a tumbler with ice cubes. Add a shot of Tia Maria and a shot of Jamaican light rum. Fill the tumbler with milk. Blend until smooth and serve immediately."
+      "加满 a tumbler with 冰块.",
+      "加入 a shot of Tia Maria 并 a shot of Jamaican light 朗姆.",
+      "加满 the tumbler with 牛奶.",
+      "搅拌 until smooth 并 上桌 immediately."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8490,7 +8839,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir the rum, coffee and water together. Top with the whipped cream. Sprinkle with a pinch of well ground coffee and drink with a straw."
+      "搅拌 the 朗姆, 咖啡 并 water together.",
+      "Top 用 whipped 奶油.",
+      "撒 with a pinch of 充分 ground 咖啡 并 drink with a 吸管."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8543,7 +8894,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve."
+      "摇晃 all ingredients (except carbonated water) 加冰 并 滤入 into a 高球杯 over two 冰块.",
+      "加入 carbonated water, 搅拌, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8581,7 +8933,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Boil 3 cups of water then add jello. Mix jello and water until jello is completely disolved. Add the two cups of vodka and mix together. Pour mixture into plastic shot glasses and chill until firm. Then, eat away..."
+      "Boil 3 cups of water 然后 加入 jello.",
+      "混合 jello 并 water until jello is completely disolved.",
+      "加入 the two cups of 伏特加 并 混合 together.",
+      "倒入 混合ture into plastic 烈酒杯es 并 冰镇 until firm.",
+      "然后, eat away..."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8614,7 +8970,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "mix equal parts in pony glass-tastes just like a jelly bean!"
+      "混合 equal parts in pony 杯-tastes just like a jelly bean!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8652,7 +9008,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass."
+      "在 混合ing 杯 half-加满ed with 冰块, 混合 all of the ingredients.",
+      "充分搅拌.",
+      "滤入 into a 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8711,7 +9069,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Wet glass, dip rim in sugar. Then add Ice. Then add everything else. It's that simple!"
+      "Wet 杯, dip rim in 糖.",
+      "然后 加入 冰.",
+      "然后 加入 everything else.",
+      "It's that simple!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8764,7 +9125,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients directly into highball glass filled with ice. Stir gently. Garnish. Add a dash of Angostura bitters."
+      "倒入 all ingredients directly into 高球杯 加满ed 加冰.",
+      "搅拌 轻轻.",
+      "装饰.",
+      "加入 a dash of Angostura 苦精."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8800,7 +9164,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up."
+      "放 all ingredients in the 搅拌机 罐 - cover 并 whiz on medium speed until 充分 搅拌ed.",
+      "倒入 in one tall, 2 medium or 3 small 杯es 并 drink up."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8838,7 +9203,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients together with ice. Strain into glass, garnish and serve."
+      "摇晃 all ingredients together 加冰.",
+      "滤入 into 杯, 装饰 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8869,7 +9235,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Put a copper coin in a coffe-cup and fill up with coffee until you no longer see the coin, then add alcohol until you see the coin. Norwegian speciality."
+      "放 a copper coin 在 coffe-cup 并 加满 up with 咖啡 until you no longer see the coin, 然后 加入 alcohol until you see the coin.",
+      "Norwegian speciality."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8902,7 +9269,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the bourbon and Benedictine into a brandy snifter."
+      "倒入 the 波本 并 Benedictine into a 白兰地 snifter."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8940,7 +9307,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes combine the courbon and Benedictine. Shake and strain into a cocktail glass. Garnish with the lemon twist."
+      "在 摇酒壶 half-加满ed with 冰块 混合 the courbon 并 Benedictine.",
+      "摇晃 并 滤入 into a 鸡尾酒杯.",
+      "用...装饰 the 柠檬 twist."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -8978,7 +9347,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Juice ginger and lemon and add it to hot water. You may add cardomom."
+      "Ju冰 金酒ger 并 柠檬 并 加入 it to hot water.",
+      "You may 加入 cardomom."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9016,7 +9386,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir. Add whipped cream to the top."
+      "搅拌.",
+      "加入 whipped 奶油 to the top."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9047,7 +9418,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add the crème de cassis to the bottom of the glass, then top up with wine."
+      "加入 the crème de cassis to the bottom of the 杯, 然后 加满 with wine."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9078,7 +9449,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour Creme de cassis in glass, gently pour champagne on top"
+      "倒入 Creme de cassis in 杯, 轻轻 倒入 champagne on top"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9126,7 +9497,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "mix in the glass"
+      "混合 in the 杯"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9162,7 +9533,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix in highball glass. Stirr. Garnish with slice of kiwi."
+      "混合 in 高球杯.",
+      "搅拌r.",
+      "用...装饰 sl冰 of kiwi."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9205,8 +9578,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "The kiwi martini is a very fun vodka cocktail and it is one of the best drinks that makes use of fresh fruit. Though there are a few recipes floating around, this is one of the easiest and it is an absolutely delightful green martini to drink.",
-      "For this recipe, you'll simply muddle slices of kiwi with simple syrup, then shake it with vodka. It's a drink that anyone can mix up in minutes and a perfect cocktail to show off your favorite vodka."
+      "The kiwi martini is a very fun 伏特加 cocktail 并 it is one of the best drinks that makes use of 新鲜 fruit.",
+      "Though there are a few recipes 漂浮ing around, this is one of the easiest 并 it is an absolutely delightful green martini to drink.",
+      "For this recipe, you'll simply 捣碎 sl冰s of kiwi with simple 糖浆, 然后 摇晃 it with 伏特加.",
+      "It's a drink that anyone can 混合 up in minutes 并 a perfect cocktail to show off your favorite 伏特加."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9237,7 +9612,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Throw everything into a blender and liquify."
+      "Throw everything into a 搅拌机 并 liquify."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9270,7 +9645,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add Kool Aid to a double shot glass, and top with rum. Slam and shoot."
+      "加入 Kool Aid to a double 烈酒杯, 并 顶部加 朗姆.",
+      "Slam 并 shoot."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9319,7 +9695,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour into a large glass with ice and stir. Add a little cranberry juice to taste."
+      "倒入 into a large 杯 加冰 并 搅拌.",
+      "加入 a little cranberry ju冰 适量."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9352,7 +9729,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill half the shot glass with the kool-aid first. Then put a paper towel over the top of the glass and slowly pour in the vodka. If you do it right, you should be able to see that the two liquids are separated, with the vodka on top. Now slam it! The last thing you'll taste is the kool-aid."
+      "加满 half the 烈酒杯 用 kool-aid first.",
+      "然后 放 a paper towel over the top of the 杯 并 slowly 倒入 in the 伏特加.",
+      "If you do it right, you should be able to see that the two liquids are separated, 用 伏特加 on top.",
+      "Now slam it!",
+      "The last thing you'll taste is the kool-aid."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9388,7 +9769,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour Absolut Kurant into a comfortably big tea-cup. Add the not too hot(!) apple tea and, if you like, some sugar. Enjoy!"
+      "倒入 Absolut Kurant into a comfortably big tea-cup.",
+      "加入 the not too hot(!) apple tea 并, if you like, some 糖.",
+      "Enjoy!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9441,7 +9824,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients (except carbonated water) with ice and strain into a cocktail glass over two ice cubes. Fill with carbonated water, stir, and serve."
+      "摇晃 all ingredients (except carbonated water) 加冰 并 滤入 into a 鸡尾酒杯 over two 冰块.",
+      "加入 carbonated water, 搅拌, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9487,7 +9871,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Blend in a blender for 3 seconds. Lassi is one of the easiest things to make, and there are many ways of making it. Basically, it is buttermilk (yoghurt whisked with water), and you can choose almost any consistency that you like, from the thinnest to the thickest. Serve cold."
+      "搅拌 在 搅拌机 for 3 seconds.",
+      "Lassi is one of the easiest things to make, 并 there are many ways of making it.",
+      "Basically, it is butter牛奶 (yoghurt whisked with water), 并 you can choose almost any consistency that you like, from the thinnest to the thickest.",
+      "上桌 cold."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9528,7 +9915,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Put it all in a blender and pour over crushed ice. You can also use other fruits like strawberries and bananas."
+      "放 it all 在 搅拌机 并 倒入 over 碎冰.",
+      "You can also use other fruits like 草莓ies 并 bananas."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9574,7 +9962,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Put all ingredients into a blender and blend until nice and frothy. Serve chilled."
+      "放 all ingredients into a 搅拌机 并 搅拌 until n冰 并 frothy.",
+      "上桌 冰镇."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9615,7 +10004,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Blend (frappe) in blender until frothy. Add torn curry leaves and serve cold."
+      "搅拌 (frappe) in 搅拌机 until frothy.",
+      "加入 torn curry leaves 并 上桌 cold."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9661,7 +10051,12 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Blend the yoghurt and ice cubes together, until the yoghurt becomes more liquid. Add sugar to taste. The lemon/lime is optional but it gives it a slightly tart taste. Dash of salt. Raita is also good for the summer. Instead of having a traditional salad you can make raita instead."
+      "搅拌 the yoghurt 并 冰块 together, until the yoghurt becomes more liquid.",
+      "加入 糖 适量.",
+      "The 柠檬/青柠 is 可选 but it gives it a slightly tart taste.",
+      "Dash of salt.",
+      "Raita is also good for the summer.",
+      "Instead of having a traditional salad you can make raita instead."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9697,7 +10092,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix the coconut liqueur (preferably tequila) with the grapefruit juice and top with soda water. Garnish with a large grapefruit slice against the inside of the glass."
+      "混合 the coconut liqueur (preferably 龙舌兰) 用 grapefruit ju冰 并 顶部加 soda water.",
+      "用...装饰 a large grapefruit sl冰 against the inside of the 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9735,7 +10131,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake and strain into a chilled cocktail glass rimmed with sugar."
+      "摇晃 并 滤入 into a 冰镇 鸡尾酒杯 rimmed with 糖."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9780,7 +10176,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients over ice, stir and enjoy!"
+      "倒入 all ingredients 加冰, 搅拌 并 enjoy!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9828,7 +10224,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix Galliano and Absolut Citron in a shot glass, lay lemon wedge sprinkled with sugar over glass and pour a rum over wedge and glass. light rum with a lighter and let burn for a second. Do shot quickly and suck on lemon. If it is done correctly, this will taste like a shot of sweet lemonade."
+      "混合 加利安奴 并 Absolut Citron 在 烈酒杯, lay 柠檬 wedge 撒d with 糖 over 杯 并 倒入 a 朗姆 over wedge 并 杯.",
+      "light 朗姆 with a lighter 并 let burn for a second.",
+      "Do shot quickly 并 suck on 柠檬.",
+      "If it is done correctly, this will taste like a shot of sweet 柠檬ade."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9876,7 +10275,12 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Juice the lemons. Peel and grate the ginger. Place the grated ginger and a liberal dash of the cayenne pepper into a piece of cheesecloth, and tie it into a knot. Let soak in the water. After 15 minutes or so, add the sugar, and the lemon juice. Chill, and serve."
+      "Ju冰 the 柠檬s.",
+      "Peel 并 grate the 金酒ger.",
+      "放 the grated 金酒ger 并 a liberal dash of the cayenne pepper into a piece of cheesecloth, 并 tie it into a knot.",
+      "Let soak in the water.",
+      "After 15 minutes or so, 加入 the 糖, 并 the 柠檬 ju冰.",
+      "冰镇, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9917,7 +10321,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a large glass, put the lime juice and sugar, and stir well. Add cold seltzer water to fill. Put the lime peels in the glass. Drink. Repeat until limes or soda run out."
+      "在 large 杯, 放 the 青柠 ju冰 并 糖, 并 充分搅拌.",
+      "加入 cold seltzer water to 加满.",
+      "放 the 青柠 peels in the 杯.",
+      "Drink.",
+      "Repeat until 青柠s or soda run out."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9948,7 +10356,12 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Open the Corona. Fill the empty space in the neck in the bottle with the rum. The bottle should be filled to the top. Plug the bottle with your thumb or the palm of your hand. Turn the bottle upside-down so the rum and beer mix. Turn the bottle rightside-up, unplug, and drink."
+      "Open the Corona.",
+      "加满 the empty space in the neck in the bottle 用 朗姆.",
+      "The bottle should be 加满ed to the top.",
+      "Plug the bottle with your thumb or the palm of your h并.",
+      "Turn the bottle upside-down so the 朗姆 并 beer 混合.",
+      "Turn the bottle rightside-up, unplug, 并 drink."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -9991,7 +10404,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a mixing glass half-filled with ice cubes, combine the Scotch, Drambuie, and vermouth. Stir well. Strain into a cocktail glass. Garnish with the lemon twist."
+      "在 混合ing 杯 half-加满ed with 冰块, 混合 the 苏格兰威士忌, 杜林标, 并 味美思.",
+      "充分搅拌.",
+      "滤入 into a 鸡尾酒杯.",
+      "用...装饰 the 柠檬 twist."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10029,7 +10445,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass."
+      "在 混合ing 杯 half-加满ed with 冰块, 混合 all of the ingredients.",
+      "充分搅拌.",
+      "滤入 into a 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10062,7 +10480,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir ingredients with ice, strain into a cocktail glass, and serve."
+      "搅拌 ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10115,7 +10533,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir powdered sugar and 2 oz. carbonated water in a collins glass. Fill glass with ice, add gin and vermouth, and stir. Fill with carbonated water and stir again. Add the twist of lemon peel and the orange spiral so that the end dangles over rim of glass."
+      "搅拌 powdered 糖 并 2 oz.",
+      "carbonated water 在 柯林斯杯.",
+      "加满 杯 加冰, 加入 g在nd 味美思, 并 搅拌.",
+      "加入 carbonated water 并 搅拌 again.",
+      "加入 the twist of 柠檬 peel 并 the 橙子 spiral so that the end dangles over rim of 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10171,7 +10593,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix all contents in a highball glass and sitr gently. Add dash of Coca-Cola for the coloring and garnish with lemon or lime twist."
+      "混合 all contents 在 高球杯 并 sitr 轻轻.",
+      "加入 dash of Coca-Cola for the coloring 并 用...装饰 柠檬 or 青柠 twist."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10229,7 +10652,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine all ingredients (except cola) and pour over ice in a highball glass. Add the splash of cola for color. Decorate with a slice of lemon and serve."
+      "混合 all ingredients (except cola) 并 倒入 加冰 在 高球杯.",
+      "加入 the splash of cola for color.",
+      "Decorate with a sl冰 of 柠檬 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10277,7 +10702,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake a tall glass with ice cubes and Angostura, coating the inside of the glass. Por the vodka onto this, add 1 slice of lime and squeeze juice out of remainder, mix with tonic, stir and voila you have a Long Vodka"
+      "摇晃 a tall 杯 with 冰块 并 Angostura, coating the inside of the 杯.",
+      "Por the 伏特加 onto this, 加入 1 sl冰 of 青柠 并 挤 ju冰 out of remainder, 混合 with tonic, 搅拌 并 voila you have a Long 伏特加"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10310,7 +10736,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the rum and Tia Maria into an old-fashioned glass almost filled with ice cubes. Stir well."
+      "倒入 the 朗姆 并 Tia Maria into an old-fashioned 杯 almost 加满ed with 冰块.",
+      "充分搅拌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10346,7 +10773,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill a pint glass almost full with beer. Then fill the rest with orange juice (careful not to fill it to the top). Then take the shot of Amaretto and drop it in."
+      "加满 a pint 杯 almost full with beer.",
+      "然后 加满 the rest with 橙子 ju冰 (careful not to 加满 it to the top).",
+      "然后 take the shot of Amaretto 并 drop it in."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10394,7 +10823,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice. Strain into glass. Garnish and serve with straw."
+      "摇晃 all ingredients 加冰.",
+      "滤入 into 杯.",
+      "装饰 并 上桌 with 吸管."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10454,9 +10885,12 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Squeeze the juice from 1½ limes and blend with the mango to give a smooth purée.",
-      "Cut the rest of the limes into quarters, and then cut each wedge in half again. Put 2 pieces of lime in a highball glass for each person and add 1 teaspoon of caster sugar and 5-6 mint leaves to each glass. Squish everything together with a muddler or the end of a rolling pin to release all the flavours from the lime and mint.",
-      "Divide the mango purée between the glasses and add 30ml white rum and a handful of crushed ice to each one, stirring well to mix everything together. Top up with soda water to serve and garnish with extra mint, if you like."
+      "挤 the ju冰 from 1½ 青柠s 并 搅拌 用 mango to give a smooth purée.",
+      "切 the rest of the 青柠s into quarters, 并 然后 切 each wedge in half again.",
+      "放 2 pieces of 青柠 在 高球杯 for each person 并 加入 1 tea勺 of caster 糖 并 5-6 薄荷 leaves to each 杯.",
+      "Squish everything together with a 捣碎r or the end of a rolling pin to release all the flavours from the 青柠 并 薄荷.",
+      "Divide the mango purée between the 杯es 并 加入 30ml white 朗姆 并 a h并ful of 碎冰 to each one, 搅拌ring 充分 to 混合 everything together.",
+      "加满 with soda water to 上桌 并 用...装饰 extra 薄荷, if you like."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10509,7 +10943,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stirred over ice, strained into a chilled glass, garnished, and served up."
+      "搅拌red 加冰, 滤入ed into a 冰镇 杯, 装饰ed, 并 上桌d up."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10552,7 +10986,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass."
+      "擦 the rim of the 杯 用 青柠 sl冰 to make the salt stick to it.",
+      "Take care to moisten only the outer rim 并 撒 the salt on it.",
+      "The salt should present to the lips of the imbiber 并 never 混合 into the cocktail.",
+      "摇晃 the other ingredients 加冰, 然后 小心 倒入 into the 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10595,8 +11032,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add all ingredients to a mixing glass and fill with ice.",
-      "Stir until chilled, and strain into a chilled coupe glass."
+      "加入 all ingredients to a 混合ing 杯 并 加入 冰.",
+      "搅拌 until 冰镇, 并 滤入 into a 冰镇 coupe 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10634,7 +11071,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Straight: Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive."
+      "Straight: 倒入 all ingredients into 混合ing 杯 with 冰块.",
+      "充分搅拌.",
+      "滤入 in 冰镇 martini 鸡尾酒杯.",
+      "挤 oil from 柠檬 peel onto the drink, or 用...装饰 olive."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10682,7 +11122,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake and strain into a chilled large cocktail glass"
+      "摇晃 并 滤入 into a 冰镇 large 鸡尾酒杯"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10750,7 +11190,13 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Bring 2 cups of water to boil. Add all the ingredients and boil again for about 15 seconds. Let stand for a minute. Warm milk in a pot. Filter tea into cups. Add milk and sugar. That's IT."
+      "Bring 2 cups of water to boil.",
+      "加入 all the ingredients 并 boil again for about 15 seconds.",
+      "Let st并 for a minute.",
+      "Warm 牛奶 在 pot.",
+      "Filter tea into cups.",
+      "加入 牛奶 并 糖.",
+      "That's IT."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10786,10 +11232,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "1 - Pour the Ricard (or pastis)",
-      "2 - Pour the orgeat syrup",
-      "3 - Finally pour the water and add ice cubes at your convenience.",
-      "Add the ice cubes at the end, otherwise the syrup and pastis do not mix well."
+      "1 - 倒入 the Ricard (or pastis)",
+      "2 - 倒入 the orgeat 糖浆",
+      "3 - Finally 倒入 the water 并 加入 冰块 at your convenience.",
+      "加入 the 冰块 at the end, otherwise the 糖浆 并 pastis do not 混合 充分."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10825,7 +11271,14 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Brew espresso. In a coffee mug, place 1 teaspoon of unsweetened powdered cocoa, then cover a teaspoon with honey and drizzle it into the cup. Stir while the coffee brews, this is the fun part. The cocoa seems to coat the honey without mixing, so you get a dusty, sticky mass that looks as though it will never mix. Then all at once, presto! It looks like dark chocolate sauce. Pour hot espresso over the honey, stirring to dissolve. Serve with cream."
+      "Brew espresso.",
+      "在 咖啡 杯, 放 1 tea勺 of unsweetened powdered cocoa, 然后 cover a tea勺 with 蜂蜜 并 drizzle it into the cup.",
+      "搅拌 while the 咖啡 brews, this is the fun part.",
+      "The cocoa seems to coat the 蜂蜜 without 混合ing, so you get a dusty, sticky mass that looks as though it will never 混合.",
+      "然后 all at once, presto!",
+      "It looks like dark 巧克力 sauce.",
+      "倒入 hot espresso over the 蜂蜜, 搅拌ring to 溶解.",
+      "上桌 with 奶油."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10863,7 +11316,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "First: Mix pina colada with 2.5 oz. of rum with ice(set aside). Second: Mix daiquiri with 2.5 oz. of rum with ice. Third: While frozen, add pina colda mix then daiquiri mix in glass (Making sure they do not get mixed together)."
+      "First: 混合 pina colada with 2.5 oz.",
+      "of 朗姆 加冰(set aside).",
+      "Second: 混合 daiquiri with 2.5 oz.",
+      "of 朗姆 加冰.",
+      "Third: While frozen, 加入 pina colda 混合 然后 daiquiri 混合 in 杯 (Making sure they do not get 混合ed together)."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10914,8 +11371,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix the beer with tomato juice, freshly squeezed lime juice, and Worcestershire sauce, teriyaki sauce, soy sauce, or hot sauce.",
-      "Served In a chilled, salt-rimmed glass"
+      "混合 the beer with tomato ju冰, 新鲜ly 挤d 青柠 ju冰, 并 Worcestershire sauce, teriyaki sauce, soy sauce, or hot sauce.",
+      "上桌d 在 冰镇, salt-rimmed 杯"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10951,7 +11408,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "If available, rim cocktail (Martini) glass with sugar syrup then dip into chocolate flakes or powder. Add ingredients into shaker with ice. Shake well then strain into cocktail glass."
+      "If available, rim cocktail (Martini) 杯 with 糖 糖浆 然后 dip into 巧克力 flakes or powder.",
+      "加入 ingredients into 摇酒壶 加冰.",
+      "充分摇晃 然后 滤入 into 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -10982,7 +11441,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Ensure both ingredients are well chilled, then mix into the glass. Serve cold."
+      "Ensure both ingredients are 充分 冰镇, 然后 混合 into the 杯.",
+      "上桌 cold."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11025,7 +11485,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a highball glass gently muddle the mint, sugar and water. Fill the glass with cracked ice, add Bourbon and stir well until the glass is well frosted. Garnish with a mint sprig."
+      "在 高球杯 轻轻 捣碎 the 薄荷, 糖 并 water.",
+      "加满 the 杯 with cracked 冰, 加入 波本 并 充分搅拌 until the 杯 is 充分 frosted.",
+      "用...装饰 a 薄荷 sprig."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11066,7 +11528,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "pour 6 oz. of coffee in a mug or Irish coffee cup. add coca mix and chambord, mix well and top off with whipped cream."
+      "倒入 6 oz.",
+      "of 咖啡 在 杯 or Irish 咖啡 cup.",
+      "加入 coca 混合 并 chambord, 混合 充分 并 top off with whipped 奶油."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11117,7 +11581,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw."
+      "捣碎 薄荷 leaves with 糖 并 青柠 ju冰.",
+      "加入 a splash of soda water 并 加满 the 杯 with cracked 冰.",
+      "倒入 the 朗姆 并 顶部加 soda water.",
+      "装饰 并 上桌 with 吸管."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11165,7 +11632,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Put mint with lemon juice in a glas, mash the mint with a spoon, ice, rum & fill up with club soda. Top it with Angostura."
+      "放 薄荷 with 柠檬 ju冰 在 glas, mash the 薄荷 with a 勺, 冰, 朗姆 & 加满 up with club soda.",
+      "Top it with Angostura."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11208,7 +11676,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake well over ice cubes in a shaker, strain into a chilled cocktail glass."
+      "充分摇晃 over 冰块 在 摇酒壶, 滤入 into a 冰镇 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11246,7 +11714,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all of the ingredients into an old-fashioned glass almost filled with ice cubes. Stir well."
+      "倒入 all of the ingredients into an old-fashioned 杯 almost 加满ed with 冰块.",
+      "充分搅拌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11284,7 +11753,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "first you put rhe absinthe, then put tequila, then put the Granadine syrup."
+      "first you 放 rhe absinthe, 然后 放 龙舌兰, 然后 放 the Granadine 糖浆."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11323,7 +11792,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine vodka and ginger beer in a highball glass filled with ice. Add lime juice. Stir gently. Garnish."
+      "混合 伏特加 并 金酒ger beer 在 高球杯 加满ed 加冰.",
+      "加入 青柠 ju冰.",
+      "搅拌 轻轻.",
+      "装饰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11359,7 +11831,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add all contents to a large jug or punch bowl. Stir well!"
+      "加入 all contents to a large jug or punch bowl.",
+      "充分搅拌!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11417,7 +11890,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Simmer 3 cups water with, sugar, cloves, cinnamon sticks, and lemon peel in a stainless steel pot for 10 minutes. Add wine heat to a \"coffee temperature\" (DO NOT BOIL) then add the brandy."
+      "Simmer 3 cups water with, 糖, cloves, cinnamon sticks, 并 柠檬 peel 在 stainless steel pot for 10 minutes.",
+      "加入 wine heat to a \"咖啡 temperature\" (DO NOT BOIL) 然后 加入 the 白兰地."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11465,10 +11939,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill glass with ice",
-      "Pour Gin and Lime Juice",
-      "Fill glass with Ginger Beer",
-      "Garnish with Cucumer and Lime slice"
+      "加满 杯 加冰",
+      "倒入 G在nd 青柠 Ju冰",
+      "加满 杯 with 金酒ger Beer",
+      "用...装饰 Cucumer 并 青柠 sl冰"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11523,7 +11997,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients into a shaker of ice. Shake well. Serve on the rocks."
+      "倒入 all ingredients into a 摇酒壶 of 冰.",
+      "充分摇晃.",
+      "上桌 on the rocks."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11561,7 +12037,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir into glass over ice, garnish and serve."
+      "搅拌 into 杯 加冰, 装饰 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11602,7 +12078,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Serve in a chilled cocktail glass. Lemon and sugar the rim. Stir and Strain."
+      "上桌 在 冰镇 鸡尾酒杯.",
+      "柠檬 并 糖 the rim.",
+      "搅拌 并 滤入."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11655,7 +12133,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake blended whiskey, juice of lemon, and powdered sugar with ice and strain into a whiskey sour glass. Float claret on top. Decorate with the half-slice of lemon and the cherry and serve."
+      "摇晃 搅拌ed 威士忌, ju冰 of 柠檬, 并 powdered 糖 加冰 并 滤入 into a 威士忌 sour 杯.",
+      "漂浮 claret on top.",
+      "Decorate 用 half-sl冰 of 柠檬 并 the 樱桃 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11696,7 +12176,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix with a bit of milk (1 oz or so) in coffee mug. Nuke mug for about 30-50 seconds. Stir until the heated cocoa dissolves. Fill mug with milk. Nuke for 1-2 minutes, depending on wattage and preferences as to burnt mouth parts."
+      "混合 with a bit of 牛奶 (1 oz or so) in 咖啡 杯.",
+      "Nuke 杯 for about 30-50 seconds.",
+      "搅拌 until the heated cocoa 溶解s.",
+      "加满 杯 with 牛奶.",
+      "Nuke for 1-2 minutes, depending on wattage 并 preferences as to burnt mouth parts."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11732,7 +12216,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Serve over ice"
+      "上桌 加冰"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11780,8 +12264,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Just mix it all together.",
-      "It's meant to be a shot, but it works just fine as a proper adult-sized drink over lots of ice.",
+      "Just 混合 it all together.",
+      "It's meant to be a shot, but it works just fine as a proper adult-sized drink over lots of 冰.",
       "Tastes like an oatmeal cookie."
     ],
     "brewCount": 0,
@@ -11830,7 +12314,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake a handful of mint, 2oz white rum, 1oz of sugar syrup, 1oz lime juice and 2 dashes angostura bitters with ice. Double strain into a glass and top with 2oz of prosecco."
+      "摇晃 a h并ful of 薄荷, 2oz white 朗姆, 1oz of 糖 糖浆, 1oz 青柠 ju冰 并 2 dashes angostura 苦精 加冰.",
+      "Double 滤入 into a 杯 并 顶部加 2oz of prosecco."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11873,9 +12358,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolved.",
-      "Fill the glass with ice cubes and add whiskey.",
-      "Garnish with orange twist, and a cocktail cherry."
+      "放 糖 cube in old fashioned 杯 并 saturate with 苦精, 加入 a dash of plain water.",
+      "捣碎 until 溶解d.",
+      "加满 the 杯 with 冰块 并 加入 威士忌.",
+      "用...装饰 橙子 twist, 并 a cocktail 樱桃."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11913,7 +12399,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Chill cocktail glass. Add ingredients to a mixing glass, and fill 2/3 full with ice. Stir about 20 seconds. Empty cocktail glass and strain into the glass. Garnish with a twist of lemon peel."
+      "冰镇 鸡尾酒杯.",
+      "加入 ingredients to a 混合ing 杯, 并 加满 2/3 full 加冰.",
+      "搅拌 about 20 seconds.",
+      "Empty 鸡尾酒杯 并 滤入 into the 杯.",
+      "用...装饰 a twist of 柠檬 peel."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11951,7 +12441,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add all ingredients to tumbler-Pour as shot"
+      "加入 all ingredients to tumbler-倒入 as shot"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -11995,7 +12485,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake brandy, gin, and orange juice with ice and strain into a highball glass over ice cubes. Fill with ginger ale, stir, and serve."
+      "摇晃 白兰地, 金酒, 并 橙子 ju冰 加冰 并 滤入 into a 高球杯 over 冰块.",
+      "加入 金酒ger ale, 搅拌, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12038,7 +12529,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine liquors in a blender. Add a half scoop of ice and blend. Garnish with an orange and cherry flag. So good it will melt in your mouth!!!"
+      "混合 liquors 在 搅拌机.",
+      "加入 a half scoop of 冰 并 搅拌.",
+      "用...装饰 an 橙子 并 樱桃 flag.",
+      "So good it will melt in your mouth!!!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12098,7 +12592,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add the spirits to the bottom of the glass and top equally with the mixer drinks. Garnish with orange slices inside the glass as well as some rosemary on top."
+      "加入 the spirits to the bottom of the 杯 并 top equally 用 混合er drinks.",
+      "用...装饰 橙子 sl冰s inside the 杯 as 充分 as some rosemary on top."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12144,7 +12639,18 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine all ingredients in heavy medium saucepan. Stir over low heat until chocolate melts. Increase heat and bring just to a boil, stirring often. Remove from heat and whisk untily frothy. Return to heat and bring to boil again. Remove from heat, whisk until frothy. Repeat heating and whisking once again. Discard orange peel. (Can be prepared 2 hours ahead. Let stand at room temperature. Before serving, bring just to boil, remove from heat and whisk until frothy.) Pour hot chocolate into coffee mugs. Makes 2 servings."
+      "混合 all ingredients in heavy medium saucepan.",
+      "搅拌 over low heat until 巧克力 melts.",
+      "Increase heat 并 bring just to a boil, 搅拌ring often.",
+      "Remove from heat 并 whisk untily frothy.",
+      "Return to heat 并 bring to boil again.",
+      "Remove from heat, whisk until frothy.",
+      "Repeat heating 并 whisking once again.",
+      "丢弃 橙子 peel.",
+      "(Can be prepared 2 hours ahead.",
+      "Let st并 at room temperature.",
+      "Before serving, bring just to boil, remove from heat 并 whisk until frothy.) 倒入 hot 巧克力 into 咖啡 杯s.",
+      "Makes 2 servings."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12193,7 +12699,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour ingredients over ice and stir."
+      "倒入 ingredients 加冰 并 搅拌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12234,7 +12740,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Place some ice cubes in a large tumbler or highball glass, add lemon juice, orange juice, sugar syrup, and stir well. Top up with cold soda water, serve with a drinking straw."
+      "放 some 冰块 在 large tumbler or 高球杯, 加入 柠檬 ju冰, 橙子 ju冰, 糖 糖浆, 并 充分搅拌.",
+      "加满 with cold soda water, 上桌 with a drinking 吸管."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12282,7 +12789,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Blend Vodka, Kahlua, Bailey's, ice-cream and the Oreo well in a blender. Pour into a large frosted glass. Garnish with whipped cream and a cherry."
+      "搅拌 伏特加, 甘露咖啡酒, Bailey's, 冰-奶油 并 the Oreo 充分 在 搅拌机.",
+      "倒入 into a large frosted 杯.",
+      "用...装饰 whipped 奶油 并 a 樱桃."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12330,7 +12839,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a chilled cocktail glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 冰镇 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12373,7 +12882,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add ingredients and mix in blender."
+      "加入 ingredients 并 混合 in 搅拌机."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12406,7 +12915,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir together and serve over ice."
+      "搅拌 together 并 上桌 加冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12445,7 +12954,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake together over ice. Strain into cocktail glass and serve chilled."
+      "摇晃 together 加冰.",
+      "滤入 into 鸡尾酒杯 并 上桌 冰镇."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12483,7 +12993,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients into a glass and stir. Garnish with half a passion fruit piece."
+      "倒入 all ingredients into a 杯 并 搅拌.",
+      "用...装饰 half a passion fruit piece."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12531,7 +13042,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake, strain, up, cocktail glass"
+      "摇晃, 滤入, up, 鸡尾酒杯"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12580,7 +13091,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake blended Scotch, lemon juice, honey syrup and ginger syrup with ice. Strain over large ice in chilled rocks glass. Float smoky Scotch on top (be sure to use a smoky Scotch such as an Islay single malt). Garnish with candied ginger."
+      "摇晃 搅拌ed 苏格兰威士忌, 柠檬 ju冰, 蜂蜜 糖浆 并 金酒ger 糖浆 加冰.",
+      "滤入 over large 冰 in 冰镇 古典杯.",
+      "漂浮 smoky 苏格兰威士忌 on top (be sure to use a smoky 苏格兰威士忌 such as an Islay single malt).",
+      "用...装饰 c并ied 金酒ger."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12618,7 +13132,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix with crushed ice in blender until smooth. Pour into chilled glass, garnish and serve."
+      "混合 with 碎冰 in 搅拌机 until smooth.",
+      "倒入 into 冰镇 杯, 装饰 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12651,7 +13166,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Throw everything into a blender and liquify."
+      "Throw everything into a 搅拌机 并 liquify."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12704,10 +13219,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Rub the rim of each glass with lime slice and dip into salt.",
-      "Add ice, tequila, grapefruit juice, lime juice and top with pineapple soda.",
-      "Give it a quick stir.",
-      "Garnish with fresh pineapple or lime."
+      "擦 the rim of each 杯 with 青柠 sl冰 并 dip into salt.",
+      "加入 冰, 龙舌兰, grapefruit ju冰, 青柠 ju冰 并 顶部加 菠萝 soda.",
+      "Give it a quick 搅拌.",
+      "用...装饰 新鲜 菠萝 or 青柠."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12740,7 +13255,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the bitters into a wine glass. Swirl the glass to coat the inside with the bitters, shake out the excess. Pour the gin into the glass. Do not add ice."
+      "倒入 the 苦精 into a 葡萄酒杯.",
+      "Swirl the 杯 to coat the inside 用 苦精, 摇晃 out the excess.",
+      "倒入 the 金酒 into the 杯.",
+      "Do not 加入 冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12783,7 +13301,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a cocktail glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12831,7 +13349,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Slowly shake in a shaker with ice, strain into a square whiskey glass. Top with fresh ice. Add the blackberries to garnish. Add flowers and a green leaf for a special look!"
+      "Slowly 摇晃 在 摇酒壶 加冰, 滤入 into a square 威士忌 杯.",
+      "顶部加 新鲜 冰.",
+      "加入 the blackberries to 装饰.",
+      "加入 flowers 并 a green leaf for a special look!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12869,7 +13390,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake well"
+      "充分摇晃"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12917,7 +13438,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "mix all ingredients into bowl keep iced stir frequently"
+      "混合 all ingredients into bowl keep 冰d 搅拌 frequently"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -12963,7 +13484,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Vigorously shake and strain contents in a cocktail shaker with ice cubes, then pour into glass and garnish with bitters."
+      "用力 摇晃 并 滤入 contents 在 cocktail 摇酒壶 with 冰块, 然后 倒入 into 杯 并 用...装饰 苦精."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13006,7 +13527,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients, except the bitters, into shaker filled with ice. Shake well. Pour into large glass, filled with ice. Add Angostura bitters, \"on top\". Garnish with cocktail cherry and pineapple."
+      "倒入 all ingredients, except the 苦精, into 摇酒壶 加满ed 加冰.",
+      "充分摇晃.",
+      "倒入 into large 杯, 加满ed 加冰.",
+      "加入 Angostura 苦精, \"on top\".",
+      "用...装饰 cocktail 樱桃 并 菠萝."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13059,7 +13584,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Squeeze an orange and strain the juice. Put all the ingredients in a shaker filled with ice and shake for at least 12 seconds. Strain into a highball glass and decorate with a pineapple wedge or fruit of your choice."
+      "挤 an 橙子 并 滤入 the ju冰.",
+      "放 all the ingredients 在 摇酒壶 加满ed 加冰 并 摇晃 for at least 12 seconds.",
+      "滤入 into a 高球杯 并 decorate with a 菠萝 wedge or fruit of your cho冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13102,7 +13629,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Served over ice in a tall glass with a popped cherry (can add more popped cherries if in the mood)!"
+      "上桌d 加冰 在 tall 杯 with a popped 樱桃 (can 加入 more popped cherries if in the mood)!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13135,7 +13662,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake ingredients with ice, strain into a cocktail glass, and serve."
+      "摇晃 ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13183,7 +13710,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Straight: Pour all ingredients into mixing glass with ice cubes. Shake well. Strain in chilled martini cocktail glass. Cut passion fruit in half and use as garnish. Pour prosecco into a chilled shot glass and serve alongside the martini."
+      "Straight: 倒入 all ingredients into 混合ing 杯 with 冰块.",
+      "充分摇晃.",
+      "滤入 in 冰镇 martini 鸡尾酒杯.",
+      "切 passion fruit in half 并 use as 装饰.",
+      "倒入 prosecco into a 冰镇 烈酒杯 并 上桌 alongside the martini."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13214,7 +13745,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour carefully into a pousse-cafe glass, so that creme de menthe floats on grenadine. Serve without mixing."
+      "倒入 小心 into a pousse-cafe 杯, so that creme de menthe 漂浮s on 红石榴糖浆.",
+      "上桌 without 混合ing."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13247,7 +13779,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir ingredients with ice, strain into a cocktail glass, and serve."
+      "搅拌 ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13293,7 +13825,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients (except nutmeg) with ice and strain into a whiskey sour glass. Sprinkle nutmeg on top and serve."
+      "摇晃 all ingredients (except nutmeg) 加冰 并 滤入 into a 威士忌 sour 杯.",
+      "撒 nutmeg on top 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13331,7 +13864,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake ingredients together in a mixer with ice. Strain into glass, garnish and serve."
+      "摇晃 ingredients together 在 混合er 加冰.",
+      "滤入 into 杯, 装饰 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13384,7 +13918,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix up all ingredients with a cocktail stirrer and serve with crushed ice with mint and edible flour if available."
+      "混合 up all ingredients with a cocktail 搅拌rer 并 上桌 with 碎冰 with 薄荷 并 edible flour if available."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13425,7 +13959,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake with ice."
+      "摇晃 加冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13469,7 +14003,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a cocktail glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13507,7 +14041,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir all ingredients with ice, strain into a cocktail glass, and serve."
+      "搅拌 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13546,7 +14080,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a cocktail glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13582,7 +14116,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour red wine and grenadine into a collins glass over ice cubes. Fill with lemon-lime soda, stir, and serve."
+      "倒入 red wine 并 红石榴糖浆 into a 柯林斯杯 over 冰块.",
+      "加入 柠檬-青柠 soda, 搅拌, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13620,7 +14155,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir all ingredients with ice, strain into a cocktail glass, and serve."
+      "搅拌 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13663,7 +14198,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes, combine the rum, Kahlua, and cream. Shake well. Strain into a cocktail glass and garnish with the nutmeg."
+      "在 摇酒壶 half-加满ed with 冰块, 混合 the 朗姆, 甘露咖啡酒, 并 奶油.",
+      "充分摇晃.",
+      "滤入 into a 鸡尾酒杯 并 用...装饰 the nutmeg."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13699,7 +14236,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shot glass add 1/3 Kahlua first. Then 1/3 Miduri, topping it off with a 1/3 bailey's irish cream"
+      "在 烈酒杯 加入 1/3 甘露咖啡酒 first.",
+      "然后 1/3 Miduri, topping it off with a 1/3 bailey's irish 奶油"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13730,7 +14268,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Simply add the orange juice, quite a quick pour in order to mix the sambucca with the orange juice. The juice MUST have fruit pulp!"
+      "Simply 加入 the 橙子 ju冰, quite a quick 倒入 in order to 混合 the sambucca 用 橙子 ju冰.",
+      "The ju冰 MUST have fruit pulp!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13796,7 +14335,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients over ice in a very tall glass. Sip cautiously."
+      "倒入 all ingredients 加冰 在 very tall 杯.",
+      "Sip cautiously."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13827,7 +14367,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour beer into large mug, slowly add the 7-up (or Sprite)."
+      "倒入 beer into large 杯, slowly 加入 the 7-up (or Sprite)."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13865,7 +14405,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix sugar syrup with lemon juice in a tall glass. Fill up with ginger ale."
+      "混合 糖 糖浆 with 柠檬 ju冰 在 tall 杯.",
+      "加满 up with 金酒ger ale."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13923,12 +14464,13 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Prepare all the ingredients on the counter to be able to work well and quickly, especially the cream and egg white.",
-      "Pour all the ingredients into a shaker.",
-      "Shake vigorously for 1 minute: cream and egg white must be mixed perfectly, so don't rush.",
-      "Now open the shaker and put some ice and shake for 1-2 minutes. It depends on how long you can resist!",
-      "Pour into a highball glass, add a splash of soda and garnish to taste.",
-      "Ramos Gin Fizz was once drunk as an invigorating drink or even as a breakfast, try it as an aperitif and after dinner and you will discover a little gem now lost."
+      "Prepare all the ingredients on the counter to be able to work 充分 并 quickly, especially the 奶油 并 egg white.",
+      "倒入 all the ingredients into a 摇酒壶.",
+      "摇晃 用力 for 1 minute: 奶油 并 egg white must be 混合ed perfectly, so don't rush.",
+      "Now open the 摇酒壶 并 放 some 冰 并 摇晃 for 1-2 minutes.",
+      "It depends on how long you can resist!",
+      "倒入 into a 高球杯, 加入 a splash of soda 并 装饰 适量.",
+      "Ramos 金酒 Fizz was once drunk as an invigorating drink or even as a breakfast, try it as an aperitif 并 after dinner 并 you will discover a little gem now lost."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -13966,7 +14508,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the raspberry vodka and soda into a highball glass almost filled with ice cubes. Stir well."
+      "倒入 the raspberry 伏特加 并 soda into a 高球杯 almost 加满ed with 冰块.",
+      "充分搅拌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14004,7 +14547,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Softly muddle the mint leaves and raspberry syrup in the bottom of the cup. Add crushed ice and Bourbon to the cup and then stir. Top with more ice, garnish with a mint sprig."
+      "Softly 捣碎 the 薄荷 leaves 并 raspberry 糖浆 in the bottom of the cup.",
+      "加入 碎冰 并 波本 to the cup 并 然后 搅拌.",
+      "顶部加 more 冰, 用...装饰 a 薄荷 sprig."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14040,7 +14585,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "One shot each, shake n shoot"
+      "One shot each, 摇晃 n shoot"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14094,7 +14639,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake together in a cocktail shaker, then strain into chilled glass. Garnish and serve."
+      "摇晃 together 在 cocktail 摇酒壶, 然后 滤入 into 冰镇 杯.",
+      "装饰 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14137,9 +14683,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "1) Add the Bombay Sapphire, Blue Curacao, rosemary sprig and gently squeezed lemon wedge to a balloon glass. Swirl well to combine.",
-      "2) Fill with cubed ice and top with the Fever-Tree Light Tonic Water.",
-      "3) Gently fold with a bar spoon to mix."
+      "1) 加入 the Bombay Sapphire, 蓝柑橘酒, rosemary sprig 并 轻轻 挤d 柠檬 wedge to a balloon 杯.",
+      "Swirl 充分 to 混合.",
+      "2) 加入 cubed 冰 并 top 用 Fever-Tree Light Tonic Water.",
+      "3) 轻轻 fold with a bar 勺 to 混合."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14170,7 +14717,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Into a shot glass layer the Crown Royal on top of the Frangelico."
+      "Into a 烈酒杯 分层 the Crown Royal on top of the 榛子力娇酒."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14213,7 +14760,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients (except cola) with ice and strain into a chilled collins glass. Fill with cola and serve."
+      "摇晃 all ingredients (except cola) 加冰 并 滤入 into a 冰镇 柯林斯杯.",
+      "加入 cola 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14254,7 +14802,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all the ingredients into tumbler over ice. Strain into glass."
+      "倒入 all the ingredients into tumbler 加冰.",
+      "滤入 into 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14302,7 +14851,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve."
+      "摇晃 all ingredients (except carbonated water) 加冰 并 滤入 into a 高球杯 over two 冰块.",
+      "加入 carbonated water, 搅拌, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14340,7 +14890,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour gin and cranberry into a highball filled with ice cubes. Add grenadine and stir."
+      "倒入 g在nd cranberry into a highball 加满ed with 冰块.",
+      "加入 红石榴糖浆 并 搅拌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14393,7 +14944,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In an old-fashioned glass, dissolve the sugar in the club soda. Add crushed ice until the glass is almost full. Add the rum. Stir well. Garnish with the cherry and the orange and lemon slices."
+      "在n old-fashioned 杯, 溶解 the 糖 in the club soda.",
+      "加入 碎冰 until the 杯 is almost full.",
+      "加入 the 朗姆.",
+      "充分搅拌.",
+      "用...装饰 the 樱桃 并 the 橙子 并 柠檬 sl冰s."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14431,7 +14986,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the rum and soda into a collins glass almost filled with ice cubes. Stir well and garnish with the lemon wedge."
+      "倒入 the 朗姆 并 soda into a 柯林斯杯 almost 加满ed with 冰块.",
+      "充分搅拌 并 用...装饰 the 柠檬 wedge."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14474,7 +15030,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients (except nutmeg) with ice and strain into a collins glass. Sprinkle nutmeg on top and serve."
+      "摇晃 all ingredients (except nutmeg) 加冰 并 滤入 into a 柯林斯杯.",
+      "撒 nutmeg on top 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14527,7 +15084,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir powdered sugar, water, and bitters in an old-fashioned glass. When sugar has dissolved add ice cubes and light rum. Add the twist of lime peel, float 151 proof rum on top, and serve."
+      "搅拌 powdered 糖, water, 并 苦精 在n old-fashioned 杯.",
+      "When 糖 has 溶解d 加入 冰块 并 light 朗姆.",
+      "加入 the twist of 青柠 peel, 漂浮 151 proof 朗姆 on top, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14576,7 +15135,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix all ingredients in a punch bowl and serve."
+      "混合 all ingredients 在 punch bowl 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14625,7 +15184,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix all ingredients in glass & add ice."
+      "混合 all ingredients in 杯 & 加入 冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14658,7 +15217,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour rum into a highball glass over ice cubes. Add orange juice, stir, and serve."
+      "倒入 朗姆 into a 高球杯 over 冰块.",
+      "加入 橙子 ju冰, 搅拌, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14706,7 +15266,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes, combine the rum, lemon juice, and sugar. Shake well. Strain into a sour glass and garnish with the orange slice and the cherry."
+      "在 摇酒壶 half-加满ed with 冰块, 混合 the 朗姆, 柠檬 ju冰, 并 糖.",
+      "充分摇晃.",
+      "滤入 into a sour 杯 并 用...装饰 the 橙子 sl冰 并 the 樱桃."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14749,7 +15311,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Dissolve powdered sugar in water in an old-fashioned glass. Add rum and one ice cube and stir. Add the twist of lemon peel and serve."
+      "溶解 powdered 糖 in water 在n old-fashioned 杯.",
+      "加入 朗姆 并 one 冰 cube 并 搅拌.",
+      "加入 the twist of 柠檬 peel 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14792,7 +15356,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the ingredients into an highball glass, top with Sparkling wine."
+      "倒入 the ingredients into an 高球杯, 顶部加 Sparkling wine."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14830,7 +15394,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the Scotch and Drambuie into an old-fashioned glass almost filled with ice cubes. Stir well. Garnish with the lemon twist."
+      "倒入 the 苏格兰威士忌 并 杜林标 into an old-fashioned 杯 almost 加满ed with 冰块.",
+      "充分搅拌.",
+      "用...装饰 the 柠檬 twist."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14868,7 +15434,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients over ice cubes in a highball glass. Stir well and serve. (Vodka may be substituted for gin, if preferred.)"
+      "倒入 all ingredients over 冰块 在 高球杯.",
+      "充分搅拌 并 上桌.",
+      "(伏特加 may be substituted for 金酒, if preferred.)"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14911,7 +15479,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Take a tall glass and put in a few ice cubes, fill the vodka over it and fill with juice then the \"creme\", to end fill in the grenadine but very carefully at the side of the glass so it will lay down in the bottom. garnish with orange and strawberry."
+      "Take a tall 杯 并 放 在 few 冰块, 加满 the 伏特加 over it 并 加入 ju冰 然后 the \"creme\", to end 加满 in the 红石榴糖浆 but very 小心 at the side of the 杯 so it will lay down in the bottom.",
+      "用...装饰 橙子 并 草莓y."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -14962,7 +15531,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix all together in a pitcher and refrigerate. Add cloves and cinnamon sticks to taste. Serve in wine glasses."
+      "混合 all together 在 pitcher 并 refrigerate.",
+      "加入 cloves 并 cinnamon sticks 适量.",
+      "上桌 in 葡萄酒杯es."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15015,7 +15586,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Rinse a chilled old-fashioned glass with the absinthe, add crushed ice, and set it aside. Stir the remaining ingredients over ice and set it aside. Discard the ice and any excess absinthe from the prepared glass, and strain the drink into the glass. Add the lemon peel for garnish."
+      "Rinse a 冰镇 old-fashioned 杯 用 absinthe, 加入 碎冰, 并 set it aside.",
+      "搅拌 the remaining ingredients 加冰 并 set it aside.",
+      "丢弃 the 冰 并 any excess absinthe from the prepared 杯, 并 滤入 the drink into the 杯.",
+      "加入 the 柠檬 peel for 装饰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15053,7 +15627,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients well with cracked ice, strain into a cocktail glass, and serve."
+      "摇晃 all ingredients 充分 with cracked 冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15101,7 +15675,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake scotch, juice of lime, and powdered sugar with ice and strain into a whiskey sour glass. Decorate with 1/2 slice lemon, top with the cherry, and serve."
+      "摇晃 苏格兰威士忌, ju冰 of 青柠, 并 powdered 糖 加冰 并 滤入 into a 威士忌 sour 杯.",
+      "Decorate with 1/2 sl冰 柠檬, top 用 樱桃, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15134,7 +15709,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix in a highball glass with ice. Garnish and serve."
+      "混合 在 高球杯 加冰.",
+      "装饰 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15172,7 +15748,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Build all ingredients in a highball glass filled with ice. Garnish with lime wedge."
+      "Build all ingredients 在 高球杯 加满ed 加冰.",
+      "用...装饰 青柠 wedge."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15210,7 +15787,13 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix lemonade and water according to instructions on back of can. If the instructions say to add 4 1/3 cans of water do so. Mix into pitcher. Add 1 1/2 cup of Vodka (Absolut). Mix well. Pour into glass of crushed ice. Excellent!"
+      "混合 柠檬ade 并 water according to instructions on back of can.",
+      "If the instructions say to 加入 4 1/3 cans of water do so.",
+      "混合 into pitcher.",
+      "加入 1 1/2 cup of 伏特加 (Absolut).",
+      "混合 充分.",
+      "倒入 into 杯 of 碎冰.",
+      "Excellent!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15256,7 +15839,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake sherry, powdered sugar, and egg with ice and strain into a collins glass. Fill with milk and stir. Sprinkle nutmeg on top and serve."
+      "摇晃 sherry, powdered 糖, 并 egg 加冰 并 滤入 into a 柯林斯杯.",
+      "加入 牛奶 并 搅拌.",
+      "撒 nutmeg on top 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15302,7 +15887,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients (except nutmeg) with ice and strain into a whiskey sour glass. Sprinkle nutmeg on top and serve."
+      "摇晃 all ingredients (except nutmeg) 加冰 并 滤入 into a 威士忌 sour 杯.",
+      "撒 nutmeg on top 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15338,7 +15924,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour one part Jack Daneils and one part Jim Beam into shot glass then float Wild Turkey on top."
+      "倒入 one part Jack Daneils 并 one part Jim Beam into 烈酒杯 然后 漂浮 Wild Turkey on top."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15374,7 +15960,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass."
+      "倒入 all ingredients into cocktail 摇酒壶 加满ed 加冰.",
+      "充分摇晃 并 滤入 into 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15415,7 +16002,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Throw it all together and serve real cold."
+      "Throw it all together 并 上桌 real cold."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15456,7 +16043,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Place one ice cube in the glass and add 1 1/2 oz of Advocaat. Fill up the glass with lemonade and decorate with a slice of lemon. Serve at once."
+      "放 one 冰 cube in the 杯 并 加入 1 1/2 oz of Advocaat.",
+      "加满 up the 杯 with 柠檬ade 并 decorate with a sl冰 of 柠檬.",
+      "上桌 at once."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15509,7 +16098,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir all ingredients with ice. Strain into a chilled rocks glass over fresh ice. Express orange peel over drink and garnish."
+      "搅拌 all ingredients 加冰.",
+      "滤入 into a 冰镇 古典杯 over 新鲜 冰.",
+      "挤压 橙子 peel over drink 并 装饰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15542,7 +16133,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake ingredients with ice, strain into a brandy snifter, and serve. (The English translation of the name of this drink is \"Sun and Shade\", and after sampling this drink, you'll understand why. Thanks, Kirby.)"
+      "摇晃 ingredients 加冰, 滤入 into a 白兰地 snifter, 并 上桌.",
+      "(The English translation of the name of this drink is \"Sun 并 Shade\", 并 after sampling this drink, you'll underst并 why.",
+      "Thanks, Kirby.)"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15595,7 +16188,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill glass with ice and add shots of Bacardi and Malibu. Add splash of pineapple juice and top with orange juice. Add grenadine for color and garnish with cherries."
+      "加满 杯 加冰 并 加入 shots of Bacardi 并 Malibu.",
+      "加入 splash of 菠萝 ju冰 并 顶部加 橙子 ju冰.",
+      "加入 红石榴糖浆 for color 并 用...装饰 cherries."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15648,8 +16243,12 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Gently warm 60g golden caster sugar in a pan with 30ml water and 1 tbsp allspice. Cook gently until the sugar has dissolved, then leave the mixture to cool. Strain through a sieve lined with a coffee filter (or a double layer of kitchen paper).",
-      "Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90ml lime juice. Shake with ice and strain between six flute glasses. Top up with 600ml champagne and garnish each with an orange twist."
+      "轻轻 warm 60g golden caster 糖 在 pan with 30ml water 并 1 tbsp allsp冰.",
+      "Cook 轻轻 until the 糖 has 溶解d, 然后 leave the 混合ture to cool.",
+      "滤入 through a sieve lined with a 咖啡 filter (or a double 分层 of kitchen paper).",
+      "倒入 60ml of the sp冰d 糖浆 into a cocktail 摇酒壶 along with 200ml 朗姆 并 90ml 青柠 ju冰.",
+      "摇晃 加冰 并 滤入 between six flute 杯es.",
+      "加满 with 600ml champagne 并 装饰 each with an 橙子 twist."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15685,7 +16284,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Build into glass over ice, garnish and serve."
+      "Build into 杯 加冰, 装饰 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15718,7 +16317,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour in a mixing glass with ice, stir and strain into a cocktail glass. May also be served on rocks in a rocks glass."
+      "倒入 在 混合ing 杯 加冰, 搅拌 并 滤入 into a 鸡尾酒杯.",
+      "May also be 上桌d on rocks 在 古典杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15756,7 +16356,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a chilled whiskey sour glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 冰镇 威士忌 sour 杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15792,7 +16392,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up."
+      "放 all ingredients in the 搅拌机 罐 - cover 并 whiz on medium speed until 充分 搅拌ed.",
+      "倒入 in one tall, 2 medium or 3 small 杯es 并 drink up."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15853,7 +16454,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Dissolve the sugar in hot water and cool. Peel the citrus fruits and break into wedges. Mix the wine, sugar syrup, fruit, and Fresca in a pitcher and put in the fridge for a few hours. Serve in tall glasses with a straw."
+      "溶解 the 糖 in hot water 并 cool.",
+      "Peel the citrus fruits 并 break into wedges.",
+      "混合 the wine, 糖 糖浆, fruit, 并 Fresca 在 pitcher 并 放 in the fridge for a few hours.",
+      "上桌 in tall 杯es with a 吸管."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15884,7 +16488,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Put 2 shots Godiva Liquour into a glass, add as much or as little milk as you would like."
+      "放 2 shots Godiva Liquour into a 杯, 加入 as much or as little 牛奶 as you would like."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15915,7 +16519,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add your GM and then add your coffee."
+      "加入 your GM 并 然后 加入 your 咖啡."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -15956,7 +16560,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix Coffee, Jack Daniels and Amaretto. Add Cream on top."
+      "混合 咖啡, Jack Daniels 并 Amaretto.",
+      "加入 奶油 on top."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16005,7 +16610,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients (except ginger ale) with ice and strain into a collins glass over ice cubes. Fill with ginger ale, stir, and serve."
+      "摇晃 all ingredients (except 金酒ger ale) 加冰 并 滤入 into a 柯林斯杯 over 冰块.",
+      "加入 金酒ger ale, 搅拌, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16038,7 +16644,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix carefully to avoid releasing the dissolved CO2."
+      "混合 小心 to avoid releasing the 溶解d CO2."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16086,7 +16692,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake tequila, juice of lemon, and powdered sugar with ice and strain into a whiskey sour glass. Add the half-slice of lemon, top with the cherry, and serve."
+      "摇晃 龙舌兰, ju冰 of 柠檬, 并 powdered 糖 加冰 并 滤入 into a 威士忌 sour 杯.",
+      "加入 the half-sl冰 of 柠檬, top 用 樱桃, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16124,7 +16731,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the tequila and orange juice into glass over ice. Add the grenadine, which will sink to the bottom. Stir gently to create the sunrise effect. Garnish and serve."
+      "倒入 the 龙舌兰 并 橙子 ju冰 into 杯 加冰.",
+      "加入 the 红石榴糖浆, which will sink to the bottom.",
+      "搅拌 轻轻 to create the sunrise effect.",
+      "装饰 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16157,7 +16767,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill shot glass with Tequila. Add drops of Tobasco sauce."
+      "加满 烈酒杯 with 龙舌兰.",
+      "加入 drops of Tobasco sauce."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16200,7 +16811,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix all ingredients and Shake well. Sweet at first, with a BITE at the end..."
+      "混合 all ingredients 并 充分摇晃.",
+      "Sweet at first, with a BITE at the end..."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16248,7 +16860,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Blend with Ice until smooth. Serve in a tulip glass, top with whip cream."
+      "搅拌 加冰 until smooth.",
+      "上桌 在 tulip 杯, 顶部加 whip 奶油."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16299,7 +16912,12 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Place the coffee and spices in the filter cone of your coffee maker. Brew coffee as usual, let it cool. In a tall glass, dissolve 1 or 2 teaspoons of sugar in an ounce of the coffee (it's easier to dissolve than if you put it right over ice). Add 5-6 ice cubes and pour coffee to within about 1 inch of the top of the glass. Rest a spoon on top of the coffee and slowly pour whipping cream into the spoon. This will make the cream float on top of the coffee rather than dispersing into it right away."
+      "放 the 咖啡 并 sp冰s in the filter cone of your 咖啡 maker.",
+      "Brew 咖啡 as usual, let it cool.",
+      "在 tall 杯, 溶解 1 or 2 tea勺s of 糖 在n ounce of the 咖啡 (it's easier to 溶解 than if you 放 it right 加冰).",
+      "加入 5-6 冰块 并 倒入 咖啡 to with在bout 1 inch of the top of the 杯.",
+      "Rest a 勺 on top of the 咖啡 并 slowly 倒入 whipping 奶油 into the 勺.",
+      "This will make the 奶油 漂浮 on top of the 咖啡 rather than dispersing into it right away."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16340,7 +16958,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Prepare a pot of coffee at a good European strength. In the ground coffee, add 2 or 3 freshly ground cardamom pods. Sweeten while hot, then cool quickly. Serve in highball glass over ice, with cream. To get the layered effect, place a spoon atop the coffee and pour the milk carefully into the spoon so that it floats on the top of the coffee."
+      "Prepare a pot of 咖啡 at a good European strength.",
+      "In the ground 咖啡, 加入 2 or 3 新鲜ly ground cardamom pods.",
+      "Sweeten while hot, 然后 cool quickly.",
+      "上桌 in 高球杯 加冰, with 奶油.",
+      "To get the 分层ed effect, 放 a 勺 atop the 咖啡 并 倒入 the 牛奶 小心 into the 勺 so that it 漂浮s on the top of the 咖啡."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16386,7 +17008,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine Thai tea (i.e., the powder), boiling water, and sweetened condensed milk, stir until blended. Pour into 2 tall glasses filled with ice cubes. Garnish with mint leaves. Makes 2 servings."
+      "混合 Thai tea (i.e., the powder), boiling water, 并 sweetened condensed 牛奶, 搅拌 until 搅拌ed.",
+      "倒入 into 2 tall 杯es 加满ed with 冰块.",
+      "用...装饰 薄荷 leaves.",
+      "Makes 2 servings."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16434,7 +17059,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix together the alcoholic portions and top with Pineapple and Lime juice."
+      "混合 together the alcoholic portions 并 顶部加 菠萝 并 青柠 ju冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16472,10 +17097,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill glass with ice",
-      "Pour in The Irishman and Disaronno",
-      "Fill to the top with Cranberry Juice",
-      "Garnish with a slice of lemon…Enjoy!"
+      "加满 杯 加冰",
+      "倒入 in The Irishman 并 Disaronno",
+      "加满 to the 顶部加 Cranberry Ju冰",
+      "用...装饰 a sl冰 of 柠檬…Enjoy!"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16518,7 +17143,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake with ice and strain into a cocktail glass."
+      "摇晃 加冰 并 滤入 into a 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16576,10 +17201,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "1) Squeeze two lime wedges into a balloon glass then add the cordial, Bombay Sapphire and MARTINI Rosso Vermouth, swirl to mix.",
-      "2) Fully fill the glass with cubed ice and stir to chill.",
-      "3) Top with Fever-Tree Ginger Ale and gently stir again to combine.",
-      "4) Garnish with a snapped ginger slice and an awoken mint sprig."
+      "1) 挤 two 青柠 wedges into a balloon 杯 然后 加入 the cordial, Bombay Sapphire 并 MARTINI Rosso 味美思, swirl to 混合.",
+      "2) Fully 加满 the 杯 with cubed 冰 并 搅拌 to 冰镇.",
+      "3) 顶部加 Fever-Tree 金酒ger Ale 并 轻轻 搅拌 again to 混合.",
+      "4) 用...装饰 a snapped 金酒ger sl冰 并 an awoken 薄荷 sprig."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16627,7 +17252,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add all the spirits in a shaker (best to use Hendricks gin) as well as the orange bitters and lemon juice. Strain into a Margarita glass, top with Prosecco."
+      "加入 all the spirits 在 摇酒壶 (best to use Hendricks 金酒) as 充分 as the 橙子 苦精 并 柠檬 ju冰.",
+      "滤入 into a Margarita 杯, 顶部加 Prosecco."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16665,7 +17291,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass."
+      "在 摇酒壶 half-加满ed with 冰块, 混合 all of the ingredients.",
+      "充分摇晃.",
+      "滤入 into a 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16713,7 +17341,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Boil water, sugar and coffe for 10 mins and let cool. Add rum and vanilla. Put in clean bottle(s) and leave for 1 week before using."
+      "Boil water, 糖 并 coffe for 10 mins 并 let cool.",
+      "加入 朗姆 并 vanilla.",
+      "放 in clean bottle(s) 并 leave for 1 week before using."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16751,7 +17381,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir over ice. Strain into chilled glass. Cut a wide swath of orange peel, and express the orange oils over the drink. Discard orange twist."
+      "搅拌 加冰.",
+      "滤入 into 冰镇 杯.",
+      "切 a wide swath of 橙子 peel, 并 挤压 the 橙子 oils over the drink.",
+      "丢弃 橙子 twist."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16804,7 +17437,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a collins glass alomst filled with ice cubes. Add the club soda. Stir and garnish with the cherry and the orange slice."
+      "在 摇酒壶 half-加满ed with 冰块, 混合 the 金酒, 柠檬 ju冰, 并 糖.",
+      "充分摇晃.",
+      "滤入 into a 柯林斯杯 alomst 加满ed with 冰块.",
+      "加入 the club soda.",
+      "搅拌 并 用...装饰 the 樱桃 并 the 橙子 sl冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16840,7 +17477,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up."
+      "放 all ingredients in the 搅拌机 罐 - cover 并 whiz on medium speed until 充分 搅拌ed.",
+      "倒入 in one tall, 2 medium or 3 small 杯es 并 drink up."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16888,7 +17526,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir all ingredients (except orange peel) with ice and strain into a cocktail glass. Add the twist of orange peel and serve."
+      "搅拌 all ingredients (except 橙子 peel) 加冰 并 滤入 into a 鸡尾酒杯.",
+      "加入 the twist of 橙子 peel 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16924,7 +17563,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake with ice and strain into a shot glass."
+      "摇晃 加冰 并 滤入 into a 烈酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -16977,7 +17616,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir all ingredients with ice and strain into a cocktail glass. Garnish with a cherry and a twist of lemon zest."
+      "搅拌 all ingredients 加冰 并 滤入 into a 鸡尾酒杯.",
+      "用...装饰 a 樱桃 并 a twist of 柠檬 zest."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17015,7 +17655,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a cocktail glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17068,7 +17708,12 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Vampiros may be made in a tall glass or an old fashioned glass. Bartenders may first \"rim\" the glass with Kosher Salt, which is done by placing a layer of Kosher Salt on a chopping board, moistening the glass' rim with lime juice or water, and then placing the upside down glass rim onto the Kosher Salt, so that the salt sticks to the moistened rim. The second step is to fill half the glass with ice and add one or two shooter glasses full of high quality Tequila. The next stage is to add the flavouring elements. This is done by squeezing a fresh lime into the glass, adding a few grains of salt, adding citrus-flavoured soda pop, until the glass is 4/5 full, and then adding spicy Viuda de Sanchez (or orange juice, lime juice and pico de gallo). The final step is to stir the ingredients so that the flavours are properly blended."
+      "Vampiros may be made 在 tall 杯 or an old fashioned 杯.",
+      "Bartenders may first \"rim\" the 杯 with Kosher Salt, which is done by placing a 分层 of Kosher Salt on a chopping board, moistening the 杯' rim with 青柠 ju冰 or water, 并 然后 placing the upside down 杯 rim onto the Kosher Salt, so that the salt sticks to the moistened rim.",
+      "The second step is to 加满 half the 杯 加冰 并 加入 one or two shooter 杯es full of high quality 龙舌兰.",
+      "The next stage is to 加入 the flavouring elements.",
+      "This is done by squeezing a 新鲜 青柠 into the 杯, 加入ing a few grains of salt, 加入ing citrus-flavoured soda pop, until the 杯 is 4/5 full, 并 然后 加入ing spicy Viuda de Sanchez (or 橙子 ju冰, 青柠 ju冰 并 pico de gallo).",
+      "The final step is to 搅拌 the ingredients so that the flavours are properly 搅拌ed."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17106,7 +17751,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into an old-fashioned glass over ice cubes, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into an old-fashioned 杯 over 冰块, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17142,7 +17787,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Stir vermouth and creme de cassis in a highball glass with ice cubes. Fill with carbonated water, stir again, and serve."
+      "搅拌 味美思 并 creme de cassis 在 高球杯 with 冰块.",
+      "加入 carbonated water, 搅拌 again, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17181,7 +17827,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake over ice until well chilled, then strain into a deep goblet and garnish with a thin slice of lemon peel."
+      "摇晃 加冰 until 充分 冰镇, 然后 滤入 into a deep goblet 并 用...装饰 a thin sl冰 of 柠檬 peel."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17229,7 +17875,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into an old-fashioned glass over ice cubes, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into an old-fashioned 杯 over 冰块, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17263,7 +17909,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour the rum and cherry brandy into an old-fashioned glass almost filled with ice cubes. Stir well."
+      "倒入 the 朗姆 并 樱桃 白兰地 into an old-fashioned 杯 almost 加满ed with 冰块.",
+      "充分搅拌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17302,7 +17949,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a cocktail glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17350,7 +17997,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients (except orange slice) with ice and strain into a collins glass over ice cubes. Add the slice of orange and serve."
+      "摇晃 all ingredients (except 橙子 sl冰) 加冰 并 滤入 into a 柯林斯杯 over 冰块.",
+      "加入 the sl冰 of 橙子 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17383,7 +18031,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour vodka into a highball glass over ice cubes. Fill with tonic water, stir, and serve."
+      "倒入 伏特加 into a 高球杯 over 冰块.",
+      "加入 tonic water, 搅拌, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17431,7 +18080,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Blend all ingredients, save nutmeg. Pour into large white wine glass and sprinkle nutmeg on top."
+      "搅拌 all ingredients, save nutmeg.",
+      "倒入 into large white 葡萄酒杯 并 撒 nutmeg on top."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17474,7 +18124,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "The vodka lemon is prepared directly in a highball glass or in a large tumbler: put 6-7 ice cubes in the glass, pour the vodka, lemonade and mix with a bar spoon. Finally decorate with a slice of lemon and, if you prefer, add a few mint leaves. Your vodka lemon is ready to be served."
+      "The 伏特加 柠檬 is prepared directly 在 高球杯 or 在 large tumbler: 放 6-7 冰块 in the 杯, 倒入 the 伏特加, 柠檬ade 并 混合 with a bar 勺.",
+      "Finally decorate with a sl冰 of 柠檬 并, if you prefer, 加入 a few 薄荷 leaves.",
+      "Your 伏特加 柠檬 is ready to be 上桌d."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17512,7 +18164,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake the vodka and vermouth together with a number of ice cubes, strain into a cocktail glass, add the olive and serve."
+      "摇晃 the 伏特加 并 味美思 together with a number of 冰块, 滤入 into a 鸡尾酒杯, 加入 the olive 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17545,7 +18197,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix it as a ordinary drink ."
+      "混合 it as a ordinary drink ."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17583,7 +18235,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill glass with ice. Add vodka, 7-up then finish with the lime juice."
+      "加满 杯 加冰.",
+      "加入 伏特加, 7-up 然后 finish 用 青柠 ju冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17621,10 +18274,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Wash and cut 1 wedge and 1 slice of lime or lemon.",
-      "Fill a tumbler with fresh ice.",
-      "Pour the desired dose of vodka and top up with the tonic.",
-      "Squeeze the lime wedge into the glass and decorate with the slice.",
+      "Wash 并 切 1 wedge 并 1 sl冰 of 青柠 or 柠檬.",
+      "加满 a tumbler with 新鲜 冰.",
+      "倒入 the desired dose of 伏特加 并 加满 用 tonic.",
+      "挤 the 青柠 wedge into the 杯 并 decorate 用 sl冰.",
       "That's all, very simple: it's just the recipe for happiness!"
     ],
     "brewCount": 0,
@@ -17663,7 +18316,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake all ingredients with ice, strain into a cocktail glass, and serve."
+      "摇晃 all ingredients 加冰, 滤入 into a 鸡尾酒杯, 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17711,7 +18364,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake with ice. Strain into chilled glass, garnish and serve. If served 'On the rocks', strain ingredients into old-fashioned glass filled with ice."
+      "摇晃 加冰.",
+      "滤入 into 冰镇 杯, 装饰 并 上桌.",
+      "If 上桌d 'On the rocks', 滤入 ingredients into old-fashioned 杯 加满ed 加冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17744,7 +18399,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour both of the ingredients into a wine goblet with no ice."
+      "倒入 both of the ingredients into a wine goblet with no 冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17782,7 +18437,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Add all ingredients into cocktail shaker filled with ice. Shake well and strain into large cocktail glass."
+      "加入 all ingredients into cocktail 摇酒壶 加满ed 加冰.",
+      "充分摇晃 并 滤入 into large 鸡尾酒杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17820,7 +18476,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour vodka and coffee liqueur over ice cubes in an old-fashioned glass. Fill with light cream and serve."
+      "倒入 伏特加 并 咖啡 liqueur over 冰块 在n old-fashioned 杯.",
+      "加入 light 奶油 并 上桌."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17878,7 +18535,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Chop the Lemon, Lime and other fruits into large chunks. Fill the Pitcher with the white wine and mix in the Apple Brandy. Top to taste with soda water."
+      "Chop the 柠檬, 青柠 并 other fruits into large chunks.",
+      "加满 the Pitcher 用 white wine 并 混合 in the Apple 白兰地.",
+      "Top 适量 with soda water."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17921,7 +18580,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Place all ingredients in a blender and blend until smooth. This makes one drink."
+      "放 all ingredients 在 搅拌机 并 搅拌 until smooth.",
+      "This makes one drink."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -17957,7 +18617,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix wine and soft drink. Pour into glass. Add ice."
+      "混合 wine 并 soft drink.",
+      "倒入 into 杯.",
+      "加入 冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18003,7 +18665,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Combine all of the ingredients and pour over a block of ice."
+      "混合 all of the ingredients 并 倒入 over a block of 冰."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18051,7 +18713,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Everyone’s favourite Paloma gets a delicious Indian makeover. Tequila reposado infused with “Timur Pepper” which has citrusy & grapefruit notes and is grown at the foothills of Himalaya. It also produces a slightly numbing and tingling sensation on your lip when consumed. We have also spiced up the fresh grapefruit juice with the warming spice blend from Himalaya. The combination of all these interesting elements has allowed us to elevate your Paloma sipping experience."
+      "Everyone’s favourite Paloma gets a delicious Indian makeover.",
+      "龙舌兰 reposado infused with “Timur Pepper” which has citrusy & grapefruit notes 并 is grown at the foothills of Himalaya.",
+      "It also produces a slightly numbing 并 tingling sensation on your lip when consumed.",
+      "We have also sp冰d up the 新鲜 grapefruit ju冰 用 warming sp冰 搅拌 from Himalaya.",
+      "The combination of all these interesting elements has allowed us to elevate your Paloma sipping experience."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18104,7 +18770,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Salt rim. Combine all ingredients, shake with ice, and strain over fresh ice.⠀"
+      "Salt rim.",
+      "混合 all ingredients, 摇晃 加冰, 并 滤入 over 新鲜 冰.⠀"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18147,7 +18814,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Shake and strain into a chilled cocktail glass"
+      "摇晃 并 滤入 into a 冰镇 鸡尾酒杯"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18183,7 +18850,10 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up. Note: Use lots of ice in this one - great on hot days! To add ice: Remove the center of the cover while the blender is on - drop 3 or 4 ice cubs and blend until they're completely crushed."
+      "放 all ingredients in the 搅拌机 罐 - cover 并 whiz on medium speed until 充分 搅拌ed.",
+      "倒入 in one tall, 2 medium or 3 small 杯es 并 drink up.",
+      "Note: Use lots of 冰 in this one - great on hot days!",
+      "To 加入 冰: Remove the center of the cover while the 搅拌机 is on - drop 3 or 4 冰 cubs 并 搅拌 until they're completely crushed."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18219,7 +18889,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix sambuca with rootbeer and stir. Add ice"
+      "混合 萨姆布卡 with rootbeer 并 搅拌.",
+      "加入 冰"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18250,7 +18921,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix together and enjoy"
+      "混合 together 并 enjoy"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18281,7 +18952,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Serve without ice. At least the juice shold have room temperature."
+      "上桌 without 冰.",
+      "At least the ju冰 shold have room temperature."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18312,7 +18984,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill glass with ice. Pour in Chambord, then fill with Zima. Mix and enjoy."
+      "加满 杯 加冰.",
+      "倒入 in Chambord, 然后 加入 Zima.",
+      "混合 并 enjoy."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18343,7 +19017,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour Zima in a collins glass over ice and then pour the shot of Midori. Don't stir. Garnish with a cherry."
+      "倒入 Zima 在 柯林斯杯 加冰 并 然后 倒入 the shot of Midori.",
+      "Don't 搅拌.",
+      "用...装饰 a 樱桃."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18374,7 +19050,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Get a shot glass and pour in three shots of the schnapps. Do the same with the Surge Cola. Then down it like Scheetz would."
+      "Get a 烈酒杯 并 倒入 in three shots of the schnapps.",
+      "Do the same 用 Surge Cola.",
+      "然后 down it like Scheetz would."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18412,7 +19090,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Fill glass with rocks, add straw before putting in liquor. Then add the ingredients in order, trying to keep layered as much as possible (i.e. Chambord on bottom, then Vodka, Then soda on top)."
+      "加满 杯 with rocks, 加入 吸管 before 放ting in liquor.",
+      "然后 加入 the ingredients in order, trying to keep 分层ed as much as possible (i.e.",
+      "Chambord on bottom, 然后 伏特加, 然后 soda on top)."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18450,7 +19130,9 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Mix Kool-Aid to taste then add Rum and ammaretto. shake well to disolve the sugar in the Kool-Aid... serve cold"
+      "混合 Kool-Aid 适量 然后 加入 朗姆 并 ammaretto.",
+      "充分摇晃 to disolve the 糖 in the Kool-Aid...",
+      "上桌 cold"
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18491,7 +19173,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Pour 5cl of Cointreau on ice, add 2cl of fresh lemon (or lime) juice, stir gently, and finally add slices of lemon/lime in glass."
+      "倒入 5cl of 君度 on 冰, 加入 2cl of 新鲜 柠檬 (or 青柠) ju冰, 搅拌 轻轻, 并 finally 加入 sl冰s of 柠檬/青柠 in 杯."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18547,7 +19229,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "No specific mixing instructions, just poor every ingredient in one glass. The lemon goes with it."
+      "No specific 混合ing instructions, just poor every ingredient in one 杯.",
+      "The 柠檬 goes with it."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18605,11 +19288,11 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Blend at high speed for no more than 5 seconds.",
-      "Pour into a glass, add ice cubes to fill, then add the garnish.",
-      "*Donn’s mix: Bring 3 crushed cinnamon sticks, 1 cup of sugar and 1 cup of water to a boil, stirring until the sugar is dissolved.",
-      "Simmer for 2 minutes, then remove from the heat and let sit for at least 2 hours before straining into a clean glass bottle.",
-      "Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together."
+      "搅拌 at high speed for no more than 5 seconds.",
+      "倒入 into a 杯, 加入 冰块 to 加满, 然后 加入 the 装饰.",
+      "*Donn’s 混合: Bring 3 crushed cinnamon sticks, 1 cup of 糖 并 1 cup of water to a boil, 搅拌ring until the 糖 is 溶解d.",
+      "Simmer for 2 minutes, 然后 remove from the heat 并 let sit for at least 2 hours before 滤入ing into a clean 杯 bottle.",
+      "然后 加入 1 part of the 糖浆 并 2 parts of 新鲜 grapefruit ju冰 together."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18642,7 +19325,8 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "Prepare like a Martini. Garnish with a green olive."
+      "Prepare like a Martini.",
+      "用...装饰 a green olive."
     ],
     "brewCount": 0,
     "substitutes": [],
@@ -18678,7 +19362,7 @@ const RECIPES_DATA = [
       }
     ],
     "steps": [
-      "add all and pour black coffee and add whipped cream on top."
+      "加入 all 并 倒入 black 咖啡 并 加入 whipped 奶油 on top."
     ],
     "brewCount": 0,
     "substitutes": [],

@@ -1,4 +1,4 @@
-// Auto-generated from TheCocktailDB — 441 recipes (Chinese + metric conversion)
+// Auto-generated from TheCocktailDB — 441 recipes (Chinese + metric)
 const RECIPES_DATA = [
   {
     "id": "15423",
@@ -619,7 +619,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "草莓利口酒",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -892,12 +892,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "蛋清",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
         "name": "薄荷",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -945,7 +945,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "蛋清",
-        "amount": "1/2新鲜",
+        "amount": "1/2个",
         "unit": ""
       }
     ],
@@ -1136,7 +1136,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙味苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       }
     ],
@@ -1340,7 +1340,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "蛋清",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -1422,7 +1422,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "马拉斯奇诺樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -1496,7 +1496,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       }
     ],
@@ -1828,7 +1828,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       }
     ],
@@ -1871,7 +1871,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "青柠汁",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -2007,7 +2007,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "橙味苦精",
-        "amount": "1",
+        "amount": "1滴",
         "unit": ""
       },
       {
@@ -2103,12 +2103,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -2187,7 +2187,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       },
       {
@@ -2197,7 +2197,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "马拉斯奇诺樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -2281,7 +2281,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "蛋清",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -2291,7 +2291,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -2339,7 +2339,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "蛋清",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -2566,12 +2566,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "3",
+        "amount": "3滴",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -2640,7 +2640,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "科罗娜啤酒",
-        "amount": "1",
+        "amount": "1罐",
         "unit": ""
       },
       {
@@ -2755,7 +2755,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "青柠",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -2788,7 +2788,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "青柠",
-        "amount": "2",
+        "amount": "2个",
         "unit": ""
       },
       {
@@ -2920,12 +2920,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙味苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       },
       {
         "name": "樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -2968,12 +2968,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙味苦精",
-        "amount": "1",
+        "amount": "1滴",
         "unit": ""
       },
       {
         "name": "蛋黄",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -3060,7 +3060,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "蛋清",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -3287,7 +3287,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "蛋清",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -3457,7 +3457,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       },
       {
@@ -3854,7 +3854,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "青柠",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -4001,7 +4001,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "桃子苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       },
       {
@@ -4090,7 +4090,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "橄榄",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -4211,7 +4211,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "青柠",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -4252,7 +4252,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "香草",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -4300,7 +4300,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "橄榄",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -4376,7 +4376,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "苦精",
-        "amount": "1",
+        "amount": "1滴",
         "unit": ""
       },
       {
@@ -4427,7 +4427,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       },
       {
@@ -4504,7 +4504,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "蛋黄",
-        "amount": "6",
+        "amount": "6个",
         "unit": ""
       },
       {
@@ -4544,7 +4544,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "蛋清",
-        "amount": "6",
+        "amount": "6个",
         "unit": ""
       },
       {
@@ -4638,7 +4638,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "鸡蛋",
-        "amount": "6",
+        "amount": "6个",
         "unit": ""
       },
       {
@@ -4689,7 +4689,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "青柠",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -4847,7 +4847,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -5004,7 +5004,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "无花果",
-        "amount": "3",
+        "amount": "3个",
         "unit": ""
       },
       {
@@ -5014,7 +5014,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       },
       {
@@ -5211,7 +5211,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "苦精",
-        "amount": "1",
+        "amount": "1滴",
         "unit": ""
       },
       {
@@ -5374,12 +5374,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙子",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -5644,7 +5644,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -5687,7 +5687,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "薄荷",
-        "amount": "6",
+        "amount": "6个",
         "unit": ""
       },
       {
@@ -5776,12 +5776,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "柠檬",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
         "name": "苹果",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -5853,7 +5853,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "香蕉",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -5868,7 +5868,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "冰块",
-        "amount": "6",
+        "amount": "6块",
         "unit": ""
       }
     ],
@@ -6071,7 +6071,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "青柠",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -6169,12 +6169,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "马拉斯奇诺樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
         "name": "橙子",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -6403,7 +6403,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "薄荷",
-        "amount": "4",
+        "amount": "4个",
         "unit": ""
       },
       {
@@ -6413,7 +6413,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -6456,12 +6456,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙子",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -6509,7 +6509,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "草莓",
-        "amount": "2",
+        "amount": "2个",
         "unit": ""
       },
       {
@@ -6557,7 +6557,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "苦精",
-        "amount": "1",
+        "amount": "1滴",
         "unit": ""
       },
       {
@@ -6729,12 +6729,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "肉桂",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
         "name": "丁香",
-        "amount": "3",
+        "amount": "3个",
         "unit": ""
       },
       {
@@ -6934,7 +6934,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "菠萝",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -7124,7 +7124,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "丁香",
-        "amount": "10",
+        "amount": "10个",
         "unit": ""
       },
       {
@@ -7405,12 +7405,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙味苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       },
       {
         "name": "橄榄",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -7588,7 +7588,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       }
     ],
@@ -7710,17 +7710,17 @@ const RECIPES_DATA = [
       },
       {
         "name": "肉桂",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
         "name": "柠檬",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
         "name": "丁香",
-        "amount": "2",
+        "amount": "2个",
         "unit": ""
       }
     ],
@@ -8187,7 +8187,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "可口可乐",
-        "amount": "1",
+        "amount": "1罐",
         "unit": ""
       },
       {
@@ -8246,7 +8246,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -8533,7 +8533,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "蛋清",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -8754,12 +8754,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "马拉斯奇诺樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
         "name": "橙子",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -9227,7 +9227,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "猕猴桃",
-        "amount": "3",
+        "amount": "3个",
         "unit": ""
       },
       {
@@ -9431,7 +9431,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "蛋清",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -9508,7 +9508,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "芒果",
-        "amount": "2",
+        "amount": "2个",
         "unit": ""
       },
       {
@@ -10024,7 +10024,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙味苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       }
     ],
@@ -10161,7 +10161,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "可口可乐",
-        "amount": "1",
+        "amount": "1罐",
         "unit": ""
       },
       {
@@ -10224,7 +10224,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "可口可乐",
-        "amount": "1",
+        "amount": "1罐",
         "unit": ""
       }
     ],
@@ -10262,7 +10262,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "4",
+        "amount": "4滴",
         "unit": ""
       },
       {
@@ -10272,7 +10272,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "冰块",
-        "amount": "4",
+        "amount": "4块",
         "unit": ""
       }
     ],
@@ -10389,7 +10389,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -10419,7 +10419,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "青柠",
-        "amount": "3",
+        "amount": "3个",
         "unit": ""
       },
       {
@@ -10489,7 +10489,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "dash",
+        "amount": "1滴",
         "unit": ""
       },
       {
@@ -10499,7 +10499,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "马拉斯奇诺樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -10590,7 +10590,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       }
     ],
@@ -10629,7 +10629,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "橄榄",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -10677,7 +10677,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "马拉斯奇诺樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -10725,7 +10725,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "丁香",
-        "amount": "3",
+        "amount": "3个",
         "unit": ""
       },
       {
@@ -10899,17 +10899,17 @@ const RECIPES_DATA = [
       },
       {
         "name": "辣酱",
-        "amount": "Dash",
+        "amount": "1滴",
         "unit": ""
       },
       {
         "name": "伍斯特酱",
-        "amount": "Dash",
+        "amount": "1滴",
         "unit": ""
       },
       {
         "name": "酱油",
-        "amount": "Dash",
+        "amount": "1滴",
         "unit": ""
       }
     ],
@@ -11241,7 +11241,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "苦精",
-        "amount": "1",
+        "amount": "1滴",
         "unit": ""
       }
     ],
@@ -11392,17 +11392,17 @@ const RECIPES_DATA = [
       },
       {
         "name": "丁香",
-        "amount": "12",
+        "amount": "12个",
         "unit": ""
       },
       {
         "name": "肉桂",
-        "amount": "2",
+        "amount": "2个",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -11518,7 +11518,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "柠檬青柠汽水",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -11820,7 +11820,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       },
       {
@@ -11858,7 +11858,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       },
       {
@@ -11868,7 +11868,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "水",
-        "amount": "dash",
+        "amount": "1滴",
         "unit": ""
       }
     ],
@@ -12277,7 +12277,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "奥利奥饼干",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -12521,12 +12521,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "1",
+        "amount": "1滴",
         "unit": ""
       },
       {
         "name": "橙味苦精",
-        "amount": "1",
+        "amount": "1滴",
         "unit": ""
       }
     ],
@@ -12730,7 +12730,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苦精",
-        "amount": "3",
+        "amount": "3滴",
         "unit": ""
       },
       {
@@ -12778,7 +12778,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "蛋清",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -12953,7 +12953,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "冰块",
-        "amount": "1",
+        "amount": "1块",
         "unit": ""
       },
       {
@@ -13374,7 +13374,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "桃子苦精",
-        "amount": "Dash",
+        "amount": "1滴",
         "unit": ""
       },
       {
@@ -13908,7 +13908,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "蛋清",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -13999,7 +13999,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "薄荷",
-        "amount": "8",
+        "amount": "8个",
         "unit": ""
       }
     ],
@@ -14373,7 +14373,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "柠檬",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -14383,12 +14383,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "马拉斯奇诺樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
         "name": "橙子",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -14426,7 +14426,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "柠檬",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -14512,7 +14512,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "苦精",
-        "amount": "1",
+        "amount": "1滴",
         "unit": ""
       },
       {
@@ -14696,12 +14696,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙子",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -14995,7 +14995,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "佩肖苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       },
       {
@@ -15096,7 +15096,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -15499,7 +15499,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "Dash",
+        "amount": "1滴",
         "unit": ""
       },
       {
@@ -15680,7 +15680,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "苏打水",
-        "amount": "splash",
+        "amount": "少许",
         "unit": ""
       }
     ],
@@ -15782,7 +15782,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "香蕉",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -15995,7 +15995,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "蛋清",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -16081,7 +16081,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -16612,12 +16612,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙味苦精",
-        "amount": "1",
+        "amount": "1滴",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -16794,12 +16794,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "马拉斯奇诺樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
         "name": "橙子",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -16878,7 +16878,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       },
       {
@@ -16967,12 +16967,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙味苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       },
       {
         "name": "樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -17010,7 +17010,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙味苦精",
-        "amount": "2",
+        "amount": "2滴",
         "unit": ""
       }
     ],
@@ -17224,7 +17224,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "蛋清",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -17507,7 +17507,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "橄榄",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       }
     ],
@@ -17701,7 +17701,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "樱桃",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -17843,12 +17843,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "青柠",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
         "name": "柠檬",
-        "amount": "1",
+        "amount": "1个",
         "unit": ""
       },
       {
@@ -17983,7 +17983,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "柠檬",
-        "amount": "2",
+        "amount": "2个",
         "unit": ""
       },
       {
@@ -17993,7 +17993,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙子",
-        "amount": "3",
+        "amount": "3个",
         "unit": ""
       },
       {
@@ -18046,7 +18046,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "胡椒粉",
-        "amount": "Dash",
+        "amount": "1滴",
         "unit": ""
       }
     ],
@@ -18099,7 +18099,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "盐",
-        "amount": "Dash",
+        "amount": "1滴",
         "unit": ""
       }
     ],

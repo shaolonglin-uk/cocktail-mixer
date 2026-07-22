@@ -1,4 +1,4 @@
-// Auto-generated from TheCocktailDB — 441 recipes (Chinese translation)
+// Auto-generated from TheCocktailDB — 441 recipes (Chinese + metric conversion)
 const RECIPES_DATA = [
   {
     "id": "15423",
@@ -16,12 +16,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "拉格啤酒",
-        "amount": "16 oz",
+        "amount": "480ml",
         "unit": ""
       },
       {
         "name": "龙舌兰",
-        "amount": "1.5 oz",
+        "amount": "45ml",
         "unit": ""
       }
     ],
@@ -49,42 +49,42 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "马利宝朗姆",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "白朗姆",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "151度朗姆酒",
-        "amount": "1/2 oz Bacardi",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "深色可可甜酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "君度",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "3 oz",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "椰子利口酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "香草冰淇淋",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       }
     ],
@@ -113,22 +113,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑朗姆",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "白朗姆",
-        "amount": "2 shots",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       }
     ],
@@ -156,22 +156,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金力娇酒（含金箔）",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "野格",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "朗普尔明泽薄荷力娇酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "151度朗姆酒",
-        "amount": "1/2 oz Bacardi",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -199,12 +199,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "151度朗姆酒",
-        "amount": "1/2 shot Bacardi",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "野火鸡",
-        "amount": "1/2 shot",
+        "amount": "22ml",
         "unit": ""
       }
     ],
@@ -230,17 +230,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "杰克丹尼",
-        "amount": "1/3 oz",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "尊尼获加",
-        "amount": "1/3 oz",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "占边波本",
-        "amount": "1/3 oz",
+        "amount": "10ml",
         "unit": ""
       }
     ],
@@ -271,42 +271,42 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "白朗姆",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "龙舌兰",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "可口可乐",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "甜酸混合液",
-        "amount": "1-2 dash",
+        "amount": "1-2",
         "unit": ""
       },
       {
         "name": "苦精",
-        "amount": "1 wedge",
+        "amount": "1角",
         "unit": ""
       },
       {
@@ -339,7 +339,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "桃子伏特加",
-        "amount": "2-3 oz",
+        "amount": "60-90ml",
         "unit": ""
       },
       {
@@ -372,12 +372,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "香草伏特加",
-        "amount": "2 1/2 oz",
+        "amount": "75ml",
         "unit": ""
       },
       {
         "name": "柑曼怡",
-        "amount": "1 splash",
+        "amount": "1",
         "unit": ""
       },
       {
@@ -458,12 +458,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "可可甜酒",
-        "amount": "1 oz white",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -491,17 +491,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz dry",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "7-Up",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "0.75 oz",
+        "amount": "22ml",
         "unit": ""
       }
     ],
@@ -527,17 +527,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甘露咖啡酒",
-        "amount": "1/3 part",
+        "amount": "0份",
         "unit": ""
       },
       {
         "name": "百利甜酒",
-        "amount": "1/3 part",
+        "amount": "0份",
         "unit": ""
       },
       {
         "name": "榛子力娇酒",
-        "amount": "1/3 part",
+        "amount": "0份",
         "unit": ""
       }
     ],
@@ -565,22 +565,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "甜青柠汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "蔓越莓汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "雪碧",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       }
     ],
@@ -609,22 +609,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "绝对柠檬伏特加",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "草莓利口酒",
-        "amount": "1 splash",
+        "amount": "1",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -650,12 +650,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苹果白兰地（烈）",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "葡萄柚汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -683,22 +683,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 3/4 shot",
+        "amount": "78ml",
         "unit": ""
       },
       {
         "name": "柑曼怡",
-        "amount": "1 Shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1/4 Shot",
+        "amount": "11ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1/8 Shot",
+        "amount": "5ml",
         "unit": ""
       }
     ],
@@ -762,12 +762,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "151度朗姆酒",
-        "amount": "1 oz Bacardi",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "野火鸡",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -796,17 +796,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "绝对伏特加",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "汤力水",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       }
     ],
@@ -834,17 +834,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑朗姆",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "桃子汁",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "3 oz",
+        "amount": "90ml",
         "unit": ""
       }
     ],
@@ -872,22 +872,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1 1/2 tsp",
+        "amount": "7ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -925,27 +925,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 shots",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1/2 shot",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "重奶油",
-        "amount": "1/2 shot",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "1/2 shot",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "蛋清",
-        "amount": "1/2 Fresh",
+        "amount": "1/2新鲜",
         "unit": ""
       }
     ],
@@ -973,17 +973,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑朗姆",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       }
     ],
@@ -1009,12 +1009,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甜味美思",
-        "amount": "2 shots",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "干味美思",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -1047,12 +1047,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 shot",
+        "amount": "67ml",
         "unit": ""
       },
       {
         "name": "味美思",
-        "amount": "1 1/2 shot",
+        "amount": "67ml",
         "unit": ""
       }
     ],
@@ -1078,17 +1078,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "草莓力娇酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "蔓越莓汁",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -1121,22 +1121,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苏格兰威士忌",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "甜味美思",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "干味美思",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "橙味苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       }
     ],
@@ -1162,17 +1162,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "红石榴糖浆",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "4 parts",
+        "amount": "4份",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "4 parts",
+        "amount": "4份",
         "unit": ""
       }
     ],
@@ -1200,17 +1200,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "可可甜酒",
-        "amount": "1/2 oz white",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "淡奶油",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -1243,17 +1243,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "调和威士忌",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "干味美思",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -1282,27 +1282,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "干味美思",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "波本威士忌",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "黑莓白兰地",
-        "amount": "1 1/2 tsp",
+        "amount": "7ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 1/2 tsp",
+        "amount": "7ml",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1 twist of",
+        "amount": "1 twist",
         "unit": ""
       }
     ],
@@ -1330,12 +1330,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑朗姆",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "甘露咖啡酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
@@ -1366,12 +1366,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金巴利",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "甜味美思",
-        "amount": "1 oz red",
+        "amount": "30ml",
         "unit": ""
       },
       {
@@ -1407,17 +1407,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "橙汁",
-        "amount": "4 cl",
+        "amount": "40ml",
         "unit": ""
       },
       {
         "name": "葡萄柚汁",
-        "amount": "3 cl",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "苹果汁",
-        "amount": "1 cl",
+        "amount": "10ml",
         "unit": ""
       },
       {
@@ -1448,17 +1448,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苹果白兰地（烈）",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -1486,17 +1486,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甜味美思",
-        "amount": "1 1/2 tsp",
+        "amount": "7ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       }
     ],
@@ -1522,12 +1522,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "皇冠威士忌",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "甘露咖啡酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -1560,22 +1560,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "3 parts",
+        "amount": "3份",
         "unit": ""
       },
       {
         "name": "皮萨安邦香蕉力娇酒",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "苹果汁",
-        "amount": "6 parts",
+        "amount": "6份",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 1/2 part",
+        "amount": "1份",
         "unit": ""
       },
       {
@@ -1608,17 +1608,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "4.5 cl",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1.5 cl",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃利口酒",
-        "amount": "1.5 cl",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -1680,17 +1680,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甘露咖啡酒",
-        "amount": "1/3 shot",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "萨姆布卡",
-        "amount": "1/3 shot",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "柑曼怡",
-        "amount": "1/3 shot",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -1716,12 +1716,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甘露咖啡酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "8 oz",
+        "amount": "240ml",
         "unit": ""
       },
       {
@@ -1754,37 +1754,37 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "朗姆酒",
-        "amount": "3 parts",
+        "amount": "3份",
         "unit": ""
       },
       {
         "name": "黑朗姆",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "香蕉利口酒",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "2 parts",
+        "amount": "2份",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "2 parts",
+        "amount": "2份",
         "unit": ""
       },
       {
         "name": "甜酸混合液",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       }
     ],
@@ -1813,22 +1813,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苏格兰威士忌",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "甜味美思",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "干味美思",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       }
     ],
@@ -1856,22 +1856,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "朗姆酒",
-        "amount": "4.5 cl",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "加利安奴",
-        "amount": "1.5 cl",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "6 cl",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       },
       {
@@ -1902,12 +1902,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "香槟",
-        "amount": "6 oz",
+        "amount": "180ml",
         "unit": ""
       },
       {
         "name": "桃子力娇酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -1933,22 +1933,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "南方康福特",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "青柠",
-        "amount": "2 wedges",
+        "amount": "2角",
         "unit": ""
       },
       {
         "name": "酸混合液",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       }
     ],
@@ -1974,12 +1974,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "爱尔兰奶油",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "金力娇酒（含金箔）",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -2007,22 +2007,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "橙味苦精",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       },
       {
         "name": "绿查特酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "甜味美思",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -2050,17 +2050,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甜味美思",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "黑刺李金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1 twist of",
+        "amount": "1 twist",
         "unit": ""
       }
     ],
@@ -2088,22 +2088,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "蓝柑橘酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       },
       {
@@ -2113,7 +2113,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "柠檬皮",
-        "amount": "1 twist of",
+        "amount": "1 twist",
         "unit": ""
       }
     ],
@@ -2139,17 +2139,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "蜜瓜利口酒（Midori）",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "野格",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "金力娇酒（含金箔）",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -2177,22 +2177,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "干味美思",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃利口酒",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       },
       {
@@ -2223,22 +2223,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "菠萝汁",
-        "amount": "10 cl",
+        "amount": "100ml",
         "unit": ""
       },
       {
         "name": "百香果汁",
-        "amount": "6 cl",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 cl",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1 cl",
+        "amount": "10ml",
         "unit": ""
       }
     ],
@@ -2266,7 +2266,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "调和威士忌",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -2276,7 +2276,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -2286,7 +2286,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "柠檬",
-        "amount": "1 slice",
+        "amount": "1片",
         "unit": ""
       },
       {
@@ -2319,22 +2319,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       },
       {
@@ -2368,32 +2368,32 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "乙醇（Everclear）",
-        "amount": "1 fifth",
+        "amount": "750ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1 fifth Smirnoff red label",
+        "amount": "750ml",
         "unit": ""
       },
       {
         "name": "激浪",
-        "amount": "2 L",
+        "amount": "2000ml",
         "unit": ""
       },
       {
         "name": "激浪",
-        "amount": "2 L",
+        "amount": "2000ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 small bottle",
+        "amount": "1瓶",
         "unit": ""
       },
       {
         "name": "朗姆酒",
-        "amount": "1 pint",
+        "amount": "473ml",
         "unit": ""
       }
     ],
@@ -2421,22 +2421,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "4 cl",
+        "amount": "40ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1.5 cl",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "糖浆",
-        "amount": "1 cl",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "黑莓甜酒",
-        "amount": "1.5 cl",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -2462,17 +2462,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "热巧克力",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "绿查特酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "喜力樱桃酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -2501,22 +2501,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "151度朗姆酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "苏格兰威士忌",
-        "amount": "1/2 shot",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "苦精",
-        "amount": "3 drops",
+        "amount": "3滴",
         "unit": ""
       },
       {
         "name": "苦艾",
-        "amount": "1 Fresh",
+        "amount": "1新鲜",
         "unit": ""
       },
       {
@@ -2551,22 +2551,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑麦威士忌",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "干味美思",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃利口酒",
-        "amount": "1/4 oz",
+        "amount": "7ml",
         "unit": ""
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "3 dashes",
+        "amount": "3",
         "unit": ""
       },
       {
@@ -2645,7 +2645,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "百加得柠檬朗姆",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       }
     ],
@@ -2671,17 +2671,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "百利甜酒",
-        "amount": "1/3 oz",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "甘露咖啡酒",
-        "amount": "1/3 oz",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "萨姆布卡",
-        "amount": "1/3 oz",
+        "amount": "10ml",
         "unit": ""
       }
     ],
@@ -2714,12 +2714,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "牛奶",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -2750,7 +2750,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "糖",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
@@ -2760,7 +2760,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "卡沙萨",
-        "amount": "2 1/2 oz",
+        "amount": "75ml",
         "unit": ""
       }
     ],
@@ -2793,12 +2793,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖",
-        "amount": "2 tblsp",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "白朗姆",
-        "amount": "2-3 oz",
+        "amount": "60-90ml",
         "unit": ""
       },
       {
@@ -2829,12 +2829,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "拉格啤酒",
-        "amount": "1 bottle",
+        "amount": "1瓶",
         "unit": ""
       },
       {
         "name": "金巴利",
-        "amount": "1 1/2 cl",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -2862,22 +2862,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1 1/2 tsp",
+        "amount": "7ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1 1/2 tsp",
+        "amount": "7ml",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃利口酒",
-        "amount": "1 1/2 tsp",
+        "amount": "7ml",
         "unit": ""
       }
     ],
@@ -2905,22 +2905,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃利口酒",
-        "amount": "1/4 tsp",
+        "amount": "1ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1/4 tsp",
+        "amount": "1ml",
         "unit": ""
       },
       {
         "name": "橙味苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       },
       {
@@ -2953,22 +2953,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃利口酒",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "橙味苦精",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       },
       {
@@ -3002,17 +3002,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "1 1/4 oz",
+        "amount": "37ml",
         "unit": ""
       },
       {
         "name": "樱桃白兰地",
-        "amount": "1 1/2 tsp",
+        "amount": "7ml",
         "unit": ""
       },
       {
         "name": "淡奶油",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -3040,12 +3040,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "波特酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
@@ -3055,7 +3055,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -3096,7 +3096,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "牛奶",
-        "amount": "3/4 L",
+        "amount": "750ml",
         "unit": ""
       },
       {
@@ -3127,17 +3127,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "巧克力利口酒",
-        "amount": "1/2 shot",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "1/2 shot",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       }
     ],
@@ -3163,12 +3163,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "百加得柠檬朗姆",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "可口可乐",
-        "amount": "2 parts",
+        "amount": "2份",
         "unit": ""
       }
     ],
@@ -3196,17 +3196,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白兰地",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -3234,17 +3234,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甜味美思",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "黑刺李金酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "葡萄酒",
-        "amount": "1/2 oz Muscatel",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -3272,12 +3272,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
@@ -3315,27 +3315,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "咖啡",
-        "amount": "10 tblsp instant",
+        "amount": "150ml",
         "unit": ""
       },
       {
         "name": "香草精",
-        "amount": "4 tblsp",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "2 1/2 cups",
+        "amount": "600ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1 qt",
+        "amount": "946ml",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "2 1/2 cups",
+        "amount": "600ml",
         "unit": ""
       }
     ],
@@ -3363,17 +3363,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "水",
-        "amount": "2 cups",
+        "amount": "480ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "2 cups white",
+        "amount": "480ml",
         "unit": ""
       },
       {
         "name": "咖啡",
-        "amount": "1/2 cup instant",
+        "amount": "120ml",
         "unit": ""
       },
       {
@@ -3383,7 +3383,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "伏特加",
-        "amount": "1 1/2 cup",
+        "amount": "360ml",
         "unit": ""
       },
       {
@@ -3414,12 +3414,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "可口可乐",
-        "amount": "1 dl",
+        "amount": "100ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "7 drops",
+        "amount": "7滴",
         "unit": ""
       }
     ],
@@ -3452,22 +3452,22 @@ const RECIPES_DATA = [
       },
       {
         "name": "法勒努姆",
-        "amount": "1/3 oz",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       },
       {
         "name": "陈年朗姆酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "黑朗姆（黑糖蜜酿）",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -3495,27 +3495,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "白色利莱酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "苦艾酒",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       }
     ],
@@ -3543,22 +3543,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 1/4 oz",
+        "amount": "37ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1/4 oz",
+        "amount": "7ml",
         "unit": ""
       },
       {
         "name": "君度",
-        "amount": "1/4 oz",
+        "amount": "7ml",
         "unit": ""
       },
       {
         "name": "蔓越莓汁",
-        "amount": "1/4 cup",
+        "amount": "60ml",
         "unit": ""
       }
     ],
@@ -3586,27 +3586,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "蔓越莓汁",
-        "amount": "4 cups",
+        "amount": "960ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1 1/2 cup",
+        "amount": "360ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "4 cups",
+        "amount": "960ml",
         "unit": ""
       },
       {
         "name": "杏仁香精",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "姜汁汽水",
-        "amount": "2 qt",
+        "amount": "1892ml",
         "unit": ""
       }
     ],
@@ -3635,7 +3635,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "香料朗姆",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
@@ -3668,12 +3668,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑朗姆",
-        "amount": "1-2 shot",
+        "amount": "45-90ml",
         "unit": ""
       },
       {
         "name": "青柠",
-        "amount": "Squeeze",
+        "amount": "挤入",
         "unit": ""
       },
       {
@@ -3711,7 +3711,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -3749,7 +3749,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -3759,7 +3759,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       }
     ],
@@ -3787,12 +3787,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "威士忌",
-        "amount": "0.75 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "Hot Damn肉桂力娇",
-        "amount": "0.25 oz",
+        "amount": "7ml",
         "unit": ""
       }
     ],
@@ -3818,12 +3818,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "咖啡",
-        "amount": "3 parts",
+        "amount": "3份",
         "unit": ""
       },
       {
         "name": "乙醇（Everclear）",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       }
     ],
@@ -3849,7 +3849,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "德梅拉拉糖",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
@@ -3859,7 +3859,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "卡沙萨",
-        "amount": "2 1/2 oz",
+        "amount": "75ml",
         "unit": ""
       }
     ],
@@ -3891,12 +3891,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑朗姆",
-        "amount": "5 cl",
+        "amount": "50ml",
         "unit": ""
       },
       {
         "name": "姜汁啤酒",
-        "amount": "10 cl",
+        "amount": "100ml",
         "unit": ""
       }
     ],
@@ -3922,17 +3922,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "喜力樱桃酒",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "苏打水",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
@@ -3963,12 +3963,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苦艾酒",
-        "amount": "2 shots",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "香槟",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       }
     ],
@@ -3996,17 +3996,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "6 cl",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "桃子苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       },
       {
         "name": "薄荷",
-        "amount": "2 Fresh leaves",
+        "amount": "2片叶",
         "unit": ""
       }
     ],
@@ -4032,17 +4032,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "拉格啤酒",
-        "amount": "1/2 pint",
+        "amount": "236ml",
         "unit": ""
       },
       {
         "name": "苹果酒",
-        "amount": "1/2 pint",
+        "amount": "236ml",
         "unit": ""
       },
       {
         "name": "黑加仑糖浆",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       }
     ],
@@ -4070,22 +4070,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "70ml/2fl oz",
+        "amount": "70ml",
         "unit": ""
       },
       {
         "name": "干味美思",
-        "amount": "1 tbsp",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "橄榄盐水",
-        "amount": "2 tbsp",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "柠檬",
-        "amount": "1 wedge",
+        "amount": "1角",
         "unit": ""
       },
       {
@@ -4158,17 +4158,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "水果潘趣酒",
-        "amount": "2 part",
+        "amount": "2份",
         "unit": ""
       },
       {
         "name": "雪碧",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "龙舌兰",
-        "amount": "2 shots",
+        "amount": "90ml",
         "unit": ""
       },
       {
@@ -4201,12 +4201,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "姜汁汽水",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
@@ -4237,17 +4237,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "重奶油",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "6-8 oz",
+        "amount": "180-240ml",
         "unit": ""
       },
       {
         "name": "肉桂",
-        "amount": "1 stick",
+        "amount": "1根",
         "unit": ""
       },
       {
@@ -4257,12 +4257,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "巧克力",
-        "amount": "2 oz finely chopped dark",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "鲜奶油",
-        "amount": "Fresh",
+        "amount": "新鲜适量",
         "unit": ""
       }
     ],
@@ -4290,12 +4290,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 2/3 oz",
+        "amount": "49ml",
         "unit": ""
       },
       {
         "name": "干味美思",
-        "amount": "1/3 oz",
+        "amount": "10ml",
         "unit": ""
       },
       {
@@ -4328,17 +4328,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苏格兰威士忌",
-        "amount": "2 1/2 oz",
+        "amount": "75ml",
         "unit": ""
       },
       {
         "name": "干味美思",
-        "amount": "1 1/2 tsp",
+        "amount": "7ml",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1 twist of",
+        "amount": "1 twist",
         "unit": ""
       }
     ],
@@ -4366,22 +4366,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "杜本内红酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "苦精",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1 twist of",
+        "amount": "1 twist",
         "unit": ""
       }
     ],
@@ -4407,27 +4407,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "皮斯科",
-        "amount": "5 cl",
+        "amount": "50ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "2.5 cl",
+        "amount": "25ml",
         "unit": ""
       },
       {
         "name": "菠萝糖浆",
-        "amount": "2.5 cl",
+        "amount": "25ml",
         "unit": ""
       },
       {
         "name": "圣日尔曼接骨木花酒",
-        "amount": "1.5 cl",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "2 Dashes",
+        "amount": "2",
         "unit": ""
       },
       {
@@ -4437,7 +4437,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "薰衣草",
-        "amount": "2 sprigs",
+        "amount": "2枝",
         "unit": ""
       }
     ],
@@ -4465,17 +4465,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "巧克力糖浆",
-        "amount": "2 tblsp",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "6 oz whole",
+        "amount": "180ml",
         "unit": ""
       },
       {
         "name": "苏打水",
-        "amount": "6 oz",
+        "amount": "180ml",
         "unit": ""
       }
     ],
@@ -4509,37 +4509,37 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖",
-        "amount": "1/4 cup",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "2 cups",
+        "amount": "480ml",
         "unit": ""
       },
       {
         "name": "白朗姆",
-        "amount": "1/2 cup",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "波本威士忌",
-        "amount": "1/2 cup",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "香草精",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "盐",
-        "amount": "1/4 tsp",
+        "amount": "1ml",
         "unit": ""
       },
       {
         "name": "淡奶油（可打发）",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
@@ -4549,12 +4549,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖",
-        "amount": "1/4 cup",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "肉豆蔻",
-        "amount": "Ground",
+        "amount": "磨碎",
         "unit": ""
       }
     ],
@@ -4582,32 +4582,32 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "鸡蛋",
-        "amount": "1/2 cup",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "3 tblsp",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "炼乳",
-        "amount": "13 oz skimmed",
+        "amount": "390ml",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "3/4 cup skimmed",
+        "amount": "180ml",
         "unit": ""
       },
       {
         "name": "香草精",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "朗姆酒",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -4643,22 +4643,22 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖",
-        "amount": "1/4 cup",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "盐",
-        "amount": "1/4 tsp",
+        "amount": "1ml",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "1 qt",
+        "amount": "946ml",
         "unit": ""
       },
       {
         "name": "香草精",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       }
     ],
@@ -4684,7 +4684,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "卡沙萨",
-        "amount": "60 ml",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -4694,7 +4694,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "接骨木花糖浆",
-        "amount": "3 cl",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -4720,17 +4720,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "梅斯卡尔",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "巧克力利口酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "咖啡利口酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -4773,17 +4773,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白兰地",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "甜味美思",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
@@ -4822,27 +4822,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "杏子白兰地",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "干味美思",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1/4 tsp",
+        "amount": "1ml",
         "unit": ""
       },
       {
@@ -4875,17 +4875,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "5 cl",
+        "amount": "50ml",
         "unit": ""
       },
       {
         "name": "甘露咖啡酒",
-        "amount": "1 cl",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "糖浆",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       }
     ],
@@ -4913,22 +4913,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "朗姆酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "香草糖浆",
-        "amount": "1/2 shot",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "浓缩咖啡",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "咖啡",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       }
     ],
@@ -4954,17 +4954,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "烈酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "绝对辣椒伏特加",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "塔巴斯科辣酱",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       }
     ],
@@ -4994,12 +4994,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "蜂蜜",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -5009,17 +5009,17 @@ const RECIPES_DATA = [
       },
       {
         "name": "百里香",
-        "amount": "1 Sprig",
+        "amount": "1枝",
         "unit": ""
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       },
       {
         "name": "汤力水",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       }
     ],
@@ -5048,27 +5048,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "杏仁利口酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "151度朗姆酒",
-        "amount": "1 oz Bacardi",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "胡椒博士",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "啤酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -5094,22 +5094,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甘露咖啡酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "萨姆布卡",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "蓝柑橘酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "百利甜酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -5135,12 +5135,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "萨姆布卡",
-        "amount": "1/4 glass",
+        "amount": "0杯",
         "unit": ""
       },
       {
         "name": "沙士",
-        "amount": "3/4 glass",
+        "amount": "0杯",
         "unit": ""
       }
     ],
@@ -5168,12 +5168,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -5201,22 +5201,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苏格兰威士忌",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "甜味美思",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "苦精",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       },
       {
         "name": "糖浆",
-        "amount": "1/4 tsp",
+        "amount": "1ml",
         "unit": ""
       }
     ],
@@ -5242,17 +5242,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "杏仁利口酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "可可甜酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "淡奶油",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       }
     ],
@@ -5278,17 +5278,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "咖啡",
-        "amount": "1/2 cup black",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "1/2 cup",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1-2 tsp",
+        "amount": "5-10ml",
         "unit": ""
       }
     ],
@@ -5316,17 +5316,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "野格",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "萨姆布卡",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -5354,22 +5354,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "2 tsp superfine",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "香槟",
-        "amount": "4 oz Chilled",
+        "amount": "120ml",
         "unit": ""
       },
       {
@@ -5405,12 +5405,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "干邑白兰地",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       }
     ],
@@ -5438,17 +5438,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "4.5 cl",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "树莓利口酒",
-        "amount": "1.5 cl",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "1.5 cl",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -5476,17 +5476,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "利莱酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "甜味美思",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
@@ -5521,12 +5521,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "调和威士忌",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "班尼迪克丁",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -5541,12 +5541,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "柠檬",
-        "amount": "1 slice",
+        "amount": "1片",
         "unit": ""
       },
       {
         "name": "青柠",
-        "amount": "1 slice",
+        "amount": "1片",
         "unit": ""
       }
     ],
@@ -5572,22 +5572,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "玫瑰",
-        "amount": "750 ml",
+        "amount": "750ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1/2 cup",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "草莓",
-        "amount": "8 oz",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "2-3 oz",
+        "amount": "60-90ml",
         "unit": ""
       }
     ],
@@ -5624,22 +5624,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -5649,7 +5649,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "冰块",
-        "amount": "1 cup crushed",
+        "amount": "240ml",
         "unit": ""
       }
     ],
@@ -5677,12 +5677,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -5692,7 +5692,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       }
     ],
@@ -5720,22 +5720,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "菠萝",
-        "amount": "4 chunks",
+        "amount": "4块",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       }
     ],
@@ -5761,17 +5761,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苹果汁",
-        "amount": "1 can frozen",
+        "amount": "1罐",
         "unit": ""
       },
       {
         "name": "草莓",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "2 tblsp",
+        "amount": "30ml",
         "unit": ""
       },
       {
@@ -5786,7 +5786,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "苏打水",
-        "amount": "1 L",
+        "amount": "1000ml",
         "unit": ""
       },
       {
@@ -5817,12 +5817,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "酸奶",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "果汁",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       }
     ],
@@ -5848,7 +5848,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "酸奶",
-        "amount": "1 cup fruit",
+        "amount": "240ml",
         "unit": ""
       },
       {
@@ -5858,12 +5858,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙汁",
-        "amount": "4 oz frozen",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "水果",
-        "amount": "1/2 piece textural",
+        "amount": "0个",
         "unit": ""
       },
       {
@@ -5896,17 +5896,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "朗姆酒",
-        "amount": "2 shots",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "杏子汁",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "石榴汁",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -5916,7 +5916,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "苏打水",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       }
     ],
@@ -5975,7 +5975,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "加利安奴",
-        "amount": "2 1/2 shots",
+        "amount": "112ml",
         "unit": ""
       },
       {
@@ -6013,22 +6013,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "桃子伏特加",
-        "amount": "5 parts",
+        "amount": "5份",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "3 parts",
+        "amount": "3份",
         "unit": ""
       },
       {
         "name": "加利安奴",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "玫瑰糖浆",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       }
     ],
@@ -6056,17 +6056,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 1/2 oz",
+        "amount": "75ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "糖浆",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -6101,7 +6101,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -6149,22 +6149,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1/2 tsp superfine",
+        "amount": "2ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       },
       {
@@ -6202,7 +6202,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -6212,7 +6212,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -6247,17 +6247,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "6 cl",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "8 cl",
+        "amount": "80ml",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1 Slice",
+        "amount": "1片",
         "unit": ""
       },
       {
@@ -6290,12 +6290,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -6310,7 +6310,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "青柠",
-        "amount": "Garnish",
+        "amount": "装饰用",
         "unit": ""
       }
     ],
@@ -6338,7 +6338,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -6348,12 +6348,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -6388,17 +6388,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "苏打水",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1 cube",
+        "amount": "1块",
         "unit": ""
       },
       {
@@ -6408,7 +6408,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙子",
-        "amount": "1 slice",
+        "amount": "1片",
         "unit": ""
       },
       {
@@ -6441,17 +6441,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1/2 tsp superfine",
+        "amount": "2ml",
         "unit": ""
       },
       {
@@ -6489,22 +6489,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "糖粉",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "菠萝",
-        "amount": "3 chunks",
+        "amount": "3块",
         "unit": ""
       },
       {
@@ -6542,27 +6542,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "青柠汁",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1 tsp superfine",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "苦精",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       },
       {
         "name": "气泡水",
-        "amount": "3 oz",
+        "amount": "90ml",
         "unit": ""
       }
     ],
@@ -6590,22 +6590,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "糖粉",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1 twist of",
+        "amount": "1 twist",
         "unit": ""
       }
     ],
@@ -6633,17 +6633,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "4 cl",
+        "amount": "40ml",
         "unit": ""
       },
       {
         "name": "汤力水",
-        "amount": "10 cl",
+        "amount": "100ml",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1 Slice",
+        "amount": "1片",
         "unit": ""
       },
       {
@@ -6676,12 +6676,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "苏打水",
-        "amount": "5 oz",
+        "amount": "150ml",
         "unit": ""
       },
       {
@@ -6714,12 +6714,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "红酒",
-        "amount": "1 L",
+        "amount": "1000ml",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "125 ml",
+        "amount": "125ml",
         "unit": ""
       },
       {
@@ -6739,7 +6739,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "柠檬皮",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -6767,17 +6767,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "重奶油",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -6805,12 +6805,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苏格兰威士忌",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       }
     ],
@@ -6838,12 +6838,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       }
     ],
@@ -6871,22 +6871,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "马利宝朗姆",
-        "amount": "1 1/2 cl",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "桃子力娇酒",
-        "amount": "1 1/2 cl",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "蓝柑橘酒",
-        "amount": "1 1/2 cl",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "甜酸混合液",
-        "amount": "3 cl",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -6914,22 +6914,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       },
       {
@@ -6960,17 +6960,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "绿色薄荷甜酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "可可甜酒",
-        "amount": "3/4 oz white",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "淡奶油",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       }
     ],
@@ -6998,12 +6998,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "葡萄柚汁",
-        "amount": "3 oz",
+        "amount": "90ml",
         "unit": ""
       }
     ],
@@ -7032,17 +7032,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甘露咖啡酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "151度朗姆酒",
-        "amount": "1 oz Bacardi",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       }
     ],
@@ -7070,12 +7070,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "威士忌",
-        "amount": "4 cl",
+        "amount": "40ml",
         "unit": ""
       },
       {
         "name": "百利甜酒",
-        "amount": "8 cl",
+        "amount": "80ml",
         "unit": ""
       },
       {
@@ -7109,7 +7109,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "樱桃汁",
-        "amount": "1 bottle",
+        "amount": "1瓶",
         "unit": ""
       },
       {
@@ -7134,7 +7134,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "伏特加",
-        "amount": "20 cl",
+        "amount": "200ml",
         "unit": ""
       }
     ],
@@ -7164,7 +7164,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "香料朗姆",
-        "amount": "1 1/2 cl",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -7207,17 +7207,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "加利安奴",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       }
     ],
@@ -7245,17 +7245,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       }
     ],
@@ -7283,17 +7283,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -7321,22 +7321,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "朗姆酒",
-        "amount": "12 parts",
+        "amount": "12份",
         "unit": ""
       },
       {
         "name": "葡萄柚汁",
-        "amount": "8 parts",
+        "amount": "8份",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃利口酒",
-        "amount": "3 parts",
+        "amount": "3份",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "3 parts",
+        "amount": "3份",
         "unit": ""
       }
     ],
@@ -7362,7 +7362,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "Hot Damn肉桂力娇",
-        "amount": "5 shots",
+        "amount": "225ml",
         "unit": ""
       },
       {
@@ -7395,17 +7395,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苏格兰威士忌",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "甜味美思",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "橙味苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       },
       {
@@ -7479,32 +7479,32 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "糖",
-        "amount": "2 1/2 cups",
+        "amount": "600ml",
         "unit": ""
       },
       {
         "name": "玉米糖浆",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "咖啡",
-        "amount": "1 1/2 oz instant",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "香草精",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "3 cups boiling",
+        "amount": "720ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1 fifth",
+        "amount": "750ml",
         "unit": ""
       }
     ],
@@ -7534,17 +7534,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "6 cl",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "蜂蜜",
-        "amount": "2 cl",
+        "amount": "20ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "2 cl",
+        "amount": "20ml",
         "unit": ""
       }
     ],
@@ -7578,17 +7578,17 @@ const RECIPES_DATA = [
       },
       {
         "name": "白兰地",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "姜汁汽水",
-        "amount": "5 oz",
+        "amount": "150ml",
         "unit": ""
       },
       {
         "name": "苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       }
     ],
@@ -7614,22 +7614,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "巧克力",
-        "amount": "12 oz fine",
+        "amount": "360ml",
         "unit": ""
       },
       {
         "name": "黄油",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "香草精",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       },
       {
         "name": "半奶半奶油",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
@@ -7662,17 +7662,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "爱尔兰威士忌",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "百利甜酒",
-        "amount": "3/4 shot",
+        "amount": "33ml",
         "unit": ""
       },
       {
         "name": "咖啡",
-        "amount": "6 oz hot",
+        "amount": "180ml",
         "unit": ""
       }
     ],
@@ -7700,12 +7700,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "威士忌",
-        "amount": "50 ml",
+        "amount": "50ml",
         "unit": ""
       },
       {
         "name": "蜂蜜",
-        "amount": "15 ml",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -7749,22 +7749,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "味美思",
-        "amount": "25 ml",
+        "amount": "25ml",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃",
-        "amount": "15 ml",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "糖浆",
-        "amount": "10 ml",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "柠檬水",
-        "amount": "100 ml",
+        "amount": "100ml",
         "unit": ""
       },
       {
@@ -7797,17 +7797,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "冰茶",
-        "amount": "6 oz",
+        "amount": "180ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "to taste",
+        "amount": "适量",
         "unit": ""
       }
     ],
@@ -7833,22 +7833,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "咖啡",
-        "amount": "1/4 cup instant",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1/4 cup",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "1/4 cup hot",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "4 cups cold",
+        "amount": "960ml",
         "unit": ""
       }
     ],
@@ -7874,7 +7874,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甘露咖啡酒",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
@@ -7907,17 +7907,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "青柠汁",
-        "amount": "4 cl",
+        "amount": "40ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "2 cl",
+        "amount": "20ml",
         "unit": ""
       },
       {
         "name": "阿佩罗",
-        "amount": "4 cl",
+        "amount": "40ml",
         "unit": ""
       }
     ],
@@ -7946,12 +7946,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "调和威士忌",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -7961,7 +7961,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -7999,12 +7999,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "红糖",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "百香果汁",
-        "amount": "4 cl",
+        "amount": "40ml",
         "unit": ""
       },
       {
@@ -8014,7 +8014,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "冰块",
-        "amount": "fill",
+        "amount": "加满",
         "unit": ""
       }
     ],
@@ -8042,22 +8042,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "爱尔兰威士忌",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "咖啡",
-        "amount": "8 oz",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "鲜奶油",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -8085,27 +8085,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苏格兰威士忌",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "半奶半奶油",
-        "amount": "1 1/4 cup",
+        "amount": "300ml",
         "unit": ""
       },
       {
         "name": "炼乳",
-        "amount": "1 can sweetened",
+        "amount": "1罐",
         "unit": ""
       },
       {
         "name": "椰子糖浆",
-        "amount": "3 drops",
+        "amount": "3滴",
         "unit": ""
       },
       {
         "name": "巧克力糖浆",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -8134,22 +8134,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "百利甜酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "波本威士忌",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "2-3 oz",
+        "amount": "60-90ml",
         "unit": ""
       }
     ],
@@ -8177,17 +8177,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "甘露咖啡酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "可口可乐",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       },
       {
@@ -8221,27 +8221,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "爱尔兰威士忌",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "桃子白兰地",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "甜酸混合液",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "橙子",
-        "amount": "1 slice",
+        "amount": "1片",
         "unit": ""
       },
       {
@@ -8274,12 +8274,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苹果白兰地",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -8317,17 +8317,17 @@ const RECIPES_DATA = [
       },
       {
         "name": "田纳西威士忌",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "香草精",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "可口可乐",
-        "amount": "10-12 oz",
+        "amount": "300-360ml",
         "unit": ""
       }
     ],
@@ -8353,12 +8353,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "杰克丹尼",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -8384,17 +8384,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "百利甜酒",
-        "amount": "2/3 oz",
+        "amount": "20ml",
         "unit": ""
       },
       {
         "name": "香博树莓利口酒",
-        "amount": "1/3 oz",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "糖浆",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -8427,12 +8427,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "咖啡利口酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "白朗姆",
-        "amount": "1 shot Jamaican",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -8470,17 +8470,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "朗姆酒",
-        "amount": "1/6 glass",
+        "amount": "0杯",
         "unit": ""
       },
       {
         "name": "咖啡",
-        "amount": "1/6 glass strong black",
+        "amount": "0杯",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "1/2 glass cold",
+        "amount": "0杯",
         "unit": ""
       },
       {
@@ -8513,7 +8513,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "调和威士忌",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -8523,12 +8523,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "波特酒",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -8566,17 +8566,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "2 cups",
+        "amount": "480ml",
         "unit": ""
       },
       {
         "name": "果冻",
-        "amount": "3 packages",
+        "amount": "3包",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "3 cups",
+        "amount": "720ml",
         "unit": ""
       }
     ],
@@ -8604,12 +8604,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑莓白兰地",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "茴香",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -8637,17 +8637,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "绿查特酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "黄查特酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -8681,17 +8681,17 @@ const RECIPES_DATA = [
       },
       {
         "name": "伏特加",
-        "amount": "1 jigger",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "3 dashes",
+        "amount": "3",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -8701,7 +8701,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖浆",
-        "amount": "3 dashes",
+        "amount": "3",
         "unit": ""
       },
       {
@@ -8734,22 +8734,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "波本威士忌",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1 tsp superfine",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "气泡水",
-        "amount": "3 oz",
+        "amount": "90ml",
         "unit": ""
       },
       {
@@ -8785,7 +8785,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "牛奶",
-        "amount": "2 cups",
+        "amount": "480ml",
         "unit": ""
       },
       {
@@ -8823,17 +8823,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -8859,12 +8859,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "咖啡",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "谷物酒精",
-        "amount": "2 parts",
+        "amount": "2份",
         "unit": ""
       }
     ],
@@ -8892,12 +8892,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "波本威士忌",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "班尼迪克丁",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -8925,17 +8925,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "波本威士忌",
-        "amount": "3 oz",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "班尼迪克丁",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1 twist of",
+        "amount": "1 twist",
         "unit": ""
       }
     ],
@@ -8963,7 +8963,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "生姜",
-        "amount": "1 inch",
+        "amount": "1cm",
         "unit": ""
       },
       {
@@ -8973,7 +8973,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "水",
-        "amount": "1 cup hot",
+        "amount": "240ml",
         "unit": ""
       }
     ],
@@ -9001,12 +9001,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甘露咖啡酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "白兰地",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -9037,12 +9037,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑醋栗甜酒",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "香槟",
-        "amount": "5 parts",
+        "amount": "5份",
         "unit": ""
       }
     ],
@@ -9068,12 +9068,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑醋栗甜酒",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "香槟",
-        "amount": "5 parts",
+        "amount": "5份",
         "unit": ""
       }
     ],
@@ -9101,22 +9101,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "蔓越莓伏特加",
-        "amount": "4 cl",
+        "amount": "40ml",
         "unit": ""
       },
       {
         "name": "苹果酒",
-        "amount": "2 cl",
+        "amount": "20ml",
         "unit": ""
       },
       {
         "name": "Schweppes俄罗斯",
-        "amount": "7 cl",
+        "amount": "70ml",
         "unit": ""
       },
       {
         "name": "苹果汁",
-        "amount": "8 cl",
+        "amount": "80ml",
         "unit": ""
       },
       {
@@ -9147,12 +9147,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "猕猴桃利口酒",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "苦柠檬汽水",
-        "amount": "2 parts",
+        "amount": "2份",
         "unit": ""
       },
       {
@@ -9190,12 +9190,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖浆",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -9260,12 +9260,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "151度朗姆酒",
-        "amount": "2 oz light",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "Kool-Aid饮料",
-        "amount": "1/2 tsp Tropical",
+        "amount": "2ml",
         "unit": ""
       }
     ],
@@ -9294,22 +9294,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "黑刺李金酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -9342,12 +9342,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "Kool-Aid饮料",
-        "amount": "1/2 oz Grape",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -9373,7 +9373,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "绝对黑加仑伏特加",
-        "amount": "4 cl",
+        "amount": "40ml",
         "unit": ""
       },
       {
@@ -9411,17 +9411,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "淡奶油",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -9462,27 +9462,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "酸奶",
-        "amount": "1/2 cup plain",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "1 1/4 cup cold",
+        "amount": "300ml",
         "unit": ""
       },
       {
         "name": "孜然",
-        "amount": "1/2 tsp ground roasted",
+        "amount": "2ml",
         "unit": ""
       },
       {
         "name": "盐",
-        "amount": "1/4 tsp",
+        "amount": "1ml",
         "unit": ""
       },
       {
         "name": "薄荷",
-        "amount": "1/4 tsp dried",
+        "amount": "1ml",
         "unit": ""
       }
     ],
@@ -9513,17 +9513,17 @@ const RECIPES_DATA = [
       },
       {
         "name": "酸奶",
-        "amount": "2 cups",
+        "amount": "480ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1/2 cup",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "1 cup iced",
+        "amount": "240ml",
         "unit": ""
       }
     ],
@@ -9549,17 +9549,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "酸奶",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "2 cups cold",
+        "amount": "480ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "4 tblsp",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -9569,7 +9569,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "柠檬汁",
-        "amount": "2 tblsp",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -9595,22 +9595,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "酸奶",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "2 cups cold",
+        "amount": "480ml",
         "unit": ""
       },
       {
         "name": "盐",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "阿魏",
-        "amount": "1 pinch",
+        "amount": "1少许",
         "unit": ""
       }
     ],
@@ -9636,7 +9636,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "酸奶",
-        "amount": "2 cups",
+        "amount": "480ml",
         "unit": ""
       },
       {
@@ -9682,17 +9682,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "椰子利口酒",
-        "amount": "30 ml",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "葡萄柚汁",
-        "amount": "75 ml",
+        "amount": "75ml",
         "unit": ""
       },
       {
         "name": "苏打水",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       }
     ],
@@ -9720,12 +9720,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 1/2 shot",
+        "amount": "67ml",
         "unit": ""
       },
       {
         "name": "君度",
-        "amount": "1 1/2 shot",
+        "amount": "67ml",
         "unit": ""
       },
       {
@@ -9760,22 +9760,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "接骨木花糖浆",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "苏打水",
-        "amount": "1/3 cup",
+        "amount": "80ml",
         "unit": ""
       },
       {
         "name": "新鲜柠檬汁",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       }
     ],
@@ -9803,12 +9803,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "加利安奴",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "绝对柠檬伏特加",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -9851,27 +9851,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "生姜",
-        "amount": "2 pieces",
+        "amount": "2个",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "1 gal",
+        "amount": "3785ml",
         "unit": ""
       },
       {
         "name": "柠檬",
-        "amount": "1 lb",
+        "amount": "453g",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "卡宴辣椒粉",
-        "amount": "ground",
+        "amount": "磨碎",
         "unit": ""
       }
     ],
@@ -9902,7 +9902,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -9938,12 +9938,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "科罗娜啤酒",
-        "amount": "1 bottle",
+        "amount": "1瓶",
         "unit": ""
       },
       {
         "name": "百加得柠檬朗姆",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -9971,22 +9971,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苏格兰威士忌",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "杜林标",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "干味美思",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1 twist of",
+        "amount": "1 twist",
         "unit": ""
       }
     ],
@@ -10014,17 +10014,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃利口酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "橙味苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       }
     ],
@@ -10052,12 +10052,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甜味美思",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       }
     ],
@@ -10141,27 +10141,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "龙舌兰",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "白朗姆",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "可口可乐",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       },
       {
@@ -10199,22 +10199,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "白朗姆",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "龙舌兰",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -10224,7 +10224,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "可口可乐",
-        "amount": "1 splash",
+        "amount": "1",
         "unit": ""
       }
     ],
@@ -10252,7 +10252,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "5 cl",
+        "amount": "50ml",
         "unit": ""
       },
       {
@@ -10262,12 +10262,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "4 dashes",
+        "amount": "4",
         "unit": ""
       },
       {
         "name": "汤力水",
-        "amount": "1 dl Schweppes",
+        "amount": "100ml",
         "unit": ""
       },
       {
@@ -10300,12 +10300,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑朗姆",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "蒂亚玛丽亚咖啡酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -10331,17 +10331,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "啤酒",
-        "amount": "3/4 bottle",
+        "amount": "3/4瓶",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -10369,22 +10369,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "杏仁糖浆",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "甜酸混合液",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -10424,7 +10424,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "芒果",
-        "amount": "1 Fresh",
+        "amount": "1新鲜",
         "unit": ""
       },
       {
@@ -10434,7 +10434,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "白朗姆",
-        "amount": "200 ml",
+        "amount": "200ml",
         "unit": ""
       },
       {
@@ -10444,7 +10444,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "苏打水",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       },
       {
@@ -10479,12 +10479,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甜味美思",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "波本威士忌",
-        "amount": "2 1/2 oz Blended",
+        "amount": "75ml",
         "unit": ""
       },
       {
@@ -10504,7 +10504,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙皮",
-        "amount": "1 twist of",
+        "amount": "1 twist",
         "unit": ""
       }
     ],
@@ -10532,17 +10532,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "龙舌兰",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
@@ -10575,22 +10575,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "甜味美思",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃利口酒",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       }
     ],
@@ -10619,12 +10619,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 2/3 oz",
+        "amount": "49ml",
         "unit": ""
       },
       {
         "name": "干味美思",
-        "amount": "1/3 oz",
+        "amount": "10ml",
         "unit": ""
       },
       {
@@ -10657,22 +10657,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃利口酒",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       },
       {
@@ -10705,17 +10705,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "水",
-        "amount": "2 cups",
+        "amount": "480ml",
         "unit": ""
       },
       {
         "name": "茶",
-        "amount": "3-4 tsp",
+        "amount": "15-20ml",
         "unit": ""
       },
       {
         "name": "生姜",
-        "amount": "1 chunk dried",
+        "amount": "1块",
         "unit": ""
       },
       {
@@ -10730,22 +10730,22 @@ const RECIPES_DATA = [
       },
       {
         "name": "肉桂",
-        "amount": "1 piece",
+        "amount": "1个",
         "unit": ""
       },
       {
         "name": "黑胡椒",
-        "amount": "1-2 whole",
+        "amount": "1-2整个",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "to taste",
+        "amount": "适量",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "to taste",
+        "amount": "适量",
         "unit": ""
       }
     ],
@@ -10771,12 +10771,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "里卡尔茴香酒",
-        "amount": "3 cl",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "杏仁糖浆",
-        "amount": "1 cl",
+        "amount": "10ml",
         "unit": ""
       },
       {
@@ -10848,7 +10848,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "151度朗姆酒",
-        "amount": "5 oz Bacardi",
+        "amount": "150ml",
         "unit": ""
       },
       {
@@ -10884,17 +10884,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "啤酒",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "番茄汁",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -10936,17 +10936,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "百利甜酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "白色薄荷甜酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "奶油",
-        "amount": "3/4 oz double",
+        "amount": "22ml",
         "unit": ""
       }
     ],
@@ -10977,7 +10977,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙汁",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       }
     ],
@@ -11005,22 +11005,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "薄荷",
-        "amount": "4 fresh",
+        "amount": "4新鲜",
         "unit": ""
       },
       {
         "name": "波本威士忌",
-        "amount": "2 1/2 oz",
+        "amount": "75ml",
         "unit": ""
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       }
     ],
@@ -11046,17 +11046,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "咖啡",
-        "amount": "6 oz",
+        "amount": "180ml",
         "unit": ""
       },
       {
         "name": "香博树莓利口酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "可可粉",
-        "amount": "2 tblsp",
+        "amount": "30ml",
         "unit": ""
       },
       {
@@ -11092,7 +11092,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "2-3 oz",
+        "amount": "60-90ml",
         "unit": ""
       },
       {
@@ -11102,7 +11102,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
@@ -11140,27 +11140,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "薄荷",
-        "amount": "1/2 handful",
+        "amount": "0一把",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "3 cl",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "黑朗姆",
-        "amount": "1/8 L Jamaican",
+        "amount": "125ml",
         "unit": ""
       },
       {
         "name": "气泡水",
-        "amount": "1/8 L",
+        "amount": "125ml",
         "unit": ""
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "8 drops",
+        "amount": "8滴",
         "unit": ""
       }
     ],
@@ -11188,22 +11188,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "班尼迪克丁",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       }
     ],
@@ -11231,17 +11231,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "葡萄柚汁",
-        "amount": "3 oz",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "苦精",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       }
     ],
@@ -11308,17 +11308,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "姜汁汽水",
-        "amount": "8 oz",
+        "amount": "240ml",
         "unit": ""
       }
     ],
@@ -11344,17 +11344,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "南方康福特",
-        "amount": "750 ml",
+        "amount": "750ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1 L",
+        "amount": "1000ml",
         "unit": ""
       },
       {
         "name": "百事可乐",
-        "amount": "750 ml",
+        "amount": "750ml",
         "unit": ""
       }
     ],
@@ -11382,12 +11382,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "水",
-        "amount": "3 cups",
+        "amount": "720ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
@@ -11407,12 +11407,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "红酒",
-        "amount": "750 ml",
+        "amount": "750ml",
         "unit": ""
       },
       {
         "name": "白兰地",
-        "amount": "1/4 cup",
+        "amount": "60ml",
         "unit": ""
       }
     ],
@@ -11440,17 +11440,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "5 cl",
+        "amount": "50ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "2 cl",
+        "amount": "20ml",
         "unit": ""
       },
       {
         "name": "姜汁啤酒",
-        "amount": "10 cl",
+        "amount": "100ml",
         "unit": ""
       },
       {
@@ -11493,32 +11493,32 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "朗姆酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "蓝柑橘酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "酸混合液",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬青柠汽水",
-        "amount": "1 splash",
+        "amount": "1",
         "unit": ""
       }
     ],
@@ -11546,17 +11546,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "金巴利",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "甜味美思",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -11582,22 +11582,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "绝对柠檬伏特加",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柑曼怡",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "2 oz sweetened",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "气泡水",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -11625,7 +11625,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "调和威士忌",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -11635,7 +11635,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -11676,22 +11676,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "可可粉",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "香草精",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "12 oz",
+        "amount": "360ml",
         "unit": ""
       }
     ],
@@ -11717,17 +11717,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "百利甜酒",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "榛子力娇酒",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       }
     ],
@@ -11755,27 +11755,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甘露咖啡酒",
-        "amount": "2 parts",
+        "amount": "2份",
         "unit": ""
       },
       {
         "name": "百利甜酒",
-        "amount": "2 parts",
+        "amount": "2份",
         "unit": ""
       },
       {
         "name": "奶油糖果力娇酒",
-        "amount": "4 parts",
+        "amount": "4份",
         "unit": ""
       },
       {
         "name": "野格",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "金力娇酒（含金箔）",
-        "amount": "1/2 part",
+        "amount": "0份",
         "unit": ""
       }
     ],
@@ -11805,27 +11805,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "糖浆",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       },
       {
         "name": "普罗塞克",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       }
     ],
@@ -11853,17 +11853,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "波本威士忌",
-        "amount": "4.5 cL",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1 cube",
+        "amount": "1块",
         "unit": ""
       },
       {
@@ -11898,17 +11898,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑麦威士忌",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "金巴利",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "干味美思",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -11936,17 +11936,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -11975,17 +11975,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "樱桃白兰地",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
@@ -12018,22 +12018,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "香料朗姆",
-        "amount": "1.5 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "0.5 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "酸混合液",
-        "amount": "1 splash",
+        "amount": "1",
         "unit": ""
       }
     ],
@@ -12063,27 +12063,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       },
       {
         "name": "迷迭香糖浆",
-        "amount": "25 ml",
+        "amount": "25ml",
         "unit": ""
       },
       {
         "name": "苏打水",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       },
       {
@@ -12119,12 +12119,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "牛奶",
-        "amount": "2 cups",
+        "amount": "480ml",
         "unit": ""
       },
       {
         "name": "巧克力",
-        "amount": "4 oz chopped bittersweet or semi-sweet",
+        "amount": "120ml",
         "unit": ""
       },
       {
@@ -12134,12 +12134,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "浓缩咖啡",
-        "amount": "1/2 tsp instant",
+        "amount": "2ml",
         "unit": ""
       },
       {
         "name": "肉豆蔻",
-        "amount": "1/8 tsp ground",
+        "amount": "0ml",
         "unit": ""
       }
     ],
@@ -12168,22 +12168,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "橙汁",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "朗姆酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "奶油",
-        "amount": "1 package",
+        "amount": "1包",
         "unit": ""
       },
       {
@@ -12214,17 +12214,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "柠檬汁",
-        "amount": "5 cl",
+        "amount": "50ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "15 cl",
+        "amount": "150ml",
         "unit": ""
       },
       {
         "name": "糖浆",
-        "amount": "2-3 cl",
+        "amount": "20-30ml",
         "unit": ""
       },
       {
@@ -12257,17 +12257,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "甘露咖啡酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "百利甜酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
@@ -12305,27 +12305,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "可可甜酒",
-        "amount": "1/2 oz white",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "淡奶油",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -12353,22 +12353,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "威士忌",
-        "amount": "12 oz",
+        "amount": "360ml",
         "unit": ""
       },
       {
         "name": "啤酒",
-        "amount": "12 oz",
+        "amount": "360ml",
         "unit": ""
       },
       {
         "name": "柠檬水",
-        "amount": "12 oz frozen",
+        "amount": "360ml",
         "unit": ""
       },
       {
         "name": "冰块",
-        "amount": "1 cup crushed",
+        "amount": "240ml",
         "unit": ""
       }
     ],
@@ -12396,12 +12396,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "葡萄汽水",
-        "amount": "3 oz",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "龙舌兰",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       }
     ],
@@ -12430,17 +12430,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "7 parts",
+        "amount": "7份",
         "unit": ""
       },
       {
         "name": "杏子白兰地",
-        "amount": "4 parts",
+        "amount": "4份",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "3 parts",
+        "amount": "3份",
         "unit": ""
       }
     ],
@@ -12468,12 +12468,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "糖浆",
-        "amount": "1/2 shot",
+        "amount": "22ml",
         "unit": ""
       },
       {
@@ -12506,27 +12506,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       },
       {
         "name": "橙味苦精",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       }
     ],
@@ -12555,27 +12555,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "调和苏格兰威士忌",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "蜂蜜糖浆",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "姜糖浆",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "艾雷岛单一麦芽威士忌",
-        "amount": "1/4 oz",
+        "amount": "7ml",
         "unit": ""
       }
     ],
@@ -12603,17 +12603,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "3 oz",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "椰奶",
-        "amount": "3 tblsp",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "菠萝",
-        "amount": "3 tblsp",
+        "amount": "45ml",
         "unit": ""
       }
     ],
@@ -12641,7 +12641,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "生姜",
-        "amount": "1/4 inch",
+        "amount": "0cm",
         "unit": ""
       },
       {
@@ -12674,22 +12674,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "龙舌兰",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "葡萄柚汁",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "新鲜青柠汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "8 oz",
+        "amount": "240ml",
         "unit": ""
       },
       {
@@ -12730,12 +12730,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苦精",
-        "amount": "3 dashes",
+        "amount": "3",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       }
     ],
@@ -12763,17 +12763,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "淡奶油",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -12806,22 +12806,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "椰子利口酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "接骨木花糖浆",
-        "amount": "25 ml",
+        "amount": "25ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "30 ml",
+        "amount": "30ml",
         "unit": ""
       },
       {
@@ -12854,17 +12854,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "雪碧",
-        "amount": "1 L",
+        "amount": "1000ml",
         "unit": ""
       },
       {
         "name": "粉红柠檬水",
-        "amount": "2 cups",
+        "amount": "480ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "2 cups",
+        "amount": "480ml",
         "unit": ""
       }
     ],
@@ -12892,27 +12892,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "乙醇（Everclear）",
-        "amount": "750 ml",
+        "amount": "750ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1750 ml",
+        "amount": "1750ml",
         "unit": ""
       },
       {
         "name": "桃子力娇酒",
-        "amount": "1750 ml",
+        "amount": "1750ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1 gal",
+        "amount": "3785ml",
         "unit": ""
       },
       {
         "name": "蔓越莓汁",
-        "amount": "1 gal",
+        "amount": "3785ml",
         "unit": ""
       }
     ],
@@ -12938,12 +12938,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "皮斯科",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
@@ -12986,22 +12986,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑朗姆",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "杏仁糖浆",
-        "amount": "1/2 part",
+        "amount": "0份",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "2 parts",
+        "amount": "2份",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       }
     ],
@@ -13029,32 +13029,32 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑朗姆",
-        "amount": "4.5 cL",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "3 cl",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "3.5 cl",
+        "amount": "35ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1 cl",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "糖浆",
-        "amount": "1 cl",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "4 drops",
+        "amount": "4滴",
         "unit": ""
       }
     ],
@@ -13082,22 +13082,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "樱桃利口酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "蔓越莓汁",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       }
     ],
@@ -13125,12 +13125,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "可可甜酒",
-        "amount": "3/4 oz white",
+        "amount": "22ml",
         "unit": ""
       }
     ],
@@ -13158,27 +13158,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "3 cl",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "帕萨",
-        "amount": "3 cl",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "百香果汁",
-        "amount": "1 cl",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "青柠",
-        "amount": "1 cl",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "普罗塞克",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       }
     ],
@@ -13204,12 +13204,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "红石榴糖浆",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "绿色薄荷甜酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -13237,12 +13237,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "波特酒",
-        "amount": "2 1/2 oz",
+        "amount": "75ml",
         "unit": ""
       },
       {
         "name": "白兰地",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       }
     ],
@@ -13268,22 +13268,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "波特酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "淡奶油",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "鸡蛋",
-        "amount": "1 whole",
+        "amount": "1整个",
         "unit": ""
       },
       {
@@ -13316,17 +13316,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白兰地",
-        "amount": "3 parts",
+        "amount": "3份",
         "unit": ""
       },
       {
         "name": "波特酒",
-        "amount": "9 parts",
+        "amount": "9份",
         "unit": ""
       },
       {
         "name": "蛋黄",
-        "amount": "2 parts",
+        "amount": "2份",
         "unit": ""
       }
     ],
@@ -13354,22 +13354,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "朗姆酒",
-        "amount": "40 ml",
+        "amount": "40ml",
         "unit": ""
       },
       {
         "name": "帕萨",
-        "amount": "20 ml",
+        "amount": "20ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "30 ml",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "百香果糖浆",
-        "amount": "15 ml",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -13405,17 +13405,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "橙汁",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "苹果汁",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
@@ -13449,12 +13449,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "白兰地",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
@@ -13464,7 +13464,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "树莓糖浆",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       }
     ],
@@ -13497,7 +13497,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "雪利酒",
-        "amount": "1/3 oz cream",
+        "amount": "10ml",
         "unit": ""
       },
       {
@@ -13531,17 +13531,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "咖啡白兰地",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "青柠伏特加",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "雪利酒",
-        "amount": "1/2 oz cream",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -13567,12 +13567,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "红酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
@@ -13605,17 +13605,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "干味美思",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "班尼迪克丁",
-        "amount": "1 1/2 tsp",
+        "amount": "7ml",
         "unit": ""
       }
     ],
@@ -13643,22 +13643,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑朗姆",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "甘露咖啡酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "淡奶油",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "肉豆蔻",
-        "amount": "1/8 tsp grated",
+        "amount": "0ml",
         "unit": ""
       }
     ],
@@ -13684,17 +13684,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甘露咖啡酒",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "蜜瓜利口酒（Midori）",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "百利甜酒",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       }
     ],
@@ -13720,7 +13720,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑色萨姆布卡",
-        "amount": "25 ml",
+        "amount": "25ml",
         "unit": ""
       },
       {
@@ -13756,42 +13756,42 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "朗姆酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "龙舌兰",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "香博树莓利口酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "蜜瓜利口酒（Midori）",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "马利宝朗姆",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -13817,12 +13817,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "啤酒",
-        "amount": "12 oz",
+        "amount": "360ml",
         "unit": ""
       },
       {
         "name": "7-Up",
-        "amount": "12 oz",
+        "amount": "360ml",
         "unit": ""
       }
     ],
@@ -13850,7 +13850,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "糖浆",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
@@ -13888,22 +13888,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "4.5 cL",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "3 cl",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "糖浆",
-        "amount": "3 cl",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "奶油",
-        "amount": "6 cl",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -13913,12 +13913,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "香草精",
-        "amount": "2 drop",
+        "amount": "2滴",
         "unit": ""
       },
       {
         "name": "苏打水",
-        "amount": "2 cl",
+        "amount": "20ml",
         "unit": ""
       }
     ],
@@ -13951,12 +13951,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "树莓伏特加",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬青柠汽水",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
@@ -13989,12 +13989,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "波本威士忌",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "树莓糖浆",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -14025,17 +14025,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "皇冠威士忌",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "蔓越莓汁",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       }
     ],
@@ -14064,27 +14064,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "干味美思",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "杏子白兰地",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -14117,17 +14117,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "50 ml",
+        "amount": "50ml",
         "unit": ""
       },
       {
         "name": "蓝柑橘酒",
-        "amount": "15 ml",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "汤力水",
-        "amount": "100 ml",
+        "amount": "100ml",
         "unit": ""
       },
       {
@@ -14160,12 +14160,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "榛子力娇酒",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "皇冠威士忌",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       }
     ],
@@ -14193,17 +14193,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "甜酸混合液",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "鸡蛋",
-        "amount": "1 whole",
+        "amount": "1整个",
         "unit": ""
       },
       {
@@ -14234,22 +14234,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "皇冠威士忌",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "桃子力娇酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "香博树莓利口酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "蔓越莓汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -14277,7 +14277,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -14287,12 +14287,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "鸡蛋",
-        "amount": "1 whole",
+        "amount": "1整个",
         "unit": ""
       },
       {
@@ -14325,17 +14325,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "蔓越莓汁",
-        "amount": "5 oz",
+        "amount": "150ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "2 splashes",
+        "amount": "2",
         "unit": ""
       }
     ],
@@ -14363,12 +14363,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "糖",
-        "amount": "1 tsp superfine",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "气泡水",
-        "amount": "3 oz",
+        "amount": "90ml",
         "unit": ""
       },
       {
@@ -14378,7 +14378,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "黑朗姆",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -14416,12 +14416,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "朗姆酒",
-        "amount": "2 oz light or dark",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬青柠汽水",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
@@ -14454,17 +14454,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "牛奶",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -14497,27 +14497,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "151度朗姆酒",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "糖粉",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       },
       {
         "name": "苦精",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -14561,12 +14561,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "水果潘趣酒",
-        "amount": "355 ml frozen",
+        "amount": "355ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "355 ml frozen",
+        "amount": "355ml",
         "unit": ""
       },
       {
@@ -14600,27 +14600,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "马利宝朗姆",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "黑莓白兰地",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "3-4 oz",
+        "amount": "90-120ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "3-4 oz",
+        "amount": "90-120ml",
         "unit": ""
       },
       {
         "name": "蔓越莓汁",
-        "amount": "3-4 oz",
+        "amount": "90-120ml",
         "unit": ""
       }
     ],
@@ -14648,12 +14648,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "5 oz",
+        "amount": "150ml",
         "unit": ""
       }
     ],
@@ -14681,17 +14681,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1/2 tsp superfine",
+        "amount": "2ml",
         "unit": ""
       },
       {
@@ -14729,22 +14729,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "朗姆酒",
-        "amount": "2 oz light or dark",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "糖粉",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1 twist of",
+        "amount": "1 twist",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       }
     ],
@@ -14772,22 +14772,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "2.5 cl",
+        "amount": "25ml",
         "unit": ""
       },
       {
         "name": "黑醋栗甜酒",
-        "amount": "1.5 cl",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "糖浆",
-        "amount": "1 cl",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "2.5 cl",
+        "amount": "25ml",
         "unit": ""
       }
     ],
@@ -14815,17 +14815,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苏格兰威士忌",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "杜林标",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1 twist of",
+        "amount": "1 twist",
         "unit": ""
       }
     ],
@@ -14853,17 +14853,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "葡萄柚汁",
-        "amount": "5 oz",
+        "amount": "150ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "盐",
-        "amount": "1/4 tsp",
+        "amount": "1ml",
         "unit": ""
       }
     ],
@@ -14891,12 +14891,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "2 cl",
+        "amount": "20ml",
         "unit": ""
       },
       {
         "name": "香蕉甜酒",
-        "amount": "2 cl",
+        "amount": "20ml",
         "unit": ""
       },
       {
@@ -14932,22 +14932,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "红酒",
-        "amount": "1 bottle",
+        "amount": "1瓶",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1/2 cup",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
@@ -14985,32 +14985,32 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "里卡尔茴香酒",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1/2 tsp superfine",
+        "amount": "2ml",
         "unit": ""
       },
       {
         "name": "佩肖苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "波本威士忌",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1 twist of",
+        "amount": "1 twist",
         "unit": ""
       }
     ],
@@ -15038,17 +15038,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白兰地",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "淡奶油",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -15076,7 +15076,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苏格兰威士忌",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -15086,12 +15086,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖粉",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       },
       {
         "name": "柠檬",
-        "amount": "1/2 slice",
+        "amount": "1/2片",
         "unit": ""
       },
       {
@@ -15124,7 +15124,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -15157,17 +15157,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "蔓越莓汁",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "葡萄柚汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -15195,17 +15195,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "柠檬水",
-        "amount": "1 can",
+        "amount": "1罐",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "3 cans",
+        "amount": "3罐",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1 1/2 cup",
+        "amount": "360ml",
         "unit": ""
       }
     ],
@@ -15231,17 +15231,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "雪利酒",
-        "amount": "2 oz cream",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "鸡蛋",
-        "amount": "1 whole",
+        "amount": "1整个",
         "unit": ""
       },
       {
@@ -15277,22 +15277,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "雪利酒",
-        "amount": "1 1/2 oz cream",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "淡奶油",
-        "amount": "2 tsp",
+        "amount": "10ml",
         "unit": ""
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "鸡蛋",
-        "amount": "1 whole",
+        "amount": "1整个",
         "unit": ""
       },
       {
@@ -15323,17 +15323,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "占边波本",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "杰克丹尼",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "野火鸡",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -15359,17 +15359,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "干邑白兰地",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "君度",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -15395,22 +15395,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "红酒",
-        "amount": "1/3 part",
+        "amount": "0份",
         "unit": ""
       },
       {
         "name": "桃子力娇酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "百事可乐",
-        "amount": "1/3 part",
+        "amount": "0份",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1/3 part",
+        "amount": "0份",
         "unit": ""
       }
     ],
@@ -15436,7 +15436,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "蛋酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -15446,7 +15446,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "柠檬",
-        "amount": "1 slice",
+        "amount": "1片",
         "unit": ""
       },
       {
@@ -15479,22 +15479,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "蒙特内哥罗苦酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "红宝石波特酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "血橙",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -15532,12 +15532,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白兰地",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "茴香酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       }
     ],
@@ -15565,17 +15565,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "151度朗姆酒",
-        "amount": "1 shot Bacardi",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "马利宝朗姆",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -15618,27 +15618,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "糖",
-        "amount": "60 ml",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "多香果",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "朗姆酒",
-        "amount": "20 cl",
+        "amount": "200ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "90 ml",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "香槟",
-        "amount": "6 cl",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -15670,12 +15670,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "普罗塞克",
-        "amount": "6 cl",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "金巴利",
-        "amount": "4 cl",
+        "amount": "40ml",
         "unit": ""
       },
       {
@@ -15708,12 +15708,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白兰地",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "白色薄荷甜酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -15741,17 +15741,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "杏子白兰地",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "甜酸混合液",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -15777,7 +15777,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "牛奶",
-        "amount": "2 cups",
+        "amount": "480ml",
         "unit": ""
       },
       {
@@ -15787,7 +15787,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "蜂蜜",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -15813,22 +15813,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "红酒",
-        "amount": "2 bottles",
+        "amount": "2瓶",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "2 cups hot",
+        "amount": "480ml",
         "unit": ""
       },
       {
         "name": "苹果",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
@@ -15874,7 +15874,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "歌帝梵巧克力利口酒",
-        "amount": "2 shots",
+        "amount": "90ml",
         "unit": ""
       },
       {
@@ -15905,12 +15905,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "柑曼怡",
-        "amount": "3 parts",
+        "amount": "3份",
         "unit": ""
       },
       {
         "name": "咖啡",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       }
     ],
@@ -15936,17 +15936,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "咖啡",
-        "amount": "8 oz",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "杰克丹尼",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       },
       {
@@ -15980,17 +15980,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "龙舌兰",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
@@ -16028,12 +16028,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "龙舌兰",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "7-Up",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       }
     ],
@@ -16061,7 +16061,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "龙舌兰",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -16071,12 +16071,12 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "柠檬",
-        "amount": "1/2 slice",
+        "amount": "1/2片",
         "unit": ""
       },
       {
@@ -16180,22 +16180,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "育空杰克",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "樱桃白兰地",
-        "amount": "1/2 part",
+        "amount": "0份",
         "unit": ""
       },
       {
         "name": "南方康福特",
-        "amount": "1 part",
+        "amount": "1份",
         "unit": ""
       },
       {
         "name": "甜酸混合液",
-        "amount": "1 splash",
+        "amount": "1",
         "unit": ""
       }
     ],
@@ -16223,27 +16223,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "甘露咖啡酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "爱尔兰奶油",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "151度朗姆酒",
-        "amount": "1/2 oz Bacardi",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "奶油",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -16269,12 +16269,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "咖啡",
-        "amount": "6 tblsp ground",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "芫荽",
-        "amount": "1/4 tsp",
+        "amount": "1ml",
         "unit": ""
       },
       {
@@ -16361,17 +16361,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "茶",
-        "amount": "1/4 cup Thai",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "水",
-        "amount": "1/2 cup boiling",
+        "amount": "120ml",
         "unit": ""
       },
       {
         "name": "炼乳",
-        "amount": "2 tsp sweetened",
+        "amount": "10ml",
         "unit": ""
       },
       {
@@ -16381,7 +16381,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "薄荷",
-        "amount": "garnish",
+        "amount": "装饰用",
         "unit": ""
       }
     ],
@@ -16409,27 +16409,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑朗姆",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "金巴利",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "香蕉甜酒",
-        "amount": "1/2 shot",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       }
     ],
@@ -16457,17 +16457,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "爱尔兰威士忌",
-        "amount": "50 ml",
+        "amount": "50ml",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "50 ml",
+        "amount": "50ml",
         "unit": ""
       },
       {
         "name": "蔓越莓汁",
-        "amount": "4 oz",
+        "amount": "120ml",
         "unit": ""
       }
     ],
@@ -16498,22 +16498,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "绿查特酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃利口酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -16541,37 +16541,37 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "50 ml",
+        "amount": "50ml",
         "unit": ""
       },
       {
         "name": "接骨木花糖浆",
-        "amount": "15 ml",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "红味美思",
-        "amount": "15 ml",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "汤力水",
-        "amount": "75 ml",
+        "amount": "75ml",
         "unit": ""
       },
       {
         "name": "青柠",
-        "amount": "2 Wedges",
+        "amount": "2角",
         "unit": ""
       },
       {
         "name": "生姜",
-        "amount": "1 Slice",
+        "amount": "1片",
         "unit": ""
       },
       {
         "name": "薄荷",
-        "amount": "1 Large Sprig",
+        "amount": "1枝",
         "unit": ""
       }
     ],
@@ -16602,27 +16602,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "甜瓜利口酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙味苦精",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       },
       {
         "name": "普罗塞克",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       }
     ],
@@ -16650,17 +16650,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苏格兰威士忌",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "葡萄酒",
-        "amount": "1 oz Green Ginger",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -16688,27 +16688,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "水",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "红糖",
-        "amount": "3/4-1 cup",
+        "amount": "3/4-1ml",
         "unit": ""
       },
       {
         "name": "咖啡",
-        "amount": "4 tsp",
+        "amount": "20ml",
         "unit": ""
       },
       {
         "name": "朗姆酒",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "香草精",
-        "amount": "4 tsp",
+        "amount": "20ml",
         "unit": ""
       }
     ],
@@ -16736,17 +16736,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "爱尔兰威士忌",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "甜味美思",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "绿查特酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -16774,22 +16774,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "糖",
-        "amount": "1 tsp superfine",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "气泡水",
-        "amount": "3 oz",
+        "amount": "90ml",
         "unit": ""
       },
       {
@@ -16825,7 +16825,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "番茄汁",
-        "amount": "2 cups",
+        "amount": "480ml",
         "unit": ""
       },
       {
@@ -16835,7 +16835,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "芹菜盐",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       }
     ],
@@ -16863,22 +16863,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "干味美思",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "茴香",
-        "amount": "1/4 tsp",
+        "amount": "1ml",
         "unit": ""
       },
       {
         "name": "苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       },
       {
@@ -16909,17 +16909,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "野火鸡",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "杏仁利口酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "1 splash",
+        "amount": "1",
         "unit": ""
       }
     ],
@@ -16947,27 +16947,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "干味美思",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "马拉斯奇诺樱桃利口酒",
-        "amount": "1/4 tsp",
+        "amount": "1ml",
         "unit": ""
       },
       {
         "name": "茴香",
-        "amount": "1/4 tsp",
+        "amount": "1ml",
         "unit": ""
       },
       {
         "name": "橙味苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       },
       {
@@ -17000,17 +17000,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "杏子白兰地",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "橙味苦精",
-        "amount": "2 dashes",
+        "amount": "2",
         "unit": ""
       }
     ],
@@ -17038,32 +17038,32 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "龙舌兰",
-        "amount": "6 cl",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "番茄汁",
-        "amount": "3 cl",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "3 cl",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1.5 cl",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "糖浆",
-        "amount": "1 dash",
+        "amount": "1",
         "unit": ""
       },
       {
         "name": "盐",
-        "amount": "1 pinch",
+        "amount": "1少许",
         "unit": ""
       }
     ],
@@ -17091,17 +17091,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "3 oz",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "枫糖浆",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -17127,12 +17127,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "干味美思",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "黑醋栗甜酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
@@ -17166,17 +17166,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "6 cl",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1.5 cl",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "白色利莱酒",
-        "amount": "0.75 cl",
+        "amount": "7ml",
         "unit": ""
       }
     ],
@@ -17204,12 +17204,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "甜味美思",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -17219,7 +17219,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -17253,12 +17253,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "黑朗姆",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "樱桃白兰地",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -17287,17 +17287,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "甜味美思",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "白兰地",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -17325,27 +17325,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "3 oz",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "葡萄汁",
-        "amount": "3 oz unsweetened",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "糖粉",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "橙子",
-        "amount": "1 slice",
+        "amount": "1片",
         "unit": ""
       }
     ],
@@ -17373,7 +17373,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -17406,17 +17406,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "半奶半奶油",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "青柠汽水",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -17454,17 +17454,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "5 cl",
+        "amount": "50ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "7 cl",
+        "amount": "70ml",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1 Slice",
+        "amount": "1片",
         "unit": ""
       },
       {
@@ -17497,12 +17497,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "干味美思",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
@@ -17535,7 +17535,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -17568,17 +17568,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "雪碧",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1/2 shot",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1 1/2 shot",
+        "amount": "67ml",
         "unit": ""
       }
     ],
@@ -17606,17 +17606,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "4 cl",
+        "amount": "40ml",
         "unit": ""
       },
       {
         "name": "汤力水",
-        "amount": "10 cl",
+        "amount": "100ml",
         "unit": ""
       },
       {
         "name": "柠檬皮",
-        "amount": "1 Slice",
+        "amount": "1片",
         "unit": ""
       }
     ],
@@ -17648,17 +17648,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "橙皮甜酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "金酒",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "菠萝汁",
-        "amount": "1 tblsp",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -17686,7 +17686,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "调和威士忌",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
@@ -17696,7 +17696,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "糖粉",
-        "amount": "1/2 tsp",
+        "amount": "2ml",
         "unit": ""
       },
       {
@@ -17706,7 +17706,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "柠檬",
-        "amount": "1/2 slice",
+        "amount": "1/2片",
         "unit": ""
       }
     ],
@@ -17734,12 +17734,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "苏格兰威士忌",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "葡萄酒",
-        "amount": "1 oz Green Ginger",
+        "amount": "30ml",
         "unit": ""
       }
     ],
@@ -17767,17 +17767,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "金酒",
-        "amount": "4cl",
+        "amount": "40ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "3cl",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "2cl",
+        "amount": "20ml",
         "unit": ""
       }
     ],
@@ -17805,12 +17805,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "咖啡利口酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
@@ -17853,27 +17853,27 @@ const RECIPES_DATA = [
       },
       {
         "name": "白葡萄酒",
-        "amount": "750 ml",
+        "amount": "750ml",
         "unit": ""
       },
       {
         "name": "草莓",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "苹果",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "苹果白兰地",
-        "amount": "3 shots",
+        "amount": "135ml",
         "unit": ""
       },
       {
         "name": "苏打水",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       }
     ],
@@ -17901,22 +17901,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "冰块",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "龙舌兰",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "椰浆",
-        "amount": "1/4 cup",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "3 tblsp fresh",
+        "amount": "45ml",
         "unit": ""
       }
     ],
@@ -17942,12 +17942,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "红酒",
-        "amount": "2 oz white or",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "柠檬青柠汽水",
-        "amount": "5 oz",
+        "amount": "150ml",
         "unit": ""
       },
       {
@@ -17978,7 +17978,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "红酒",
-        "amount": "1 bottle",
+        "amount": "1瓶",
         "unit": ""
       },
       {
@@ -17988,7 +17988,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "橙汁",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
@@ -17998,7 +17998,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "菠萝汁",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       }
     ],
@@ -18026,12 +18026,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "龙舌兰",
-        "amount": "2 shots",
+        "amount": "90ml",
         "unit": ""
       },
       {
         "name": "葡萄柚汁",
-        "amount": "Top",
+        "amount": "加满",
         "unit": ""
       },
       {
@@ -18041,7 +18041,7 @@ const RECIPES_DATA = [
       },
       {
         "name": "龙舌兰糖浆",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
@@ -18074,27 +18074,27 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "龙舌兰",
-        "amount": "1 2/3 oz",
+        "amount": "49ml",
         "unit": ""
       },
       {
         "name": "金巴利",
-        "amount": "1/4 oz",
+        "amount": "7ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "3/4 oz",
+        "amount": "22ml",
         "unit": ""
       },
       {
         "name": "橙汁",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "迷迭香糖浆",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
@@ -18127,22 +18127,22 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "白朗姆",
-        "amount": "3 cl",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "加利安奴",
-        "amount": "1.5 cl",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "橙皮甜酒",
-        "amount": "1.5 cl",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1.5 cl",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -18168,12 +18168,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "酸奶",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
         "name": "水果",
-        "amount": "1 cup",
+        "amount": "240ml",
         "unit": ""
       },
       {
@@ -18204,7 +18204,7 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "萨姆布卡",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -18240,12 +18240,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "野格",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       },
       {
         "name": "根汁啤酒",
-        "amount": "1/2 oz",
+        "amount": "15ml",
         "unit": ""
       }
     ],
@@ -18271,12 +18271,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "味美思",
-        "amount": "4 cl",
+        "amount": "40ml",
         "unit": ""
       },
       {
         "name": "苹果汁",
-        "amount": "16 cl",
+        "amount": "160ml",
         "unit": ""
       }
     ],
@@ -18302,12 +18302,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "Zima啤酒",
-        "amount": "12 oz",
+        "amount": "360ml",
         "unit": ""
       },
       {
         "name": "香博树莓利口酒",
-        "amount": "3 oz",
+        "amount": "90ml",
         "unit": ""
       }
     ],
@@ -18333,12 +18333,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "蜜瓜利口酒（Midori）",
-        "amount": "1.5 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "Zima啤酒",
-        "amount": "12 oz",
+        "amount": "360ml",
         "unit": ""
       }
     ],
@@ -18364,12 +18364,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "桃子力娇酒",
-        "amount": "4 shots",
+        "amount": "180ml",
         "unit": ""
       },
       {
         "name": "激浪",
-        "amount": "4 shots",
+        "amount": "180ml",
         "unit": ""
       }
     ],
@@ -18397,12 +18397,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "香博树莓利口酒",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "伏特加",
-        "amount": "1 shot",
+        "amount": "45ml",
         "unit": ""
       },
       {
@@ -18435,17 +18435,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "杏仁利口酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "朗姆酒",
-        "amount": "2 oz",
+        "amount": "60ml",
         "unit": ""
       },
       {
         "name": "Kool-Aid饮料",
-        "amount": "4 oz Grape",
+        "amount": "120ml",
         "unit": ""
       }
     ],
@@ -18471,12 +18471,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "君度",
-        "amount": "5 cl",
+        "amount": "50ml",
         "unit": ""
       },
       {
         "name": "柠檬汁",
-        "amount": "2 cl",
+        "amount": "20ml",
         "unit": ""
       },
       {
@@ -18570,37 +18570,37 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "朗姆酒",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "金朗姆",
-        "amount": "1 1/2 oz",
+        "amount": "45ml",
         "unit": ""
       },
       {
         "name": "151度朗姆酒",
-        "amount": "1 oz",
+        "amount": "30ml",
         "unit": ""
       },
       {
         "name": "潘诺茴香酒",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "红石榴糖浆",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "青柠汁",
-        "amount": "1 tsp",
+        "amount": "5ml",
         "unit": ""
       },
       {
         "name": "安格斯特拉苦精",
-        "amount": "1 drop",
+        "amount": "1滴",
         "unit": ""
       }
     ],
@@ -18632,12 +18632,12 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "伏特加",
-        "amount": "1 1/4 oz Stoli",
+        "amount": "37ml",
         "unit": ""
       },
       {
         "name": "乌佐茴香酒",
-        "amount": "1/4 oz",
+        "amount": "7ml",
         "unit": ""
       }
     ],
@@ -18663,17 +18663,17 @@ const RECIPES_DATA = [
     "ingredients": [
       {
         "name": "萨姆布卡",
-        "amount": "2 cl",
+        "amount": "20ml",
         "unit": ""
       },
       {
         "name": "百利甜酒",
-        "amount": "2 cl",
+        "amount": "20ml",
         "unit": ""
       },
       {
         "name": "白色薄荷甜酒",
-        "amount": "2 cl",
+        "amount": "20ml",
         "unit": ""
       }
     ],
